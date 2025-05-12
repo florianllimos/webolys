@@ -1270,3 +1270,58 @@ html, body {
 
 /* EOF RAPPEL */
 /* EOF RAPPEL */
+
+/* FAQ */
+/* FAQ */
+
+.container-faq {
+  z-index: 3;
+  position: relative;
+  width: 80%;
+  color: $white;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  margin-left: 10%;
+  @media screen and (min-width: 1000px) {
+    & {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+  #container-faq-1 {
+    margin-top: 30px;
+  }
+  & > article {
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #2f2f2f;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    box-shadow: 20px 20px 60px #242424, -20px -20px 60px #3a3a3a;
+    padding: 20px;
+    .text-faq {
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    h3 {
+      color: $white;
+      font-size: 16px;
+      width: 100%;
+      &:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-image: var(--image-url, url("media/plus-sign.png"));
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+/* EOF FAQ */
+/* EOF FAQ */

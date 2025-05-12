@@ -8,6 +8,7 @@
   <script src="js/header.js"></script>
   <script src="js/word.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/faq.js"></script>
   <title>Webolys - Création de sites internet en Ariège | Agence Web</title>
 </head>
 <body>
@@ -23,6 +24,7 @@
       require_once("component/processus.php");
       require_once("component/portfolio.php");
       require_once("component/rappel.php");
+      require_once("component/faq.php");
     ?>
   </main>
 </body>
