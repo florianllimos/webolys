@@ -20,6 +20,7 @@
       require_once("component/hero-banner.php");
       require_once("component/about.php");
       require_once("component/services.php");
+      require_once("component/processus.php");
     ?>
   </main>
 </body>

@@ -946,3 +946,159 @@ html, body {
 
 /* EOF CONTAINER SERVICES */
 /* EOF CONTAINER SERVICES */
+
+/* PROCESSUS */
+/* PROCESSUS */
+
+.container-processus {
+  width: 80%;
+  z-index: 3;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 10%;
+  color: $white;
+  @media (min-width: 1000px){
+    width: 60%;
+    margin-left: 20%;
+  }
+  .container-processus-step {
+    margin-top: 30px;
+    display: grid;
+    @media (min-width: 700px) {
+      grid-template-columns: [a] 1fr [b] 1fr [c];
+      grid-template-rows: [a] 1fr [b] 50px [c] 1fr [d] 50px [e] 1fr [f] 50px [g] 1fr [h] 50px [i] 1fr [j] 50px [k] 1fr [l];
+      grid-gap: 0;
+    }
+    .trait {
+      width: 3px;
+      justify-self: center;
+      height: 50px;
+      background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      text-shadow: 1px 1px 18px black;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+    }
+    .container-processus-step-card {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: auto;
+      padding: 2px;
+      background: #c5eafa;
+      border-radius: 8px;
+      box-shadow: 0 0 10px black;
+      background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      text-shadow: 1px 1px 18px black;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+      div {
+        background: #2f2f2f;
+        width: 100%;
+        border-radius: 6px;
+        height: 100%;      
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        p {
+          margin-top: 15px;
+        }
+      }
+    }
+    @media screen and (min-width: 700px) {
+      .container-processus-step-card {
+        width: 100%;
+      }
+      .trait1 {
+        grid-row: b / c;
+        grid-column: b / c;
+        justify-self: start;
+        align-self: center;
+        height: 60px;
+        z-index: 2;
+        transform: rotate(-25deg) !important;
+      }
+      .trait2 {
+        grid-row: d / e;
+        grid-column: a / b;
+        justify-self: end;
+        align-self: center;
+        height: 60px;
+        z-index: 2;
+        transform: rotate(25deg) !important;
+      }
+      .trait3 {
+        grid-row: f / g;
+        grid-column: b / c;
+        justify-self: start;
+        align-self: center;
+        height: 60px;
+        z-index: 2;
+        transform: rotate(-25deg) !important;
+      }
+      .trait4 {
+        grid-row: h / i;
+        grid-column: a / b;
+        justify-self: end;
+        align-self: center;
+        height: 60px;
+        z-index: 2;
+        transform: rotate(25deg) !important;
+      }
+      .trait5 {
+        grid-row: j / k;
+        grid-column: b / c;
+        justify-self: start;
+        align-self: center;
+        height: 60px;
+        z-index: 2;
+        transform: rotate(-25deg) !important;
+      }
+      .container-processus-step-card-1 {
+        grid-row: a / b;
+        grid-column: a / b;
+        justify-self: start;
+        align-self: center;
+      }
+      .container-processus-step-card-2 {
+        grid-row: c / d;
+        grid-column: b / c;
+        justify-self: end;
+        align-self: center;
+      }
+      .container-processus-step-card-3 {
+        grid-row: e / f;
+        grid-column: a / b;
+        justify-self: start;
+        align-self: center;
+      }
+      .container-processus-step-card-4 {
+        grid-row: g / h;
+        grid-column: b / c;
+        justify-self: end;
+        align-self: center;
+      }
+      .container-processus-step-card-5 {
+        grid-row: i / j;
+        grid-column: a / b;
+        justify-self: start;
+        align-self: center;
+      }
+      .container-processus-step-card-6 {
+        grid-row: k / l;
+        grid-column: b / c;
+        justify-self: end;
+        align-self: center;
+      }
+    }
+  }
+}
+
+/* EOF PROCESSUS */
+/* EOF PROCESSUS */
