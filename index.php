@@ -10,5 +10,10 @@
   <?php
     require_once("component/header.php");
   ?>
+  <main>
+    <?php
+      require_once("component/background.php");
+    ?>
+  </main>
 </body>
 </html>

@@ -1,0 +1,1 @@
+<div id="background" aria-hidden="true"></div>

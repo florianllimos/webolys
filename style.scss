@@ -462,3 +462,20 @@ html, body {
 
 /* EOF HEADER */
 /* EOF HEADER */
+
+/* BACKGROUND */
+/* BACKGROUND */
+
+#background {
+  position: fixed;
+  z-index: 1;
+  background-image: url("media/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* EOF BACKGROUND */
+/* EOF BACKGROUND */
