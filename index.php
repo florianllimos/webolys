@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="js/scroll-indicator.js"></script>
+  <script src="js/header.js"></script>
   <title>Webolys - Création de sites internet en Ariège | Agence Web</title>
 </head>
 <body>
