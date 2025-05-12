@@ -1243,5 +1243,229 @@ html, body {
 
 /* EOF FAQ */
 /* EOF FAQ */
+/* HOLOGRAME */
+/* HOLOGRAME */
+.footer-holograme {
+  width: 80%;
+  transition: 200ms;
+  height: auto;
+  z-index: 5;
+  text-align: center;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -40px;
+  font-weight: 600;
+  background: #c5eafa;
+  box-shadow: 0 0 10px black;
+  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  text-shadow: 1px 1px 18px black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+  padding-right: 50px;
+  padding: 30px;
+  border-radius: 8px;
+  color: rgb(236, 236, 236);
+}
+.footer-holograme p {
+  text-shadow: 1px 1px 18px black;
+}
+@media screen and (min-width: 1000px) {
+  .footer-holograme {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+.footer-holograme p::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.footer-holograme:hover {
+  scale: 1.015;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+/* EOF HOLOGRAME */
+/* EOF HOLOGRAME */
+/* FOOTER */
+/* FOOTER */
+footer {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  background-color: #272532;
+  padding: 30px;
+}
+footer .footer-container {
+  width: 80%;
+  padding-top: 80px;
+  margin-left: 10%;
+}
+footer .footer-container a {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+}
+footer .footer-container a:hover {
+  text-decoration: underline;
+}
+footer .footer-container h3 {
+  color: rgb(236, 236, 236);
+}
+footer .footer-container .footer-container-web {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: grid;
+  height: auto;
+  grid-template-rows: [a] auto [b] auto [c];
+  align-items: center;
+  justify-items: center;
+}
+footer .footer-container .footer-container-web img {
+  width: 200px;
+  grid-row: a/b;
+}
+footer .footer-container .footer-container-web p {
+  grid-row: b/c;
+  color: rgb(155, 155, 155);
+}
+footer .footer-container .footer-container-link {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer .footer-container .footer-container-link nav ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+footer .footer-container .footer-container-link nav ul li:last-child {
+  margin-bottom: 10px;
+}
+footer .footer-container .footer-container-link nav ul li a {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+}
+footer .footer-container .footer-container-link nav ul li a:hover {
+  text-decoration: underline;
+}
+footer .footer-container .footer-container-contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer .footer-container .footer-container-contact ul li {
+  list-style: none;
+  margin-top: 10px;
+  color: rgb(236, 236, 236);
+  margin-left: 20px;
+}
+footer .footer-container .footer-container-contact ul li:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  margin-top: 2px;
+  height: 15px;
+  background-image: url("media/footer-mail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -20px;
+}
+footer .footer-container .footer-container-contact ul li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  margin-top: 2px;
+  height: 15px;
+  background-image: url("media/footer-telephone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -20px;
+}
+footer .footer-container .footer-container-contact ul li:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  margin-top: 2px;
+  height: 15px;
+  background-image: url("media/footer-maps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -20px;
+}
+footer .footer-container .footer-container-newsletter {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer .footer-container .footer-container-newsletter form {
+  margin-top: 10px;
+  width: fit-content;
+}
+footer .footer-container .footer-container-newsletter form input {
+  border-radius: 50px 0 0 50px;
+  background-color: none;
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid black;
+}
+footer .footer-container .footer-container-newsletter form input:focus {
+  outline: none;
+}
+footer .footer-container .footer-container-newsletter form button {
+  border-radius: 0 50px 50px 0;
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 12px;
+  color: rgb(236, 236, 236);
+  margin-left: -5px;
+  border-left: none;
+  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  text-shadow: 1px 1px 18px black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+}
+footer .footer-container .footer-container-newsletter form button:hover {
+  cursor: pointer;
+}
+footer .footer-container .footer-container-copyright {
+  text-align: center;
+}
+footer .footer-container .footer-container-copyright p {
+  color: rgb(236, 236, 236);
+  letter-spacing: -0.9px;
+}
+@media screen and (min-width: 770px) {
+  footer .footer-container {
+    display: grid;
+    grid-template-columns: [a] 1fr [b] 1fr [c];
+    grid-gap: 40px;
+    grid-template-rows: [a] auto [b] auto [c] 80px [d];
+    justify-items: center;
+    align-items: center;
+  }
+  footer .footer-container .footer-container-copyright {
+    grid-column: a/c;
+  }
+  footer .footer-container .footer-container-web p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (min-width: 1530px) {
+  footer .footer-container {
+    grid-template-columns: [a] 1fr [b] 1fr [c] 1fr [d] 1fr [e];
+    grid-template-rows: [a] auto [b] 80px [c];
+  }
+  footer .footer-container .footer-container-copyright {
+    grid-column: a/e;
+    grid-row: b/c;
+  }
+}
+
+/* EOF FOOTER */
+/* EOF FOOTER */
 
 /*# sourceMappingURL=style.css.map */
