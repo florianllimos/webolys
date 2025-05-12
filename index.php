@@ -22,6 +22,7 @@
       require_once("component/services.php");
       require_once("component/processus.php");
       require_once("component/portfolio.php");
+      require_once("component/rappel.php");
     ?>
   </main>
 </body>

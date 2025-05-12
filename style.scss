@@ -1232,3 +1232,41 @@ html, body {
 
 /* EOF PORTFOLIO */
 /* EOF PORTFOLIO */
+
+/* RAPPEL */
+/* RAPPEL */
+
+.container-last-home {
+  z-index: 3;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 100px;
+  color: $white;
+  @media screen and (min-width: 1000px) {
+    & {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+  & a {
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 30px !important;
+    font-weight: 700;
+    color: $white;
+    display: block;
+    width: fit-content;
+    padding: 15px;
+    background: #c5eafa;
+    box-shadow: 0 0 10px black;
+    background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    text-shadow: 1px 1px 18px black;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+  }
+}
+
+/* EOF RAPPEL */
+/* EOF RAPPEL */
