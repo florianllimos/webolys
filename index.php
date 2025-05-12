@@ -21,6 +21,7 @@
       require_once("component/about.php");
       require_once("component/services.php");
       require_once("component/processus.php");
+      require_once("component/portfolio.php");
     ?>
   </main>
 </body>

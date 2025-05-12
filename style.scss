@@ -1102,3 +1102,133 @@ html, body {
 
 /* EOF PROCESSUS */
 /* EOF PROCESSUS */
+
+/* PORTFOLIO */
+/* PORTFOLIO */
+
+.container-portfolio {
+  z-index: 3;
+  position: relative;
+  width: 80%;
+  padding-top: 100px;
+  margin-left: 10%;
+  color: $white;
+  @media (min-width: 1000px) {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+.container-portfolio-card {
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 30px;
+  @media screen and (min-width: 800px) {
+    &{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .card {
+    position: relative;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    .box {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      background: #2a2b2f;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: 0.5s;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      &:hover {
+        transform: translateY(-20px);
+      }
+      .content {  
+        padding: 20px;
+        text-align: center;
+        .card-portfolio-number {
+          position: absolute;
+          top: -10px;
+          right: 30px;
+          font-size: 6rem;
+          font-weight: bold;
+          color: rgba(255, 255, 255, 0.1);
+        }
+        .card-portfolio-number-1 {
+          background-image: url('media/florianllimos-site.webp');
+          background-size: cover;
+          background-position: 50%;
+          color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
+        .card-portfolio-number-2 {
+          background-image: url('media/catherineprot-site.webp');
+          background-size: cover;
+          color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
+        h3 {
+          color: #fff;
+          z-index: 1;
+          transition: 0.5s;
+          margin-top: 60px;
+          margin-bottom: 30px;
+        }
+        p {
+          margin-top: 0;
+          color: rgba(255, 255, 255, 0.9);
+          z-index: 1;
+          transition: 0.5s;
+        }
+        a {
+          position: relative;
+          display: inline-block;
+          padding: 8px 20px;
+          background: black;
+          border-radius: 5px;
+          text-decoration: none;
+          color: white;
+          margin-top: 30px;
+          transition: 0.5s;
+          background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+          background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+          background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+          text-shadow: 1px 1px 18px black;
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+          &:hover {
+            background: none;
+            background: linear-gradient(30deg, #c5eafa 0%, #5957ee 100%);
+              background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* EOF PORTFOLIO */
+/* EOF PORTFOLIO */
