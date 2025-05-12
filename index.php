@@ -16,6 +16,7 @@
     <?php
       require_once("component/background.php");
       require_once("component/hero-banner.php");
+      require_once("component/about.php");
     ?>
   </main>
 </body>
