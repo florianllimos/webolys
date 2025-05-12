@@ -1485,5 +1485,45 @@ footer .footer-container .footer-container-copyright p {
 
 /* EOF FOOTER */
 /* EOF FOOTER */
+/* BACK TO TOP */
+/* BACK TO TOP */
+#back-to-top {
+  position: fixed;
+  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  bottom: 0;
+  border-radius: 50px;
+  right: 0;
+  z-index: 10;
+  margin-right: 30px;
+  transition: 500ms;
+  margin-bottom: 30px;
+  padding: 2px;
+}
+#back-to-top div {
+  background-color: #2f2f2f;
+  display: grid;
+  height: 100%;
+  border-radius: 50px;
+  width: 100%;
+}
+#back-to-top div img {
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  align-self: center;
+  transform: rotate(180deg);
+}
+#back-to-top:hover {
+  scale: 1.1;
+  transition: 500ms;
+}
+
+/* EOF BACK TO TOP */
+/* EOF BACK TO TOP */
 
 /*# sourceMappingURL=style.css.map */
