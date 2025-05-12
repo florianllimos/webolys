@@ -412,6 +412,24 @@ html, body {
 
 /* EOF HEADER */
 /* EOF HEADER */
+/* SCROLL INDICATOR */
+/* SCROLL INDICATOR */
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  text-shadow: 1px 1px 18px black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+  z-index: 99;
+}
+
+/* EOF SCROLL INDICATOR */
+/* EOF SCROLL INDICATOR */
 /* BACKGROUND */
 /* BACKGROUND */
 #background {
