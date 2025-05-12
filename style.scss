@@ -236,6 +236,15 @@ $white : rgb(236, 236, 236);
   }
 }
 
+@keyframes slide {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
 /* EOF KEYFRAMES */
 /* EOF KEYFRAMES */
 
@@ -835,3 +844,105 @@ html, body {
 
 /* EOF CONTAINER ABOUT */
 /* EOF CONTAINER ABOUT */
+
+/* CONTAINER SERVICES */
+/* CONTAINER SERVICES */
+
+#container-services-mobile {
+  z-index: 3;
+  position: relative;
+  padding-top: 0 !important;
+  @media screen and (min-width: 800px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.container-services {
+  z-index: 3;
+  position: relative;
+  color: $white;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 100px;
+  .first-text {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 1000px) {
+    & {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+}
+
+#slider-services {
+  display: none;
+  @media screen and (min-width: 800px) {
+    & {
+      display: block;
+    }
+  }
+}
+#slider-services-mobile {
+  width: 80%;
+  margin-left: 10%;
+  @media screen and (max-width: 800px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.slider-container {
+  z-index: 3;
+  position: relative;
+  width: 2000px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+  .slider {
+    &:hover .slide {
+      opacity: 0.55;
+      transition: 200ms;
+    }
+    p {
+      margin-top: 0;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    animation: slide 19s linear infinite;
+    .slide {
+      min-width: 200px;
+      height: 120px;
+      background: #2f2f2f;
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(128, 128, 128, 0.377);
+      border-radius: 10px;
+      p {
+        font-weight: 700;
+      }
+      &:hover {
+        transition: 200ms;
+        scale: 1.05;
+        opacity: 1 !important;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* EOF CONTAINER SERVICES */
+/* EOF CONTAINER SERVICES */

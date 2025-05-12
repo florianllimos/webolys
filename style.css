@@ -188,6 +188,14 @@
     background-position: 50% 36px;
   }
 }
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 /* EOF KEYFRAMES */
 /* EOF KEYFRAMES */
 /* GLOBAL STYLE */
@@ -759,5 +767,106 @@ html, body {
 
 /* EOF CONTAINER ABOUT */
 /* EOF CONTAINER ABOUT */
+/* CONTAINER SERVICES */
+/* CONTAINER SERVICES */
+#container-services-mobile {
+  z-index: 3;
+  position: relative;
+  padding-top: 0 !important;
+}
+@media screen and (min-width: 800px) {
+  #container-services-mobile {
+    display: none;
+  }
+}
+
+.container-services {
+  z-index: 3;
+  position: relative;
+  color: rgb(236, 236, 236);
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 100px;
+}
+.container-services .first-text {
+  margin-top: 30px;
+}
+@media screen and (min-width: 1000px) {
+  .container-services {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+#slider-services {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  #slider-services {
+    display: block;
+  }
+}
+
+#slider-services-mobile {
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (max-width: 800px) {
+  #slider-services-mobile {
+    display: none;
+  }
+}
+
+.slider-container {
+  z-index: 3;
+  position: relative;
+  width: 2000px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+}
+.slider-container .slider {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  animation: slide 19s linear infinite;
+}
+.slider-container .slider:hover .slide {
+  opacity: 0.55;
+  transition: 200ms;
+}
+.slider-container .slider p {
+  margin-top: 0;
+}
+.slider-container .slider a {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+}
+.slider-container .slider .slide {
+  min-width: 200px;
+  height: 120px;
+  background: #2f2f2f;
+  color: rgb(236, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.377);
+  border-radius: 10px;
+}
+.slider-container .slider .slide p {
+  font-weight: 700;
+}
+.slider-container .slider .slide:hover {
+  transition: 200ms;
+  scale: 1.05;
+  opacity: 1 !important;
+  cursor: pointer;
+}
+
+/* EOF CONTAINER SERVICES */
+/* EOF CONTAINER SERVICES */
 
 /*# sourceMappingURL=style.css.map */
