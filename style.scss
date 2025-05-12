@@ -479,3 +479,195 @@ html, body {
 
 /* EOF BACKGROUND */
 /* EOF BACKGROUND */
+
+/* HERO BANNER */
+/* HERO BANNER */
+
+#hero-banner {
+  display: grid;
+  z-index: 3;
+  position: relative;
+  grid-template-columns: [a] 1fr [b] 1fr [c];
+  grid-template-rows: [a] 1fr [b] auto [c] 80px [d] 80px [e];
+  min-height: 100svh;
+  width: 80%;
+  max-height: 200vh;
+  margin-left: 10%;
+  opacity: 1 !important;
+  .container {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    height: 55px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    #word {
+      display: block;
+      position: absolute;
+      color: white;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.2px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s, transform 0.8s;
+    }
+  }
+  .hero-banner-aura1 {
+    grid-row: b / c;
+    grid-column: a / c;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #5a57eea1, rgba(255, 230, 150, 0) 70%);
+  }
+  .hero-banner-container-text {
+    grid-row: a / b;
+    padding-top: 120px;
+    align-self: center;
+    justify-self: center;
+    grid-column: a / c;
+    h2 {
+      color: $white;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+      line-height: 28px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+    }
+    p {
+      color: $white;
+    }
+    .mask-and-show {
+      @media screen and (max-width: 1000px) {
+        & {
+          display: none;
+        }
+      }
+    }
+    a {
+      border-radius: 50px;
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      text-decoration: none;
+      color: $white;
+      font-weight: 700;
+      background: #c5eafa;
+      box-shadow: 0 0 10px black;
+      position: absolute;
+      background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+      text-shadow: 1px 1px 18px black;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+      &:hover {
+        cursor: pointer;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .hero-banner-container-image {
+    align-self: center;
+    justify-self: center;
+    grid-row: b / c;
+    grid-column: a / c;
+    img {
+      width: 180px;
+      margin-top: 20px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .hero-banner-container-bottom {
+    grid-row: d / e;
+    grid-column: a / c;
+    justify-self: center;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .hero-banner-container-link {
+    grid-row: c / d;
+    grid-column: a / c;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 50px;
+    ul {
+      li {
+        display: inline;
+        a {
+          text-decoration: none;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 15px;
+            background: #272727;
+            box-shadow: 20px 20px 60px #242424,
+            -20px -20px 60px #3a3a3a;
+            padding: 10px;
+            &:hover {
+              box-shadow: 0px 4px 15px rgba(250, 197, 197, 0.7), 
+              0px -4px 15px rgba(89, 87, 238, 0.5);
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 800px) {
+    & {
+      display: grid;
+      grid-template-columns: [a] 1fr [b] 1fr [c];
+      grid-template-rows: [a] 1fr [b] 1fr [c];
+      .hero-banner-aura1 {
+        grid-row: a / c;
+        grid-column: b / c;
+        width: 400px;
+        height: 400px;
+      }
+      .hero-banner-container-image {
+        grid-row: a / c;
+        grid-column: b / c;
+      }
+      .hero-banner-container-text {
+        grid-row: a / c;
+        grid-column: a / b;
+        padding-top: 0;
+        h2 {
+          font-size: 30px;
+        }
+      }
+      .hero-banner-container-bottom {
+        grid-row:  b / c;
+        grid-column: a / c;
+      }
+      .hero-banner-container-link {
+        grid-row: c / d;
+        grid-column: a / c;
+      }
+      .hero-banner-container-bottom {
+        grid-row: d / e;
+        grid-column: a / c;
+      }
+    }
+  }
+}
+
+/* EOF HERO BANNER */
+/* EOF HERO BANNER */
