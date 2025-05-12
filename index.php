@@ -12,6 +12,7 @@
   <script src="js/word.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/faq.js"></script>
+  <script src="js/scroll.js"></script>
   <title>Webolys - Création de sites internet en Ariège | Agence Web</title>
 </head>
 <body>
