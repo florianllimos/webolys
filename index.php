@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="js/scroll-indicator.js"></script>
   <script src="js/header.js"></script>
+  <script src="js/word.js"></script>
   <title>Webolys - Création de sites internet en Ariège | Agence Web</title>
 </head>
 <body>
