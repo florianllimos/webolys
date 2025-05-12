@@ -7,6 +7,8 @@
   <title>Webolys - Création de sites internet en Ariège | Agence Web</title>
 </head>
 <body>
-  
+  <?php
+    require_once("component/header.php");
+  ?>
 </body>
 </html>
