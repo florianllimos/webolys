@@ -1623,3 +1623,103 @@ footer {
 
 /* EOF BACK TO TOP */
 /* EOF BACK TO TOP */
+
+/* CONTACT */
+/* CONTACT */
+
+.main-contact {
+  .container-contact {
+    width: 80%;  
+    z-index: 3;
+    position: relative;
+    margin-left: 10%;
+    padding-top: 170px;
+    color: $white;
+    form {
+      margin-top: 30px;
+      button {
+        border-radius: 50px;
+        padding: 15px;
+        text-decoration: none;
+        color: $white;
+        font-weight: 700;
+        box-shadow: 0 0 3px black;
+        background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+        background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+        background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+        text-shadow: 1px 1px 18px black;
+        margin-top: 8px;
+        font-size: 14px;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    @media screen and (min-width: 1000px) {
+      & {
+        width: 60%;
+        margin-left: 20%;
+        form {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: [a] 1fr [b] 1fr [c];
+          grid-template-rows: [a] auto [b] auto [c] auto [d] auto [e] auto [f] auto [g] auto [h];
+          div:nth-child(1){
+            grid-row: a / b;
+            grid-column: a / b;
+          }
+          div:nth-child(2){
+            grid-row: b / c;
+            grid-column: a / b;
+          }
+          div:nth-child(5){
+            grid-row: c / d;
+            grid-column: a / c;
+          }
+          div:nth-child(6){
+            grid-row: d / e;
+            grid-column: a / c;
+          }
+        }
+      }
+    }
+    form {
+      width: 100%;
+      div {
+        input, textarea {
+          width: 100%;
+          resize: none;
+          padding: 8px;
+          font-size: 14px;
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+        button {
+          width: 100%;
+          border: none;
+          padding: 8px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+  .container-slider-avis {
+    margin-bottom: 100px !important;
+  }
+  #container-contact-without {
+    ul {
+      margin-top: 30px;
+      li {
+        list-style: none;
+        a {
+          color: $white;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* EOF CONTACT */
+/* EOF CONTACT */
