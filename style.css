@@ -1617,5 +1617,95 @@ footer .footer-container .footer-container-copyright p {
 
 /* EOF CONTACT */
 /* EOF CONTACT */
+/* BANNER PAGE */
+/* BANNER PAGE */
+.container-banner-page {
+  z-index: 3;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+.container-banner-page div:nth-child(1) {
+  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+  display: grid;
+  text-shadow: 1px 1px 18px black;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  height: 200px;
+}
+.container-banner-page div:nth-child(1) h2 {
+  color: rgb(236, 236, 236);
+  font-weight: 900;
+}
+.container-banner-page div:nth-child(1) h2:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: -2px;
+  z-index: 6;
+}
+.container-banner-page div:nth-child(1) #title-page-politique-de-confidentialite:after {
+  background-image: url("media/politique-de-confidentialite.png");
+}
+.container-banner-page div:nth-child(1) #title-page-credits:after {
+  background-image: url("media/credits.png");
+}
+.container-banner-page div:nth-child(1) #title-page-mentions-legales:after {
+  background-image: url("media/mentions-legales.png");
+}
+.container-banner-page div:nth-child(1) #title-page-plan-du-site:after {
+  background-image: url("media/plan-du-site.png");
+}
+
+/* EOF BANNER PAGE */
+/* EOF BANNER PAGE */
+/* RGPD */
+/* RGPD */
+.container-rgpd {
+  color: rgb(236, 236, 236);
+  margin-bottom: 100px;
+}
+.container-rgpd .legal-notice, .container-rgpd .privacy-policy, .container-rgpd .container-site-map, .container-rgpd .container-note {
+  position: relative;
+  z-index: 3;
+}
+.container-rgpd section {
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (min-width: 1000px) {
+  .container-rgpd section {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+.container-rgpd h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container-rgpd ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container-rgpd ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.container-rgpd a {
+  color: rgb(236, 236, 236);
+  text-decoration: underline;
+}
+
+/* EOF RGPD */
+/* EOF RGPD */
 
 /*# sourceMappingURL=style.css.map */

@@ -1723,3 +1723,95 @@ footer {
 
 /* EOF CONTACT */
 /* EOF CONTACT */
+
+/* BANNER PAGE */
+/* BANNER PAGE */
+
+.container-banner-page {
+  z-index: 3;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  div:nth-child(1) {
+    background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+    display: grid;
+    text-shadow: 1px 1px 18px black;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 200px;
+    h2 {
+      color: $white;
+      font-weight: 900;
+      &:after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        margin-top: -2px;
+        z-index: 6;
+      }
+    }
+    #title-page-politique-de-confidentialite:after {
+      background-image: url("media/politique-de-confidentialite.png");
+    }
+    #title-page-credits:after {
+      background-image: url("media/credits.png");
+    }
+    #title-page-mentions-legales:after {
+      background-image: url("media/mentions-legales.png");
+    }
+    #title-page-plan-du-site:after {
+      background-image: url("media/plan-du-site.png");
+    }
+  }
+}
+
+/* EOF BANNER PAGE */
+/* EOF BANNER PAGE */
+
+/* RGPD */
+/* RGPD */
+
+.container-rgpd {
+  color: $white;
+  margin-bottom: 100px;
+  .legal-notice, .privacy-policy, .container-site-map, .container-note {
+    position: relative;
+    z-index: 3;
+  }
+  section {
+    width: 80%;
+    margin-left: 10%;
+    @media screen and (min-width: 1000px) {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    li {
+      list-style: none;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+/* EOF RGPD */
+/* EOF RGPD */
