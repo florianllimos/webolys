@@ -3,11 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mentions légales de Webolys, agence de création de sites internet à Foix et en Ariège. Informations légales et coordonnées.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Webolys - Mentions légales | Agence Web">
+  <meta property="og:description" content="Consultez les mentions légales de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
+  <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
+  <meta property="og:url" content="https://webolys.fr/mentions-legales">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Webolys - Mentions légales | Agence Web">
+  <meta name="twitter:description" content="Mentions légales de l'agence Webolys. Création de sites internet à Foix et en Ariège.">
+  <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
+  <link rel="canonical" href="https://webolys.fr/mentions-legales.php">
+  <link rel="icon" href="media/favicon.ico" type="image/ico" sizes="32x32">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="js/email.min.js" defer></script>
   <script src="js/init.js" type="text/javascript" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/url.js" defer></script>
   <title>Webolys - Mentions légales | Agence Web</title>
 </head>
 <body>
@@ -42,11 +56,9 @@
           Adresse : 62 rue Tiquetonne, 75002 Paris, France<br>
           Téléphone : +33 1 84 16 23 40
         </p>
-        <h3>5. Numéro de TVA intracommunautaire</h3>
-        <p>TVA INTRA : [insérer numéro de TVA]</p>
-        <h3>6. Liens externes</h3>
+        <h3>5. Liens externes</h3>
         <p>Le site peut contenir des liens vers d'autres sites. Nous n'assumons aucune responsabilité concernant le contenu ou l'exactitude des informations présentes sur ces sites.</p>
-        <h3>7. Crédits</h3>
+        <h3>6. Crédits</h3>
         <p>Les crédits des images, vidéos, et autres éléments multimédia sont mentionnés sur la page <a href="credits.php">Crédits</a>.</p>
       </div>
     </section>
