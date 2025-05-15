@@ -3,11 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Politique de confidentialité de Webolys, agence de création de sites internet à Foix et en Ariège. Informations concernant la confidentialité du site.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Webolys - Politique de confidentialité | Agence Web">
+  <meta property="og:description" content="Consultez la politique de confidentialité de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
+  <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
+  <meta property="og:url" content="https://webolys.fr/politique-de-confidentialité.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Webolys - Politique de confidentialité | Agence Web">
+  <meta name="twitter:description" content="Politique de confidentialité de l'agence Webolys. Création de sites internet à Foix et en Ariège.">
+  <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
+  <link rel="canonical" href="https://webolys.fr/politique-de-confidentialité.php">
+  <link rel="icon" href="media/favicon.ico" type="image/ico" sizes="32x32">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="js/email.min.js" defer></script>
   <script src="js/init.js" type="text/javascript" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/url.js" defer></script>
   <title>Webolys - Politique de confidentialité | Agence Web</title>
 </head>
 <body>
@@ -54,7 +68,7 @@
         </p>
         <h3>6. Stockage des données</h3>
         <p>
-          Vos données sont stockées de manière sécurisée dans nos boite mail.
+          Vos données sont stockées de manière sécurisée dans nos boites mail.
         </p>
         <h3>7. Vos droits</h3>
         <p>Conformément à la législation en vigueur, vous disposez des droits suivants concernant vos données personnelles :</p>
