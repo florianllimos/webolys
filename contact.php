@@ -3,14 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez Webolys - Agence Web en Ariège, Toulouse et au-delà. Besoin d’un site vitrine, e-commerce ou d’un accompagnement SEO ? Discutons de votre projet !">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://webolys.fr/contact.php">
+  <meta property="og:title" content="Contactez Webolys - Agence Web en Ariège, Toulouse et au-delà.">
+  <meta property="og:description" content="Besoin d’un site internet sur mesure ou d’un accompagnement SEO ? Contactez Webolys et lancez votre projet web dès aujourd’hui.">
+  <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
+  <meta property="og:url" content="https://webolys.fr/contact.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contactez Webolys - Agence Web en Ariège, Toulouse et au-delà.">
+  <meta name="twitter:description" content="Besoin d’un site internet sur mesure ou d’un accompagnement SEO ? Contactez Webolys et lancez votre projet web dès aujourd’hui.">
+  <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
+  <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="js/email.min.js" defer></script>
-  <script src="js/init.js" type="text/javascript" defer></script>
+  <title>Webolys - Contact | Agence Web</title>
+  <script src="js/email.min.js" defer></script>
+  <script src="js/init.js" defer></script>
   <script src="js/faq.js" defer></script>
   <script src="js/contact.js" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
-  <title>Webolys - Contact | Agence Web</title>
+  <script src="js/url.js" defer></script>
 </head>
 <body>
   <?php
