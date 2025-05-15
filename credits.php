@@ -3,11 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crédits de Webolys, agence de création de sites internet à Foix et en Ariège.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Webolys - Crédits | Agence Web">
+  <meta property="og:description" content="Consultez les crédits de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
+  <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
+  <meta property="og:url" content="https://webolys.fr/credits.php">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Webolys - Crédits | Agence Web">
+  <meta name="twitter:description" content="Crédits de l'agence Webolys. Création de sites internet à Foix et en Ariège.">
+  <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
+  <link rel="canonical" href="https://webolys.fr/credits.php">
+  <link rel="icon" href="media/favicon.ico" type="image/ico" sizes="32x32">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="js/email.min.js" defer></script>
   <script src="js/init.js" type="text/javascript" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/url.js" defer></script>
   <title>Webolys - Crédits | Agence Web</title>
 </head>
 <body>
