@@ -8,7 +8,7 @@
   <meta property="og:title" content="Webolys - Mentions légales | Agence Web">
   <meta property="og:description" content="Consultez les mentions légales de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
   <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
-  <meta property="og:url" content="https://webolys.fr/mentions-legales">
+  <meta property="og:url" content="https://webolys.fr/mentions-legales.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Webolys - Mentions légales | Agence Web">
