@@ -34,11 +34,12 @@
     <div class="container-info-card add-section" role="listitem"><div><p>WordPress</p></div></div>
     <div class="container-info-card add-section" role="listitem"><div><p>Joomla</p></div></div>
     <div class="container-info-card add-section" role="listitem"><div><p>Accessibilité</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>Référencement</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>Site vitrine</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>E-Commerce</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>E-Learning</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>Webmapping</p></div></div>
-    <div class="container-info-card add-section" role="listitem"><div><p>Plugin</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>Référencement</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>Site vitrine</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>E-Commerce</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>E-Learning</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>Webmapping</p></div></div>
+    <div class="container-info-card add-section card-see-more-mobile-services" role="listitem"><div><p>Plugin</p></div></div>
   </div>
+  <p id="button-toggle">Voir plus</p>
 </section>

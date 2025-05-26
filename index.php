@@ -28,6 +28,7 @@
   <script src="js/faq.js" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/word.js" defer></script>
+  <script src="js/services.js" defer></script>
 </head>
 <body>
   <?php

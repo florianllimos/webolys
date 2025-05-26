@@ -638,7 +638,6 @@ html, body {
   margin-left: 10%;
   color: rgb(236, 236, 236);
   padding-top: 100px;
-  min-height: 400px;
 }
 .container-about h3 span {
   font-weight: 900;
@@ -787,6 +786,14 @@ html, body {
 /* EOF CONTAINER ABOUT */
 /* CONTAINER SERVICES */
 /* CONTAINER SERVICES */
+#button-toggle {
+  text-align: center;
+  margin-top: 30px;
+}
+#button-toggle:hover {
+  cursor: pointer;
+}
+
 #container-services-mobile {
   z-index: 3;
   position: relative;
