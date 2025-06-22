@@ -42,7 +42,7 @@
     <section class="legal-notice" role="document" aria-labelledby="legal-title">
       <div class="container">
         <h3>1. Éditeur du site</h3>
-        <p>Le site <strong>www.webolys.fr</strong> est édité par <strong>webolys</strong>, auto-entrepreneur, inscrit sous le numéro SIRET : .</p>
+        <p>Le site <strong>www.webolys.fr</strong> est édité par <strong>webolys</strong>, auto-entrepreneur, inscrit sous le numéro SIRET : 98831027200014</p>
         <h3>2. Responsable de la publication</h3>
         <p>Le directeur de la publication est <strong>Florian Llimos</strong>.</p>
         <h3>3. Contact</h3>
