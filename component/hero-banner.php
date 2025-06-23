@@ -27,22 +27,14 @@
   </div>
   <div class="hero-banner-container-link">
     <ul class="ul-social-link" aria-label="Liens vers nos réseaux sociaux et moyens de contact">
-      <!-- <li>
-        <a href="https://www.instagram.com/f.lmss/?hl=fr"
+      <li>
+        <a href="https://www.instagram.com/webolys.fr/"
           aria-label="Mon profil Instagram"
           title="Profil Instagram"
           target="_blank" rel="noopener noreferrer">
-          <img src="media/instagram.png" id="instagram" alt="Icône Instagram" loading="lazy">
+          <img src="media/instagram.png" id="instagram" alt="Icône Instagram">
         </a>
-      </li> -->
-      <!-- <li>
-        <a href="https://www.facebook.com/florian.llimos/"
-          aria-label="Mon profil Facebook"
-          title="Profil Facebook"
-          target="_blank" rel="noopener noreferrer">
-          <img src="media/facebook.png" id="facebook" alt="Icône Facebook" loading="lazy">
-        </a>
-      </li> -->
+      </li>
       <li>
         <a href="https://www.linkedin.com/company/webolys"
           aria-label="Mon profil LinkedIn"
