@@ -3,11 +3,11 @@
     <span class="color"><strong>Webolys</strong></span>, c'est de l'expertise, de l'innovation et de la créativité mises au service de votre projet digital pour transformer vos idées en solutions web performantes et sur-mesure.
   </h2>
   <p class="container-about-text text add-section">
-    Spécialistes des CMS comme WordPress et Joomla, nous transformons chaque projet en une expérience fluide, optimisée et totalement personnalisée.
+    Spécialiste des CMS comme WordPress et Joomla, je transforme chaque projet en une expérience fluide, optimisée et totalement personnalisée.
   </p>
   <p class="text add-section">
-    Que vous ayez besoin d'un site vitrine élégant, d'une boutique en ligne performante ou d'une plateforme entièrement sur-mesure, notre 
-    <span class="color">expertise</span> nous permet de maîtriser à la perfection les plugins, 
+    Que vous ayez besoin d'un site vitrine élégant, d'une boutique en ligne performante ou d'une plateforme entièrement sur-mesure, mon 
+    <span class="color">expertise</span> me permet de maîtriser à la perfection les plugins, 
     d’adapter les templates à vos besoins spécifiques.
   </p>
   <p class="text add-section">  
@@ -44,9 +44,9 @@
   <div class="container-about-info" role="region" aria-labelledby="a-propos-florian">
     <h3 id="a-propos-florian" class="sr-only">À propos de Florian, fondateur de Webolys</h3>
     <p class="container-about-text text add-section">
-      Chez <span class="color"><strong>Webolys</strong></span>, l'humain est au cœur de notre démarche. Bien que nous soyons actuellement une petite équipe composée d'un seul passionné, 
+      Chez <span class="color"><strong>Webolys</strong></span>, l'humain est au cœur de mes démarche. Bien que nous soyons actuellement une petite équipe composée d'un seul passionné, 
       chaque projet bénéficie de notre expertise, de notre engagement et de notre volonté d’offrir des solutions digitales exceptionnelles. 
-      Nous prenons le temps de comprendre vos besoins et de vous accompagner personnellement à chaque étape, 
+      Je prends le temps de comprendre vos besoins et de vous accompagner personnellement à chaque étape, 
       en vous garantissant une expérience de collaboration unique. À l'avenir, nous aspirons à développer l'équipe pour continuer à offrir des services toujours plus performants et innovants.
     </p>
     <div class="test">

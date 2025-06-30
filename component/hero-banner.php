@@ -6,10 +6,10 @@
       <span class="color">solutions web</span> sur mesure, innovantes et performantes.
     </h2>
     <p class="text">
-      Chez <strong><span class="color">Webolys</span></strong>, nous créons des expériences web sur mesure qui allient innovation, design et technologie.
+      Chez <strong><span class="color">Webolys</span></strong>, je crée des expériences web sur mesure qui allient innovation, design et technologie.
     </p>
     <p class="text mask-and-show">
-      Nous travaillons main dans la main avec vous pour développer des solutions digitales adaptées à vos enjeux spécifiques, 
+      Je travaille main dans la main avec vous pour développer des solutions digitales adaptées à vos enjeux spécifiques, 
       tout en assurant une performance optimale et une évolutivité pour accompagner votre succès sur le long terme.
     </p>
     <div class="container" aria-hidden="true">

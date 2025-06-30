@@ -1,13 +1,13 @@
 <section class="container-portfolio" id="nos-realisations" aria-labelledby="portfolio-title">
-  <h2 id="portfolio-title">Chez <strong><span class="color">Webolys</span></strong>, chaque projet est une occasion de démontrer notre expertise et notre créativité.</h2>
+  <h2 id="portfolio-title">Chez <strong><span class="color">Webolys</span></strong>, chaque projet est une occasion de démontrer mon expertise et mon créativité.</h2>
   <div role="region" aria-labelledby="portfolio-intro">
     <p id="portfolio-intro" class="text add-section">
-      Nos réalisations sont le reflet de notre engagement envers <span class="color">l'excellence et la satisfaction client</span>. 
+      Mes réalisations sont le reflet de mon engagement envers <span class="color">l'excellence et la satisfaction client</span>. 
     </p>
     <p class="text add-section">
-      Chaque projet que nous réalisons est une opportunité de créer des <span class="color">solutions digitales uniques</span>, adaptées aux besoins spécifiques de nos clients. 
-      Découvrez comment nous avons transformé les idées de nos partenaires en projets concrets et performants. 
-      Laissez-vous inspirer par notre savoir-faire et imaginez ce que nous pouvons accomplir pour vous.
+      Chaque projet que j'ai réalisé est une opportunité de créer des <span class="color">solutions digitales uniques</span>, adaptées aux besoins spécifiques de nos clients. 
+      Découvrez comment j'ai transformé les idées de mes partenaires en projets concrets et performants. 
+      Laissez-vous inspirer par mon savoir-faire et imaginez ce que je pourrais accomplir pour vous.
     </p>
   </div>
   <div class="container-portfolio-card">

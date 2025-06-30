@@ -37,10 +37,10 @@
     <div class="container-contact">
       <h2 id="contact-heading">Prêt à donner vie à votre projet avec <span class="color"><strong>Webolys</strong></span> ?</h2>
       <p class="text">
-        Nous sommes impatients de discuter avec vous et de voir comment nous pouvons transformer vos idées en <span class="color">réalité digitale</span>.
+        Je suis impatient de discuter avec vous et de voir comment nous pouvons transformer vos idées en <span class="color">réalité digitale</span>.
       </p>
       <p class="text">
-        Que vous ayez une question ou que vous soyez prêt à démarrer, contactez-nous dès aujourd’hui. Nous sommes là pour vous accompagner à chaque étape de votre projet.
+        Que vous ayez une question ou que vous soyez prêt à démarrer, contactez-moi dès aujourd’hui. Je suis là pour vous accompagner à chaque étape de votre projet.
         Votre projet mérite le meilleur. Ne laissez pas vos ambitions attendre, parlons-en maintenant et faisons avancer votre réussite digitale !
       </p>
       <div id="container-contact" class="none">

@@ -8,8 +8,8 @@
     <div class="footer-container-web">
       <img src="media/webolys.png" alt="Logo de l'agence webolys" loading="lazy">
       <p>
-        <strong><span class="color">Webolys</span></strong> est une équipe spécialisée dans la création de sites web sur mesure. 
-        Notre équipe de professionnels passionnés accompagne les entreprises de toutes tailles dans leur transformation numérique. 
+        <strong><span class="color">Webolys</span></strong> est un développeur web indépendant spécialisé dans la création de sites internet sur mesure.
+        J’accompagne les entreprises et professionnels de toutes tailles dans leur visibilité en ligne et leur transformation numérique.
       </p>
     </div>
     <div class="footer-container-link">
@@ -18,7 +18,7 @@
         <nav aria-label="Navigation secondaire : liens utiles du site">
           <ul>
             <li><a href="index.php">Page d'accueil</a></li>
-            <li><a href="index.php#nos-services">Nos services</a></li>
+            <li><a href="index.php#nos-services">Mes services</a></li>
             <li><a href="contact.php">Page de contact</a></li>
             <li><a href="mentions-legales.php">Mentions légales</a></li>
             <li><a href="politique-de-confidentialite.php">Politique de confidentialité</a></li>
@@ -70,7 +70,7 @@
         </button>
       </form>
       <div id="response-formulaire" class="none" role="status" aria-live="polite">
-        <p class="color">Vous êtes bien inscrit à notre liste de newsletter&nbsp;!</p>
+        <p class="color">Vous êtes bien inscrit à ma liste de newsletter&nbsp;!</p>
       </div>
     </section>
     <section aria-label="Informations légales" class="footer-container-copyright">

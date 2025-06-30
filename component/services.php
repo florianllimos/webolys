@@ -3,17 +3,17 @@
     Découvrez les services de <span class="color"><strong>Webolys</strong></span> pour transformer vos idées en <span class="color">réalité digitale</span>.
   </h2>
   <p class="text add-section">
-    Chez <span class="color"><strong>Webolys</strong></span>, nous offrons une gamme de services personnalisés pour répondre à vos besoins spécifiques. Que ce soit pour la création d’un site web, la refonte de votre présence en ligne ou le développement d’une application, nous sommes là pour vous accompagner à chaque étape.
+    Chez <span class="color"><strong>Webolys</strong></span>, j’offre une gamme de services personnalisés pour répondre à vos besoins spécifiques. Que ce soit pour la création d’un site web, la refonte de votre présence en ligne ou le développement d’une application, je suis là pour vous accompagner à chaque étape.
   </p>
   <p class="text add-section">
-    Nous mettons notre expertise à votre service pour concevoir des <span class="color">solutions digitales performantes</span>, innovantes et sur mesure. Découvrez nos services et <span class="color">contactez-nous</span> pour discuter de vos besoins.
+    Je mets mon expertise à votre service pour concevoir des <span class="color">solutions digitales performantes</span>, innovantes et sur mesure. Découvrez mes services et <span class="color">contactez-moi</span> pour discuter de vos besoins.
   </p>
   <p class="text add-section">
-    Notre équipe combine créativité, <span class="color">savoir-faire technique</span> et sens stratégique pour vous proposer des solutions web qui font la différence. Chaque projet est conçu avec rigueur, dans le respect de vos objectifs et de votre identité.
+    Je combine créativité, <span class="color">savoir-faire technique</span> et sens stratégique pour vous proposer des solutions web qui font la différence. Chaque projet est conçu avec rigueur, dans le respect de vos objectifs et de votre identité.
   </p>
 </section>
 <section class="slider-container" id="slider-services" aria-labelledby="slider-title">
-  <h3 id="slider-title" class="sr-only">Liste de nos services sous forme de slider</h3>
+  <h3 id="slider-title" class="sr-only">Liste des services sous forme de slider</h3>
   <div class="slider" role="list" aria-label="Services disponibles">
     <div class="slide" role="listitem"><div><p id="title-developpement">Développement</p></div></div>
     <div class="slide" role="listitem"><div><p id="title-wordpress">WordPress</p></div></div>
