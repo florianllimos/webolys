@@ -6,6 +6,7 @@
   <meta name="description" content="Besoin d’un site web qui cartonne ? Webolys conçoit des sites vitrines et e-commerce sur mesure en Ariège, Toulouse et au-delà. Boostez votre visibilité et attirez de nouveaux clients !">
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="Webolys - Création de sites internet | Agence Web">
+  <meta name="keywords" content="création site internet, agence web, site vitrine, site e-commerce, développement web Ariège, création site Toulouse, référencement SEO, site internet sur mesure, Webolys, développeur web, visibilité en ligne, création site web Ariège, conception site internet Toulouse, agence digitale, optimisation SEO, refonte site internet">
   <meta property="og:description" content="Sites vitrines, e-commerce et SEO en Ariège, Toulouse et au-delà. Confiez votre projet web à Webolys.">
   <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
   <meta property="og:url" content="https://webolys.fr">
