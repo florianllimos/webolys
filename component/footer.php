@@ -1,6 +1,6 @@
 <a href="contact.php" class="footer-holograme" aria-label="Accédez à la page de contact pour obtenir un devis gratuit">
   <div>
-    <p>Vous avez une idée ? Un projet ? Contactez-nous pour recevoir un devis gratuitement !</p>
+    <p>Vous avez une idée ? Un projet ? Contactez-moi pour recevoir un devis gratuitement !</p>
   </div>
 </a>
 <footer role="contentinfo">
@@ -29,7 +29,7 @@
       </section>
     </div>
     <div class="footer-container-contact">
-      <h3 id="heading-contact">Contactez-nous</h3>
+      <h3 id="heading-contact">Contactez-moi</h3>
       <ul aria-labelledby="heading-contact">
         <li>
           <a href="mailto:contact@webolys.fr" aria-label="Envoyer un e-mail à contact@webolys.fr">

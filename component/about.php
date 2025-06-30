@@ -1,4 +1,4 @@
-<div class="container-about" id="qui-sommes-nous" aria-labelledby="titre-about">
+<div class="container-about" id="qui-suis-je" aria-labelledby="titre-about">
   <h2 id="titre-about" class="add-section">
     <span class="color"><strong>Webolys</strong></span>, c'est de l'expertise, de l'innovation et de la créativité mises au service de votre projet digital pour transformer vos idées en solutions web performantes et sur-mesure.
   </h2>

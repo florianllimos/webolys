@@ -24,9 +24,9 @@
     <div class="menu" id="menu" aria-hidden="true">
       <ul role="list">
         <li><a href="index.php#" title="Accueil" id="accueil-link">Accueil</a></li>
-        <li><a href="#qui-sommes-nous" title="Qui sommes-nous" id="qui-sommes-nous-link">Qui suis-je</a></li>
-        <li><a href="#nos-services" title="Compétences" id="nos-services-link">Mes services</a></li>
-        <li><a href="#nos-realisations" title="Nos réalisations" id="nos-realisations-link">Mes réalisations</a></li>
+        <li><a href="#qui-suis-je" title="Qui suis-je" id="qui-suis-je-link">Qui suis-je</a></li>
+        <li><a href="#mes-services" title="Mes services" id="mes-services-link">Mes services</a></li>
+        <li><a href="#mes-realisations" title="Mes réalisations" id="mes-realisations-link">Mes réalisations</a></li>
         <li><a href="#container-faq" title="Foire aux questions" id="faq-link">F.A.Q</a></li>
         <li><a href="contact.php" title="Contact" id="">Contact</a></li>
       </ul>
