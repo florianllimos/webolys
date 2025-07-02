@@ -31,5 +31,15 @@
         </div>
       </div>
     </article>
+     <article class="card add-section" aria-labelledby="card-title-3" aria-describedby="card-desc-3">
+      <div class="box">
+        <div class="content">
+          <p class="card-portfolio-number card-portfolio-number-3" aria-hidden="true">03</p>
+          <h3 id="card-title-3">Ecole Aikido Ariège</h3>
+          <p id="card-desc-3">Amélioration rapide d’un site vitrine avec ajout de fonctionnalités et optimisation de l’expérience utilisateur.</p>
+          <a href="https://www.ecole-aikido-ariege.org/" target="_blank" rel="noopener noreferrer" aria-label="Voir le site vitrine de l'école d'Aikido Ariège">Voir le site web</a>
+        </div>
+      </div>
+    </article>
   </div>
 </section>
