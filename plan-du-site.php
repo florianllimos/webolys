@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Plan du site de Webolys, agence de création de sites internet à Foix et en Ariège.">
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="index, follow">
   <meta property="og:title" content="Webolys - Plan du site | Agence Web">
+  <meta name="keywords" content="agence web Ariège, agence web Toulouse, création site internet Ariège, création site internet Toulouse, site vitrine Ariège, site e-commerce Toulouse, développeur web Ariège, référencement SEO Ariège, refonte site internet Toulouse, Webolys, agence digitale Ariège, agence digitale Toulouse, visibilité en ligne Ariège, visibilité en ligne Toulouse, expert web Ariège, expert web Toulouse, accompagnement digital Ariège, accompagnement digital Toulouse, site internet sur mesure Ariège, site internet sur mesure Toulouse, web Ariège, web Toulouse, agence web locale, agence web régionale, agence web Occitanie">
   <meta property="og:description" content="Consultez le plan du site de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
   <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
   <meta property="og:url" content="https://webolys.fr/plan-du-site.php">
@@ -22,7 +23,7 @@
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
   <script src="js/url.js" defer></script>
-  <title>Webolys - Plan du site | Agence Web</title>
+  <title>Webolys - Agence Web Ariège & Toulouse | Plan du site</title>
 </head>
 <body>
   <?php
@@ -35,7 +36,7 @@
     <div class="container-banner-page">
       <div>
         <div>
-          <h2 id="title-page-plan-du-site">Plan du site</h2>
+          <h1 id="title-page-plan-du-site">Plan du site</h1>
         </div>
       </div>
     </div>

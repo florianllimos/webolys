@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Politique de confidentialité de Webolys, agence de création de sites internet à Foix et en Ariège. Informations concernant la confidentialité du site.">
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="agence web Ariège, agence web Toulouse, création site internet Ariège, création site internet Toulouse, site vitrine Ariège, site e-commerce Toulouse, développeur web Ariège, référencement SEO Ariège, refonte site internet Toulouse, Webolys, agence digitale Ariège, agence digitale Toulouse, visibilité en ligne Ariège, visibilité en ligne Toulouse, expert web Ariège, expert web Toulouse, accompagnement digital Ariège, accompagnement digital Toulouse, site internet sur mesure Ariège, site internet sur mesure Toulouse, web Ariège, web Toulouse, agence web locale, agence web régionale, agence web Occitanie">
   <meta property="og:title" content="Webolys - Politique de confidentialité | Agence Web">
   <meta property="og:description" content="Consultez la politique de confidentialité de l'agence Webolys, spécialisée en création de sites internet à Foix et en Ariège.">
   <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
@@ -22,7 +23,7 @@
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
   <script src="js/url.js" defer></script>
-  <title>Webolys - Politique de confidentialité | Agence Web</title>
+  <title>Webolys - Agence Web Ariège & Toulouse | Politique de confidentialité</title>
 </head>
 <body>
   <?php
@@ -35,7 +36,7 @@
     <div class="container-banner-page">
       <div>
         <div>
-          <h2 id="title-page-politique-de-confidentialite">Politique de confidentialité</h2>
+          <h1 id="title-page-politique-de-confidentialite">Politique de confidentialité</h1>
         </div>
       </div>
     </div>

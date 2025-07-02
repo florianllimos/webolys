@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Contactez Webolys - Agence Web en Ariège, Toulouse et au-delà. Besoin d’un site vitrine, e-commerce ou d’un accompagnement SEO ? Discutons de votre projet !">
   <meta name="robots" content="index, follow">
+  <meta name="keywords" content="agence web Ariège, agence web Toulouse, création site internet Ariège, création site internet Toulouse, site vitrine Ariège, site e-commerce Toulouse, développeur web Ariège, référencement SEO Ariège, refonte site internet Toulouse, Webolys, agence digitale Ariège, agence digitale Toulouse, visibilité en ligne Ariège, visibilité en ligne Toulouse, expert web Ariège, expert web Toulouse, accompagnement digital Ariège, accompagnement digital Toulouse, site internet sur mesure Ariège, site internet sur mesure Toulouse, web Ariège, web Toulouse, agence web locale, agence web régionale, agence web Occitanie">
   <link rel="canonical" href="https://webolys.fr/contact.php">
   <meta property="og:title" content="Contactez Webolys - Agence Web en Ariège, Toulouse et au-delà.">
   <meta property="og:description" content="Besoin d’un site internet sur mesure ou d’un accompagnement SEO ? Contactez Webolys et lancez votre projet web dès aujourd’hui.">
@@ -17,7 +18,7 @@
   <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="stylesheet" href="style.css">
-  <title>Webolys - Contact | Agence Web</title>
+  <title>Webolys - Agence Web Ariège & Toulouse | Contact</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/faq.js" defer></script>
@@ -35,7 +36,7 @@
       require_once("component/background.php");
     ?>
     <div class="container-contact">
-      <h2 id="contact-heading">Prêt à donner vie à votre projet avec <span class="color"><strong>Webolys</strong></span> ?</h2>
+      <h1 id="contact-heading">Prêt à donner vie à votre projet avec <span class="color"><strong>Webolys</strong></span> ?</h1>
       <p class="text">
         Je suis impatient de discuter avec vous et de voir comment nous pouvons transformer vos idées en <span class="color">réalité digitale</span>.
       </p>
