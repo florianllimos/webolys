@@ -29,4 +29,32 @@
       Nous établissons un planning détaillé dès le début pour garantir une livraison dans les délais.
     </p>
   </article>
+
+  <article id="container-faq-4" class="faq-item add-section" aria-labelledby="faq-q4 faq-a4">
+    <h3 id="container-faq-4-title">Quels sont les tarifs pour la création d’un site web ?</h3>
+    <p id="container-faq-4-text" class="text-faq">
+      Les tarifs varient selon la nature et la complexité du projet. Après une première discussion sur vos besoins, je vous propose un devis personnalisé, transparent et sans engagement.
+    </p>
+  </article>
+
+  <article id="container-faq-5" class="faq-item add-section" aria-labelledby="faq-q5 faq-a5">
+    <h3 id="container-faq-5-title">Puis-je modifier moi-même le contenu de mon site après la livraison ?</h3>
+    <p id="container-faq-5-text" class="text-faq">
+      Oui, la plupart des sites livrés sont administrables. Je vous forme à l’utilisation de l’interface pour que vous puissiez gérer textes, images ou actualités en toute autonomie.
+    </p>
+  </article>
+
+  <article id="container-faq-6" class="faq-item add-section" aria-labelledby="faq-q6 faq-a6">
+    <h3 id="container-faq-6-title">Le site sera-t-il optimisé pour le référencement (SEO) ?</h3>
+    <p id="container-faq-6-text" class="text-faq">
+      Oui, j’intègre les bonnes pratiques SEO dès la conception : structure du code, balises, rapidité de chargement, compatibilité mobile, etc. Je peux aussi vous accompagner sur la stratégie de contenu.
+    </p>
+  </article>
+
+  <article id="container-faq-7" class="faq-item add-section" aria-labelledby="faq-q7 faq-a7">
+    <h3 id="container-faq-7-title">Mon site sera-t-il adapté aux mobiles et tablettes ?</h3>
+    <p id="container-faq-7-text" class="text-faq">
+      Absolument ! Tous les sites sont conçus pour être responsive, c’est-à-dire parfaitement lisibles et utilisables sur tous les écrans (ordinateurs, tablettes, smartphones).
+    </p>
+  </article>
 </section>
