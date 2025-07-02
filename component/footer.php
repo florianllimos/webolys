@@ -18,7 +18,7 @@
         <nav aria-label="Navigation secondaire : liens utiles du site">
           <ul>
             <li><a href="index.php">Page d'accueil</a></li>
-            <li><a href="index.php#nos-services">Mes services</a></li>
+            <li><a href="index.php#mes-services">Mes services</a></li>
             <li><a href="contact.php">Page de contact</a></li>
             <li><a href="mentions-legales.php">Mentions légales</a></li>
             <li><a href="politique-de-confidentialite.php">Politique de confidentialité</a></li>
