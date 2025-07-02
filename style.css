@@ -441,7 +441,7 @@ html, body {
   justify-self: center;
   grid-column: a/c;
 }
-#hero-banner .hero-banner-container-text h1 {
+#hero-banner .hero-banner-container-text h2 {
   color: rgb(236, 236, 236);
   text-transform: uppercase;
   letter-spacing: -1px;

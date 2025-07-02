@@ -35,6 +35,7 @@
   <?php
     require_once("component/header.php");
   ?>
+  <h1 class="sr-only">Webolys - Agence Web Ariège & Toulouse | Création de sites internet sur mesure</h1>
   <main>
     <?php
       require_once("component/background.php");
