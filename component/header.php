@@ -1,7 +1,7 @@
 <header id="header" role="banner">
   <nav class="navbar" role="navigation" aria-label="Navigation principale">
     <a href="index.php" aria-label="Page d'accueil">
-      <h1 class="color"><strong>Webolys</strong></h1>
+      <span class="color"><strong>Webolys<span class="sr-only">Agence Web Ariège & Toulouse | Création de sites internet sur mesure</span></strong></span>
     </a>
     <input 
       type="checkbox" 

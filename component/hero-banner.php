@@ -1,10 +1,10 @@
 <section id="hero-banner" aria-label="Bannière de présentation de Webolys">
   <div class="hero-banner-aura1 aura" aria-hidden="true"></div>
   <div class="hero-banner-container-text">
-    <h2>
+    <h1>
       Donnez vie à vos projets numériques avec des 
       <span class="color">solutions web</span> sur mesure, innovantes et performantes.
-    </h2>
+    </h1>
     <p class="text">
       Chez <strong><span class="color">Webolys</span></strong>, je crée des expériences web sur mesure qui allient innovation, design et technologie.
     </p>
