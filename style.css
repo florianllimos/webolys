@@ -1604,6 +1604,7 @@ footer .footer-container .footer-container-copyright p {
 }
 .container-banner-page div:nth-child(1) h1 {
   color: rgb(236, 236, 236);
+  font-size: 26px;
   font-weight: 900;
 }
 .container-banner-page div:nth-child(1) h1:after {
