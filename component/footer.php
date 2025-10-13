@@ -42,8 +42,8 @@
           </a>
         </li>
         <li aria-label="Adresse postale">
-          1 avenue du Scios<br>
-          09000 Saint Paul de Jarrat
+          2892 Route du Pays d'Olmes<br>
+          09300 Roquefort Les Cascades
         </li>
       </ul>
     </div>
