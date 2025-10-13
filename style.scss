@@ -1099,7 +1099,7 @@ html, body {
   }
   @media screen and (min-width: 1500px) {
     &{
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   .card {
@@ -1163,6 +1163,13 @@ html, body {
         }
         .card-portfolio-number-3 {
           background-image: url('media/ecole-aikido-ariege.png');
+          background-size: cover;
+          color: transparent;
+          -webkit-background-clip: text;
+          background-clip: text;
+        }
+        .card-portfolio-number-4 {
+          background-image: url('media/mr-mrs-eco-clean.webp');
           background-size: cover;
           color: transparent;
           -webkit-background-clip: text;
