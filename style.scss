@@ -287,15 +287,18 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
-  background: #2f2f2f;
-  box-shadow: 0 0 15px black;
   .navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin: 30px 50px;
+    backdrop-filter: blur(16px);
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
     a {
       text-decoration: none;
       span {
@@ -330,6 +333,7 @@ html, body {
           text-decoration: none;
           transition: 300ms ease-in-out;
           text-transform: 700;
+          font-weight: 300;
           &:hover {
             text-decoration: underline;
           }
@@ -338,17 +342,14 @@ html, body {
             color: #fff;
           }
           &:last-child > a {
-            border-radius: 50px;
-            padding: 15px;
             text-decoration: none;
             font-weight: 700;
-            margin-top: -7.5px;
-            background: #c5eafa;
-            box-shadow: 0 0 10px black;
-            background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            text-shadow: 1px 1px 18px black;
+            // background: #c5eafa;
+            // box-shadow: 0 0 10px black;
+            // background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+            // background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+            // background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
+            // text-shadow: 1px 1px 18px black;
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
             &:hover {
               text-decoration: none;
@@ -361,6 +362,8 @@ html, body {
   }
   @media screen and (max-width: 900px) {
     .navbar {
+      /* reduce side margins on small screens so the navbar fits */
+      margin: 16px 18px;
       label {
         display: inline-flex;
         align-items: center;
@@ -641,6 +644,62 @@ html, body {
 
 /* EOF HERO BANNER */
 /* EOF HERO BANNER */
+
+/* Custom cursor styles: small white dot + thin ring */
+.has-custom-cursor, .has-custom-cursor * {
+  cursor: none !important; /* hide native cursor when custom cursor is active */
+}
+
+.cursor-dot, .cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 200ms ease, transform 120ms ease;
+  z-index: 99999;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 6px rgba(255,255,255,0.9);
+  opacity: 1;
+}
+
+/* Ring sized so gap between dot and ring is about 10px: (ring - dot)/2 ~= 10px */
+.cursor-ring {
+  width: 26px; /* 26 - 6 = 20 -> /2 = 10px gap */
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: transparent;
+  opacity: 0.95;
+  transition: width 160ms ease, height 160ms ease, border-width 120ms ease, opacity 160ms ease, transform 160ms ease;
+}
+
+/* Hovering interactive elements enlarges the ring */
+.cursor-ring.cursor-hover {
+  width: 40px;
+  height: 40px;
+  border-width: 1.5px;
+  opacity: 1;
+}
+
+/* Active (click) feedback */
+.cursor-ring.cursor-active {
+  transform: translate(-50%, -50%) scale(0.92);
+  opacity: 0.8;
+}
+
+/* Hide cursor elements when tabbing (keyboard users) to avoid distraction */
+body.keyboard-navigation .cursor-dot,
+body.keyboard-navigation .cursor-ring {
+  display: none !important;
+}
+
 
 /* CONTAINER ABOUT */
 /* CONTAINER ABOUT */
@@ -1099,7 +1158,12 @@ html, body {
   }
   @media screen and (min-width: 1500px) {
     &{
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+   @media screen and (min-width: 1800px) {
+    &{
+      grid-template-columns: repeat(3, 1fr);
     }
   }
   .card {
@@ -1179,7 +1243,7 @@ html, body {
           color: #fff;
           z-index: 1;
           transition: 0.5s;
-          margin-top: 60px;
+          margin-top: 80px;
           margin-bottom: 30px;
         }
         p {
