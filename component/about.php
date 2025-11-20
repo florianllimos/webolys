@@ -44,10 +44,10 @@
   <div class="container-about-info" role="region" aria-labelledby="a-propos-florian">
     <h3 id="a-propos-florian" class="sr-only">À propos de Florian, fondateur de Webolys</h3>
     <p class="container-about-text text add-section">
-      Chez <span class="color"><strong>Webolys</strong></span>, l'humain est au cœur de mes démarche. Bien que nous soyons actuellement une petite équipe composée d'un seul passionné, 
-      chaque projet bénéficie de notre expertise, de notre engagement et de notre volonté d’offrir des solutions digitales exceptionnelles. 
+      Chez <span class="color"><strong>Webolys</strong></span>, l'humain est au cœur de mes démarche. Bien que <span class="color">Webolys</span> soit composée d'un seul passionné, 
+      chaque projet bénéficie de mon expertise, de mon engagement et de ma volonté d’offrir des solutions digitales exceptionnelles. 
       Je prends le temps de comprendre vos besoins et de vous accompagner personnellement à chaque étape, 
-      en vous garantissant une expérience de collaboration unique. À l'avenir, nous aspirons à développer l'équipe pour continuer à offrir des services toujours plus performants et innovants.
+      en vous garantissant une expérience de collaboration unique. À l'avenir, j'aspire à développer l'équipe pour continuer à offrir des services toujours plus performants et innovants.
     </p>
     <div class="test">
       <div class="container-about-info-card add-section" role="group" aria-label="Fonction : CEO et développeur">
