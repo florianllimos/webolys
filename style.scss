@@ -294,17 +294,37 @@ html, body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    margin: 30px 50px;
-    backdrop-filter: blur(16px);
-    border-radius: 50px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    padding: 16px 32px;
+    margin: 20px 50px;
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover {
+      background: rgba(25, 25, 25, 0.7);
+      border-color: rgba(89, 87, 238, 0.2);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    }
+    
     a {
       text-decoration: none;
       span {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: 700;
+        background: linear-gradient(135deg, #5957ee, #b794f6, #fad4c5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          filter: brightness(1.2);
+        }
       }
     }
     #toggler {
@@ -326,34 +346,67 @@ html, body {
       ul {
         list-style: none;
         display: flex;
-        gap: 15px;
+        gap: 8px;
         li {
           color: white;
-          padding: 5px;
           text-decoration: none;
-          transition: 300ms ease-in-out;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           text-transform: 700;
           font-weight: 300;
-          &:hover {
-            text-decoration: underline;
-          }
+          
           a {
             text-decoration: none;
-            color: #fff;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 10px 18px;
+            border-radius: 12px;
+            display: block;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 15px;
+            position: relative;
+            
+            &::before {
+              content: '';
+              position: absolute;
+              inset: 0;
+              background: linear-gradient(135deg, rgba(89, 87, 238, 0.1), rgba(250, 212, 197, 0.1));
+              opacity: 0;
+              border-radius: 12px;
+              transition: opacity 0.3s ease;
+            }
+            
+            &:hover {
+              color: #fff;
+              background: rgba(255, 255, 255, 0.05);
+              transform: translateY(-2px);
+              
+              &::before {
+                opacity: 1;
+              }
+            }
           }
+          
           &:last-child > a {
             text-decoration: none;
             font-weight: 700;
-            // background: #c5eafa;
-            // box-shadow: 0 0 10px black;
-            // background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            // background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            // background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-            // text-shadow: 1px 1px 18px black;
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+            background: linear-gradient(135deg, #5957ee, #b794f6);
+            color: #fff;
+            padding: 10px 24px;
+            box-shadow: 0 4px 15px rgba(89, 87, 238, 0.3);
+            
+            &::before {
+              display: none;
+            }
+            
+            &::after {
+              display: none;
+            }
+            
             &:hover {
               text-decoration: none;
               cursor: pointer;
+              transform: translateY(-2px) scale(1.05);
+              box-shadow: 0 6px 20px rgba(89, 87, 238, 0.4);
+              background: linear-gradient(135deg, #6a68f0, #c5a4f8);
             }
           }
         }
@@ -364,46 +417,55 @@ html, body {
     .navbar {
       /* reduce side margins on small screens so the navbar fits */
       margin: 16px 18px;
+      padding: 14px 20px;
+      border-radius: 20px;
+      
       label {
         display: inline-flex;
         align-items: center;
         cursor: pointer;
       }
       #toggler:checked ~ .menu {
-        max-height: 300px;
-        transition: max-height 0.5s ease-in-out;
-      }       
-      #toggler:checked ~ .menu {
-        max-height: 300px;
+        max-height: 400px;
         transition: max-height 0.5s ease-in-out;
       }
       .menu {
         width: 100%;
         max-height: 0;
         overflow: hidden;
-        max-height: 0;
         transition: max-height 0.5s ease-in-out;
         ul {
           flex-direction: column;
           align-items: center;
-          padding: 5px;
+          padding: 20px 5px 5px;
+          gap: 4px;
+          
           #to-home {
             margin-top: 30px;
           }
           li {
+            width: 100%;
+            text-align: center;
+            
+            a {
+              width: 100%;
+              padding: 12px 20px;
+            }
+            
             &:last-child > a {
-              padding: 0;
-              box-shadow: none;
+              margin-top: 8px;
+              padding: 12px 24px;
+              background: linear-gradient(135deg, #5957ee, #b794f6);
+              box-shadow: 0 4px 15px rgba(89, 87, 238, 0.3);
               text-decoration: none;
               font-weight: 700;
-              text-shadow: 1px 1px 18px black;
-              background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              background-clip: text;
+              color: #fff;
+              -webkit-text-fill-color: unset;
+              
               &:hover {
                 text-decoration: none;
                 cursor: pointer;
+                transform: scale(1.02);
               }
             }
           }
