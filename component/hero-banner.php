@@ -1,24 +1,66 @@
 <section id="hero-banner" aria-label="Bannière de présentation de Webolys">
   <div class="hero-banner-aura1 aura" aria-hidden="true"></div>
+  <div class="hero-banner-aura2 aura" aria-hidden="true"></div>
+  <div class="hero-banner-particles" aria-hidden="true">
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+    <span class="particle"></span>
+  </div>
   <div class="hero-banner-container-text">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      <span class="badge-text">✨ Créons ensemble votre projet digital</span>
+    </div>
     <h2>
-      Donnez vie à vos projets numériques avec des 
-      <span class="color">solutions web</span> sur mesure, innovantes et performantes.
+      Transformez vos <span class="color gradient-text">idées</span> en 
+      <span class="color gradient-text">expériences digitales</span> exceptionnelles
     </h2>
-    <p class="text">
-      Chez <strong><span class="color">Webolys</span></strong>, je crée des expériences web sur mesure qui allient innovation, design et technologie.
-    </p>
+    <ul class="hero-features">
+      <li class="hero-feature">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
+        </svg>
+        <span>Design moderne</span>
+      </li>
+      <li class="hero-feature">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+        </svg>
+        <span>Ultra rapide</span>
+      </li>
+      <li class="hero-feature">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 6v6l4 2"/>
+        </svg>
+        <span>Livraison rapide</span>
+      </li>
+    </ul>
     <p class="text mask-and-show">
-      Je travaille main dans la main avec vous pour développer des solutions digitales adaptées à vos enjeux spécifiques, 
-      tout en assurant une performance optimale et une évolutivité pour accompagner votre succès sur le long terme.
+      Code propre, architectures scalables et interfaces intuitives. 
+      Je transforme vos besoins en applications web performantes qui propulsent votre croissance et dépassent les attentes de vos utilisateurs.
     </p>
     <div class="container" aria-hidden="true">
       <span id="word"></span>
     </div>
-    <a href="contact.php" class="btn-contact" title="Contactez-nous dès maintenant">Contact</a>
+    <div class="hero-cta-group">
+      <a href="contact.php" class="btn-contact btn-primary" title="Contactez-nous dès maintenant">
+        <span>Démarrer un projet</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+      <a href="#qui-sommes-nous" class="btn-secondary" title="En savoir plus">
+        <span>En savoir plus</span>
+      </a>
+    </div>
   </div>
   <div class="hero-banner-container-image">
-    <img src="media/mockup_home.webp" alt="Illustration d'un site web développé par Webolys">
+    <img src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" alt="Illustration d'un site web développé par Webolys">
   </div>
   <div class="hero-banner-container-bottom">
     <a href="#qui-sommes-nous" title="Aller à la section À propos">

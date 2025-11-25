@@ -392,6 +392,26 @@ html, body {
 /* EOF BACKGROUND */
 /* HERO BANNER */
 /* HERO BANNER */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes particle-float {
+  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+  50% { transform: translate(30px, -30px); opacity: 0.6; }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(250, 212, 197, 0.3), 0 0 40px rgba(89, 87, 238, 0.2); }
+  50% { box-shadow: 0 0 30px rgba(250, 212, 197, 0.5), 0 0 60px rgba(89, 87, 238, 0.4); }
+}
+
 #hero-banner {
   display: grid;
   z-index: 3;
@@ -403,6 +423,7 @@ html, body {
   max-height: 200vh;
   margin-left: 10%;
   opacity: 1 !important;
+  overflow: visible;
 }
 #hero-banner .container {
   font-size: 28px;
@@ -429,9 +450,72 @@ html, body {
   grid-column: a/c;
   align-self: center;
   justify-self: center;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(90, 87, 238, 0.631372549), rgba(255, 230, 150, 0) 70%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(90, 87, 238, 0.6), rgba(255, 230, 150, 0) 70%);
+  animation: pulse-glow 4s ease-in-out infinite;
+  filter: blur(40px);
+}
+
+#hero-banner .hero-banner-aura2 {
+  grid-row: a/b;
+  grid-column: a/b;
+  align-self: start;
+  justify-self: start;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(250, 212, 197, 0.4), rgba(255, 230, 150, 0) 70%);
+  animation: pulse-glow 6s ease-in-out infinite;
+  filter: blur(50px);
+  margin-top: 100px;
+}
+
+#hero-banner .hero-banner-particles {
+  grid-row: a/e;
+  grid-column: a/c;
+  pointer-events: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#hero-banner .hero-banner-particles .particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #fad4c5, #5957ee);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+#hero-banner .hero-banner-particles .particle:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation: particle-float 8s ease-in-out infinite;
+}
+
+#hero-banner .hero-banner-particles .particle:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: particle-float 6s ease-in-out infinite 1s;
+}
+
+#hero-banner .hero-banner-particles .particle:nth-child(3) {
+  top: 40%;
+  left: 70%;
+  animation: particle-float 7s ease-in-out infinite 2s;
+}
+
+#hero-banner .hero-banner-particles .particle:nth-child(4) {
+  top: 80%;
+  left: 20%;
+  animation: particle-float 9s ease-in-out infinite 0.5s;
+}
+
+#hero-banner .hero-banner-particles .particle:nth-child(5) {
+  top: 30%;
+  left: 50%;
+  animation: particle-float 5s ease-in-out infinite 1.5s;
 }
 #hero-banner .hero-banner-container-text {
   grid-row: a/b;
@@ -440,14 +524,98 @@ html, body {
   justify-self: center;
   grid-column: a/c;
 }
+#hero-banner .hero-banner-container-text .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(47, 47, 47, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+#hero-banner .hero-banner-container-text .hero-badge .badge-dot {
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #fad4c5, #5957ee);
+  border-radius: 50%;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+#hero-banner .hero-banner-container-text .hero-badge .badge-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(236, 236, 236);
+}
+
+#hero-banner .hero-banner-container-text .hero-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+#hero-banner .hero-banner-container-text .hero-feature {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: rgba(47, 47, 47, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+#hero-banner .hero-banner-container-text .hero-feature:hover {
+  background: rgba(47, 47, 47, 0.7);
+  border-color: rgba(250, 212, 197, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(89, 87, 238, 0.2);
+}
+
+#hero-banner .hero-banner-container-text .hero-feature svg {
+  width: 18px;
+  height: 18px;
+  stroke: #5957ee;
+  flex-shrink: 0;
+}
+
+#hero-banner .hero-banner-container-text .hero-feature span {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(236, 236, 236);
+  white-space: nowrap;
+}
+
 #hero-banner .hero-banner-container-text h2 {
   color: rgb(236, 236, 236);
   text-transform: uppercase;
   letter-spacing: -1px;
-  line-height: 28px;
+  line-height: 32px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
+}
+
+#hero-banner .hero-banner-container-text h2 .gradient-text {
+  background: linear-gradient(135deg, #fad4c5 0%, #5957ee 50%, #fad4c5 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 4s ease infinite;
+}
+
+#hero-banner .hero-banner-container-text .hero-subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
 }
 #hero-banner .hero-banner-container-text p {
   color: rgb(236, 236, 236);
@@ -457,47 +625,112 @@ html, body {
     display: none;
   }
 }
-#hero-banner .hero-banner-container-text a {
+#hero-banner .hero-banner-container-text .hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+#hero-banner .hero-banner-container-text .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
   border-radius: 50px;
-  padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
   text-decoration: none;
   color: rgb(236, 236, 236);
   font-weight: 700;
-  background: #c5eafa;
-  box-shadow: 0 0 10px black;
-  position: absolute;
-  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  text-shadow: 1px 1px 18px black;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+  font-size: 16px;
+  background: linear-gradient(135deg, #fad4c5 0%, #5957ee 100%);
+  box-shadow: 0 8px 24px rgba(89, 87, 238, 0.3), 0 4px 12px rgba(250, 212, 197, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
 }
-#hero-banner .hero-banner-container-text a:hover {
+
+#hero-banner .hero-banner-container-text .btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+#hero-banner .hero-banner-container-text .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(89, 87, 238, 0.4), 0 6px 16px rgba(250, 212, 197, 0.3);
   cursor: pointer;
+  text-decoration: none;
 }
-#hero-banner .hero-banner-container-text a::after {
-  content: "";
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-left: 10px;
-  width: 20px;
-  height: 20px;
+
+#hero-banner .hero-banner-container-text .btn-primary:hover::before {
+  left: 100%;
+}
+
+#hero-banner .hero-banner-container-text .btn-primary svg {
+  transition: transform 0.3s ease;
+}
+
+#hero-banner .hero-banner-container-text .btn-primary:hover svg {
+  transform: translateX(4px);
+}
+
+#hero-banner .hero-banner-container-text .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+  font-weight: 600;
+  font-size: 16px;
+  background: rgba(47, 47, 47, 0.6);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+#hero-banner .hero-banner-container-text .btn-secondary:hover {
+  background: rgba(47, 47, 47, 0.8);
+  border-color: rgba(250, 212, 197, 0.3);
+  transform: translateY(-2px);
+  cursor: pointer;
+  text-decoration: none;
 }
 #hero-banner .hero-banner-container-image {
   align-self: center;
   justify-self: center;
   grid-row: b/c;
   grid-column: a/c;
+  position: relative;
+}
+#hero-banner .hero-banner-container-image::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(89, 87, 238, 0.2), transparent 70%);
+  border-radius: 50%;
+  animation: pulse-glow 3s ease-in-out infinite;
 }
 #hero-banner .hero-banner-container-image img {
-  width: 180px;
+  width: 220px;
   margin-top: 20px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
+  animation: float 4s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
 }
 #hero-banner .hero-banner-container-bottom {
   grid-row: d/e;
@@ -543,12 +776,23 @@ html, body {
   #hero-banner .hero-banner-aura1 {
     grid-row: a/c;
     grid-column: b/c;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+  }
+  #hero-banner .hero-banner-aura2 {
+    width: 350px;
+    height: 350px;
   }
   #hero-banner .hero-banner-container-image {
     grid-row: a/c;
     grid-column: b/c;
+  }
+  #hero-banner .hero-banner-container-image img {
+    width: 350px;
+  }
+  #hero-banner .hero-banner-container-image::before {
+    width: 450px;
+    height: 450px;
   }
   #hero-banner .hero-banner-container-text {
     grid-row: a/c;
@@ -556,7 +800,11 @@ html, body {
     padding-top: 0;
   }
   #hero-banner .hero-banner-container-text h2 {
-    font-size: 30px;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #hero-banner .hero-banner-container-text .hero-subtitle {
+    font-size: 18px;
   }
   #hero-banner .hero-banner-container-bottom {
     grid-row: b/c;
