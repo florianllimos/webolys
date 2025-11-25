@@ -949,6 +949,17 @@ body.keyboard-navigation .cursor-ring {
   margin-left: 10%;
   color: rgb(236, 236, 236);
   padding-top: 100px;
+  overflow: hidden;
+}
+.container-about h2 {
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0 0 30px 0;
+}
+@media screen and (min-width: 768px) {
+  .container-about h2 {
+    font-size: 32px;
+  }
 }
 .container-about h3 span {
   font-weight: 900;
@@ -1040,6 +1051,360 @@ body.keyboard-navigation .cursor-ring {
     margin-left: 20%;
   }
 }
+
+.about-aura1 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle at center, rgba(89, 87, 238, 0.25) 0%, rgba(183, 148, 246, 0.15) 30%, rgba(250, 212, 197, 0.1) 50%, transparent 70%);
+  animation: aura-pulse 8s ease-in-out infinite;
+  filter: blur(60px);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-aura2 {
+  position: absolute;
+  top: 60%;
+  right: 8%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at center, rgba(250, 212, 197, 0.25) 0%, rgba(89, 87, 238, 0.12) 40%, transparent 70%);
+  animation: aura-pulse 10s ease-in-out infinite reverse;
+  filter: blur(50px);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.about-particles .particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #fad4c5, #5957ee);
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.about-particles .particle:nth-child(1) {
+  top: 12%;
+  left: 20%;
+  animation: particle-float 8s ease-in-out infinite;
+}
+.about-particles .particle:nth-child(2) {
+  top: 35%;
+  right: 18%;
+  animation: particle-float 6s ease-in-out infinite 1s;
+}
+.about-particles .particle:nth-child(3) {
+  top: 68%;
+  left: 22%;
+  animation: particle-float 7s ease-in-out infinite 2s;
+}
+.about-particles .particle:nth-child(4) {
+  top: 22%;
+  right: 30%;
+  animation: particle-float 9s ease-in-out infinite 0.5s;
+}
+.about-particles .particle:nth-child(5) {
+  top: 52%;
+  left: 55%;
+  animation: particle-float 8s ease-in-out infinite 1.5s;
+}
+.about-particles .particle:nth-child(6) {
+  top: 8%;
+  left: 48%;
+  animation: particle-float 7s ease-in-out infinite 0.8s;
+}
+.about-particles .particle:nth-child(7) {
+  top: 72%;
+  right: 12%;
+  animation: particle-float 8s ease-in-out infinite 2.5s;
+}
+.about-particles .particle:nth-child(8) {
+  top: 42%;
+  left: 10%;
+  animation: particle-float 9s ease-in-out infinite 1.2s;
+}
+.about-particles .particle:nth-child(9) {
+  top: 78%;
+  left: 48%;
+  animation: particle-float 6s ease-in-out infinite 3s;
+}
+.about-particles .particle:nth-child(10) {
+  top: 18%;
+  right: 8%;
+  animation: particle-float 7s ease-in-out infinite 0.3s;
+}
+.about-particles .particle:nth-child(11) {
+  top: 58%;
+  left: 32%;
+  animation: particle-float 8s ease-in-out infinite 2s;
+}
+.about-particles .particle:nth-child(12) {
+  top: 48%;
+  right: 42%;
+  animation: particle-float 9s ease-in-out infinite 1.8s;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: linear-gradient(135deg, rgba(89, 87, 238, 0.2), rgba(183, 148, 246, 0.2));
+  border: 1px solid rgba(89, 87, 238, 0.3);
+  border-radius: 24px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #b794f6;
+  margin-bottom: 20px;
+}
+.about-badge svg {
+  color: #b794f6;
+}
+
+.about-intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  position: relative;
+  z-index: 1;
+}
+.about-intro p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .about-intro p {
+    font-size: 16px;
+  }
+}
+
+.about-stats {
+  display: grid;
+  gap: 20px;
+  margin: 60px 0;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (min-width: 600px) {
+  .about-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about-stats {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+.about-stat-card {
+  background: #313131;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 28px 24px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+.about-stat-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(89, 87, 238, 0.05), rgba(250, 212, 197, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 16px;
+}
+.about-stat-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(89, 87, 238, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+.about-stat-card:hover::before {
+  opacity: 1;
+}
+.about-stat-card:hover .about-stat-icon {
+  background: linear-gradient(135deg, #5957ee, #b794f6);
+  transform: scale(1.05);
+}
+.about-stat-card:hover .about-stat-icon svg {
+  color: #fff;
+}
+
+.about-stat-icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(89, 87, 238, 0.15);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+}
+.about-stat-icon svg {
+  color: #b794f6;
+  transition: color 0.3s ease;
+}
+
+.about-stat-content {
+  position: relative;
+  z-index: 1;
+}
+
+.about-stat-number {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(236, 236, 236);
+  margin: 0 0 8px 0;
+  line-height: 1;
+}
+@media screen and (min-width: 768px) {
+  .about-stat-number {
+    font-size: 36px;
+  }
+}
+
+.about-stat-label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.about-team-section {
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-team-intro {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .about-team-intro {
+    font-size: 16px;
+  }
+}
+
+.about-founder {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .about-founder {
+    grid-template-columns: 400px 1fr;
+    gap: 60px;
+  }
+}
+
+.about-founder-image {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.about-founder-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+.about-founder-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(89, 87, 238, 0.2), rgba(183, 148, 246, 0.2));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 20px;
+  z-index: 1;
+}
+.about-founder-image:hover::before {
+  opacity: 1;
+}
+
+.about-founder-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: rgba(49, 49, 49, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(89, 87, 238, 0.3);
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #b794f6;
+  z-index: 2;
+}
+.about-founder-badge svg {
+  color: #b794f6;
+}
+
+.about-founder-content h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  color: rgb(236, 236, 236);
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about-founder-content h3 {
+    font-size: 28px;
+  }
+}
+.about-founder-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about-founder-content p {
+    font-size: 16px;
+  }
+}
+
 .container-about .container-info {
   display: grid;
   margin-top: 30px;
