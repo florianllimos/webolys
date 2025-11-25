@@ -2945,42 +2945,153 @@ body.keyboard-navigation .cursor-ring {
   margin-bottom: 100px;
   padding-top: 100px;
   margin-left: 10%;
+  
   @media screen and (min-width: 1000px) {
-    & {
-      width: 60%;
-      margin-left: 20%;
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 32px;
     }
   }
+  
+  > p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  
+  .faq-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 18px;
+    background: linear-gradient(135deg, rgba(89, 87, 238, 0.2), rgba(183, 148, 246, 0.2));
+    border: 1px solid rgba(89, 87, 238, 0.3);
+    border-radius: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #b794f6;
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+    svg {
+      color: #b794f6;
+    }
+  }
+  
   #container-faq-1 {
     margin-top: 30px;
   }
+  
   & > article {
     margin-top: 20px;
-    border-radius: 20px;
-    background: #2f2f2f;
-    border: 1px solid rgba(128, 128, 128, 0.377);
-    box-shadow: 20px 20px 60px #242424, -20px -20px 60px #3a3a3a;
-    padding: 20px;
+    border-radius: 16px;
+    background: #313131;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(89, 87, 238, 0.05), rgba(250, 212, 197, 0.05));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-radius: 16px;
+    }
+    
     .text-faq {
       margin-top: 20px;
       font-weight: 600;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.8);
     }
+    
     &:hover {
       cursor: pointer;
+      border-color: rgba(89, 87, 238, 0.3);
+      
+      &::before {
+        opacity: 1;
+      }
     }
+    
     h3 {
       color: $white;
       font-size: 16px;
       width: 100%;
-      &:after {
-        content: "";
-        width: 20px;
-        height: 20px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: relative;
+      font-weight: 400;
+      padding-right: 40px;
+      
+      @media screen and (min-width: 768px) {
+        font-size: 18px;
+      }
+      
+      .faq-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: rgba(89, 87, 238, 0.15);
+        border-radius: 10px;
+        flex-shrink: 0;
+        transition: all 0.3s ease;
+        
+        svg {
+          width: 20px;
+          height: 20px;
+          stroke: #b794f6;
+          stroke-width: 2;
+        }
+      }
+      
+      &::after {
+        content: '';
         position: absolute;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        background: rgba(89, 87, 238, 0.15);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-image: var(--image-url, url("media/plus-sign.png"));
-        background-size: cover;
+        background-size: 16px 16px;
+        background-position: center;
         background-repeat: no-repeat;
-        margin-left: 5px;
+        transition: all 0.3s ease, transform 0.3s ease;
       }
     }
   }
