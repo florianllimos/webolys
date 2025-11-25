@@ -2193,10 +2193,238 @@ body.keyboard-navigation .cursor-ring {
   margin-top: 100px;
   margin-left: 10%;
   color: $white;
+  overflow: hidden;
+  padding-bottom: 80px;
+  
   @media (min-width: 1000px){
     width: 60%;
     margin-left: 20%;
   }
+}
+
+.processus-timeline {
+  position: relative;
+  margin-top: 60px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  
+  @media screen and (min-width: 768px) {
+    padding: 0 40px 0 120px;
+  }
+}
+
+.timeline-line {
+  position: absolute;
+  left: 46px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  z-index: 2;
+  
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    left: 56px;
+  }
+}
+
+.timeline-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(180deg, #5957ee, #b794f6, #fad4c5);
+  border-radius: 2px;
+  transition: height 0.3s ease-out;
+}
+
+.processus-steps {
+  position: relative;
+}
+
+.processus-step {
+  position: relative;
+  margin-bottom: 40px;
+  
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+  }
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+  
+  &:not(:has(.step-number.active)) .step-content {
+    opacity: 0.4;
+  }
+  
+  &:has(.step-number.active) .step-content {
+    h3 {
+      background: linear-gradient(135deg, #5957ee, #b794f6, #fad4c5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}
+
+.step-number {
+  position: absolute;
+  left: -76px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.3);
+  background: rgba(49, 49, 49, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 3;
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    left: -96px;
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+  }
+  
+  &.active {
+    color: #fff;
+    background: linear-gradient(135deg, #5957ee, #b794f6);
+    border-color: #b794f6;
+    box-shadow: 0 0 20px rgba(89, 87, 238, 0.4);
+  }
+}
+
+.step-content {
+  background: #313131;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 32px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(89, 87, 238, 0.05), rgba(250, 212, 197, 0.05));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 16px;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #5957ee, #b794f6, #fad4c5);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 2;
+  }
+  
+  &:hover {
+    transform: translateY(-8px);
+    border-color: rgba(89, 87, 238, 0.3);
+    box-shadow: 0 8px 32px rgba(89, 87, 238, 0.3), 0 4px 16px rgba(183, 148, 246, 0.2);
+    
+    &::before {
+      opacity: 1;
+    }
+    
+    &::after {
+      transform: scaleX(1);
+    }
+    
+    h3 svg {
+      background: linear-gradient(135deg, #5957ee, #b794f6);
+      transform: scale(1.1) rotate(-8deg);
+      stroke: #fff;
+    }
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: $white;
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 22px;
+    }
+    
+    &::before {
+      content: attr(data-step);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, rgba(89, 87, 238, 0.2), rgba(183, 148, 246, 0.2));
+      border: 1px solid rgba(89, 87, 238, 0.3);
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: 700;
+      color: #b794f6;
+      flex-shrink: 0;
+      
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+    
+    svg {
+      flex-shrink: 0;
+      stroke: #b794f6;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      background: rgba(89, 87, 238, 0.15);
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.container-processus {
   .container-processus-step {
     margin-top: 30px;
     display: grid;
@@ -2332,6 +2560,181 @@ body.keyboard-navigation .cursor-ring {
         justify-self: end;
         align-self: center;
       }
+    }
+  }
+}
+
+.processus-aura1 {
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle at center,
+    rgba(89, 87, 238, 0.25) 0%,
+    rgba(183, 148, 246, 0.15) 30%,
+    rgba(250, 212, 197, 0.1) 50%,
+    transparent 70%
+  );
+  animation: aura-pulse 8s ease-in-out infinite;
+  filter: blur(60px);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.processus-aura2 {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(
+    circle at center,
+    rgba(250, 212, 197, 0.25) 0%,
+    rgba(89, 87, 238, 0.12) 40%,
+    transparent 70%
+  );
+  animation: aura-pulse 10s ease-in-out infinite reverse;
+  filter: blur(50px);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.processus-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  
+  .particle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(135deg, #fad4c5, #5957ee);
+    border-radius: 50%;
+    opacity: 0.3;
+    
+    &:nth-child(1) {
+      top: 10%;
+      left: 18%;
+      animation: particle-float 8s ease-in-out infinite;
+    }
+    
+    &:nth-child(2) {
+      top: 38%;
+      right: 22%;
+      animation: particle-float 6s ease-in-out infinite 1s;
+    }
+    
+    &:nth-child(3) {
+      top: 75%;
+      left: 28%;
+      animation: particle-float 7s ease-in-out infinite 2s;
+    }
+    
+    &:nth-child(4) {
+      top: 20%;
+      right: 28%;
+      animation: particle-float 9s ease-in-out infinite 0.5s;
+    }
+    
+    &:nth-child(5) {
+      top: 58%;
+      left: 58%;
+      animation: particle-float 8s ease-in-out infinite 1.5s;
+    }
+    
+    &:nth-child(6) {
+      top: 12%;
+      left: 50%;
+      animation: particle-float 7s ease-in-out infinite 0.8s;
+    }
+    
+    &:nth-child(7) {
+      top: 68%;
+      right: 15%;
+      animation: particle-float 8s ease-in-out infinite 2.5s;
+    }
+    
+    &:nth-child(8) {
+      top: 45%;
+      left: 12%;
+      animation: particle-float 9s ease-in-out infinite 1.2s;
+    }
+    
+    &:nth-child(9) {
+      top: 82%;
+      left: 52%;
+      animation: particle-float 6s ease-in-out infinite 3s;
+    }
+    
+    &:nth-child(10) {
+      top: 25%;
+      right: 12%;
+      animation: particle-float 7s ease-in-out infinite 0.3s;
+    }
+    
+    &:nth-child(11) {
+      top: 52%;
+      left: 35%;
+      animation: particle-float 8s ease-in-out infinite 2s;
+    }
+    
+    &:nth-child(12) {
+      top: 42%;
+      right: 48%;
+      animation: particle-float 9s ease-in-out infinite 1.8s;
+    }
+  }
+}
+
+.processus-header {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.processus-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: linear-gradient(135deg, rgba(89, 87, 238, 0.2), rgba(183, 148, 246, 0.2));
+  border: 1px solid rgba(89, 87, 238, 0.3);
+  border-radius: 24px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #b794f6;
+  margin-bottom: 20px;
+  
+  svg {
+    color: #b794f6;
+  }
+}
+
+.processus-intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  position: relative;
+  z-index: 1;
+  
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
     }
   }
 }

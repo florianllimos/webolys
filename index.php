@@ -30,6 +30,7 @@
   <script src="js/newsletter.js" defer></script>
   <script src="js/word.js" defer></script>
   <script src="js/services.js" defer></script>
+  <script src="js/processus.js" defer></script>
   <script src="js/cursor.js" defer></script>
 </head>
 <body>
