@@ -25,6 +25,7 @@
   <script src="js/contact.js" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/active-nav.js" defer></script>
   <script src="js/url.js" defer></script>
   <script src="js/cursor.js" defer></script>
 </head>

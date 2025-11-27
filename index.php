@@ -23,6 +23,7 @@
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/active-nav.js" defer></script>
   <script src="js/scroll.js" defer></script>
   <script src="js/scroll-indicator.js" defer></script>
   <script src="js/slider.js" defer></script>

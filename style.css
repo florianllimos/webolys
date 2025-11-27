@@ -337,6 +337,24 @@ html, body {
 #header .navbar .menu ul li a:hover::before {
   opacity: 1;
 }
+#header .navbar .menu ul li a.active {
+  color: #fff;
+  background: rgba(49, 49, 49, 0.6);
+  padding-left: 28px;
+}
+#header .navbar .menu ul li a.active::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #5957ee, #b794f6);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(89, 87, 238, 0.6);
+  opacity: 1;
+}
 #header .navbar .menu ul li:last-child > a {
   text-decoration: none;
   font-weight: 700;
