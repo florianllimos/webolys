@@ -23,6 +23,7 @@
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
   <script src="js/url.js" defer></script>
+  <script src="js/cursor.js" defer></script>
   <title>Webolys - Agence Web Ariège & Toulouse | Crédits</title>
 </head>
 <body>
@@ -33,16 +34,34 @@
     <?php 
       require_once("component/background.php");
     ?>
+    <div class="legal-aura1"></div>
+    <div class="legal-aura2"></div>
+    <div class="legal-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
     <div class="container-banner-page">
       <div>
         <div>
-          <h1 id="title-page-credits">Crédits</h1>
+          <div class="legal-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path>
+              <polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon>
+            </svg>
+            CRÉDITS
+          </div>
         </div>
       </div>
     </div>
     <section class="legal-notice" role="region" aria-labelledby="legal-title">
       <div class="container">
-        <h3 id="legal-title">Mentions des icônes utilisées</h3>
+        <h3 class="legal-section-title" id="legal-title"><span class="legal-section-number">01</span>Mentions des icônes utilisées</h3>
         <ul>
           <li>
             <a href="https://www.flaticon.com/free-icons/star" title="Icône étoile par Pixel perfect sur Flaticon" target="_blank" rel="noopener noreferrer">
@@ -129,7 +148,7 @@
     </section>
   </main>
   <?php
-    require_once("component/footer.php");
+    require_once("component/footer-modern.php");
   ?>
 </body>
 </html>
