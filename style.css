@@ -2772,36 +2772,255 @@ body.keyboard-navigation .cursor-ring {
 /* EOF PORTFOLIO */
 /* RAPPEL */
 /* RAPPEL */
-.container-last-home {
-  z-index: 3;
+/* RAPPEL */
+/* RAPPEL */
+.container-rappel {
   position: relative;
-  width: 80%;
-  margin-left: 10%;
-  padding-top: 100px;
+  width: 100%;
+  padding: 80px 0;
   color: rgb(236, 236, 236);
+  overflow: hidden;
 }
-@media screen and (min-width: 1000px) {
-  .container-last-home {
-    width: 60%;
-    margin-left: 20%;
+.container-rappel .rappel-content {
+  position: relative;
+  z-index: 3;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 32px;
+  text-align: center;
+  background: rgba(49, 49, 49, 0.6);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .container-rappel .rappel-content {
+    padding: 50px 48px;
   }
 }
-.container-last-home a {
-  border-radius: 50px;
-  text-decoration: none;
-  margin-top: 30px !important;
+.container-rappel .rappel-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(89, 87, 238, 0.1);
+  border: 1px solid rgba(89, 87, 238, 0.2);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #b794f6;
+  margin-bottom: 24px;
+}
+.container-rappel .rappel-badge svg {
+  width: 14px;
+  height: 14px;
+  stroke: #b794f6;
+}
+.container-rappel h2 {
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 24px;
   font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .container-rappel h2 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container-rappel h2 {
+    font-size: 36px;
+  }
+}
+.container-rappel .rappel-text {
+  max-width: 800px;
+  margin: 0 auto 32px;
+}
+.container-rappel .rappel-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .container-rappel .rappel-text p {
+    font-size: 16px;
+  }
+}
+.container-rappel .rappel-text p:last-child {
+  margin-bottom: 0;
+}
+.container-rappel .rappel-text p strong {
   color: rgb(236, 236, 236);
-  display: block;
-  width: fit-content;
-  padding: 15px;
-  background: #c5eafa;
-  box-shadow: 0 0 10px black;
-  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  text-shadow: 1px 1px 18px black;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
+  font-weight: 600;
+}
+.container-rappel .rappel-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 32px;
+}
+@media screen and (min-width: 600px) {
+  .container-rappel .rappel-buttons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.container-rappel .rappel-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #fad4c5 0%, #5957ee 100%);
+  border-radius: 50px;
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(89, 87, 238, 0.3);
+}
+.container-rappel .rappel-btn-primary svg {
+  width: 20px;
+  height: 20px;
+  stroke: rgb(236, 236, 236);
+  transition: transform 0.3s ease;
+}
+.container-rappel .rappel-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(89, 87, 238, 0.4);
+}
+.container-rappel .rappel-btn-primary:hover svg {
+  transform: translateX(4px);
+}
+.container-rappel .rappel-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+.container-rappel .rappel-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(89, 87, 238, 0.5);
+  transform: translateY(-2px);
+}
+
+.rappel-aura1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle at center, rgba(89, 87, 238, 0.3) 0%, rgba(183, 148, 246, 0.2) 30%, rgba(250, 212, 197, 0.12) 50%, transparent 70%);
+  animation: aura-pulse 8s ease-in-out infinite;
+  filter: blur(60px);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rappel-aura2 {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle at center, rgba(250, 212, 197, 0.3) 0%, rgba(89, 87, 238, 0.15) 40%, transparent 70%);
+  animation: aura-pulse 10s ease-in-out infinite reverse;
+  filter: blur(50px);
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rappel-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+.rappel-particles .particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #fad4c5, #5957ee);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+.rappel-particles .particle:nth-child(1) {
+  top: 15%;
+  left: 15%;
+  animation: particle-float 8s ease-in-out infinite;
+}
+.rappel-particles .particle:nth-child(2) {
+  top: 35%;
+  right: 20%;
+  animation: particle-float 6s ease-in-out infinite 1s;
+}
+.rappel-particles .particle:nth-child(3) {
+  top: 70%;
+  left: 25%;
+  animation: particle-float 7s ease-in-out infinite 2s;
+}
+.rappel-particles .particle:nth-child(4) {
+  top: 25%;
+  right: 30%;
+  animation: particle-float 9s ease-in-out infinite 0.5s;
+}
+.rappel-particles .particle:nth-child(5) {
+  top: 55%;
+  left: 55%;
+  animation: particle-float 8s ease-in-out infinite 1.5s;
+}
+.rappel-particles .particle:nth-child(6) {
+  top: 18%;
+  left: 48%;
+  animation: particle-float 7s ease-in-out infinite 0.8s;
+}
+.rappel-particles .particle:nth-child(7) {
+  top: 65%;
+  right: 18%;
+  animation: particle-float 8s ease-in-out infinite 2.5s;
+}
+.rappel-particles .particle:nth-child(8) {
+  top: 40%;
+  left: 12%;
+  animation: particle-float 6s ease-in-out infinite 1.2s;
+}
+.rappel-particles .particle:nth-child(9) {
+  top: 80%;
+  right: 32%;
+  animation: particle-float 9s ease-in-out infinite 0.3s;
+}
+.rappel-particles .particle:nth-child(10) {
+  top: 28%;
+  left: 68%;
+  animation: particle-float 7s ease-in-out infinite 1.8s;
+}
+.rappel-particles .particle:nth-child(11) {
+  top: 50%;
+  right: 45%;
+  animation: particle-float 8s ease-in-out infinite 2.2s;
+}
+.rappel-particles .particle:nth-child(12) {
+  top: 12%;
+  left: 38%;
+  animation: particle-float 6s ease-in-out infinite 0.6s;
 }
 
 /* EOF RAPPEL */
