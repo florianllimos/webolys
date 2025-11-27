@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const containerInfoMail = document.querySelector("#response-formulaire");
   const containerForm = document.querySelector("#container-contact");
   const containerFormWithout = document.querySelector("#container-contact-without");
-  containerFormWithout.classList.add("none");
   containerForm.classList.remove("none");
   
   form.addEventListener('submit', function(e) {
