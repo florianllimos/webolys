@@ -48,11 +48,10 @@
       require_once("component/portfolio.php");
       require_once("component/rappel.php");
       require_once("component/faq.php");
-      require_once("component/back-to-top.php");
     ?>
   </main>
   <?php
-    require_once("component/footer.php");
+    require_once("component/footer-modern.php");
   ?>
 </body>
 </html>
