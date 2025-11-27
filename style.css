@@ -221,6 +221,10 @@ html, body {
   transform: translateY(20px);
   transition: opacity 0.5s, transform 0.5s;
 }
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .none {
   display: none !important;
@@ -2483,6 +2487,7 @@ body.keyboard-navigation .cursor-ring {
   padding-top: 100px;
   margin-left: 10%;
   color: rgb(236, 236, 236);
+  text-align: center;
 }
 @media (min-width: 1000px) {
   .container-portfolio {
@@ -2490,10 +2495,29 @@ body.keyboard-navigation .cursor-ring {
     margin-left: 20%;
   }
 }
+.container-portfolio .portfolio-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(89, 87, 238, 0.1);
+  border: 1px solid rgba(89, 87, 238, 0.2);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #b794f6;
+  margin-bottom: 24px;
+}
+.container-portfolio .portfolio-badge svg {
+  width: 14px;
+  height: 14px;
+  stroke: #b794f6;
+}
 
 .container-portfolio-card {
   display: grid;
-  margin-top: 30px;
+  margin-top: 60px;
   grid-gap: 30px;
 }
 @media screen and (min-width: 800px) {
@@ -2511,117 +2535,131 @@ body.keyboard-navigation .cursor-ring {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.container-portfolio-card .card {
+.container-portfolio-card .portfolio-card {
   position: relative;
-  height: 440px;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  transition: 0.5s;
-}
-.container-portfolio-card .card .box {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  background: #2a2b2f;
-  border-radius: 15px;
+  padding: 32px;
+  background: #313131;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  min-height: 380px;
+  text-align: left;
   overflow: hidden;
-  transition: 0.5s;
 }
-.container-portfolio-card .card .box:before {
+.container-portfolio-card .portfolio-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(89, 87, 238, 0.05), rgba(250, 212, 197, 0.05));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 16px;
+}
+.container-portfolio-card .portfolio-card::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #5957ee, #b794f6, #fad4c5);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
 }
-.container-portfolio-card .card .box:hover {
-  transform: translateY(-20px);
+.container-portfolio-card .portfolio-card:hover {
+  transform: translateY(-8px) !important;
+  border-color: rgba(89, 87, 238, 0.3) !important;
+  box-shadow: 0 8px 32px rgba(89, 87, 238, 0.3), 0 4px 16px rgba(183, 148, 246, 0.2) !important;
 }
-.container-portfolio-card .card .box .content {
-  padding: 20px;
-  text-align: center;
+.container-portfolio-card .portfolio-card:hover::before {
+  opacity: 1;
 }
-.container-portfolio-card .card .box .content .card-portfolio-number {
-  position: absolute;
-  top: -10px;
-  right: 30px;
-  font-size: 6rem;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.1);
+.container-portfolio-card .portfolio-card:hover::after {
+  transform: scaleX(1);
 }
-.container-portfolio-card .card .box .content .card-portfolio-number-1 {
-  background-image: url("media/florianllimos-site.webp");
-  background-size: cover;
-  background-position: 50%;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+.container-portfolio-card .portfolio-card:hover .portfolio-card-icon {
+  background: linear-gradient(135deg, #5957ee, #b794f6);
+  transform: scale(1.1) rotate(-8deg);
 }
-.container-portfolio-card .card .box .content .card-portfolio-number-2 {
-  background-image: url("media/catherineprot-site.webp");
-  background-size: cover;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+.container-portfolio-card .portfolio-card:hover .portfolio-card-icon svg {
+  stroke: #fff;
 }
-.container-portfolio-card .card .box .content .card-portfolio-number-3 {
-  background-image: url("media/ecole-aikido-ariege.png");
-  background-size: cover;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-.container-portfolio-card .card .box .content .card-portfolio-number-4 {
-  background-image: url("media/mr-mrs-eco-clean.webp");
-  background-size: cover;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-.container-portfolio-card .card .box .content h3 {
-  color: #fff;
-  z-index: 1;
-  transition: 0.5s;
-  margin-top: 80px;
-  margin-bottom: 30px;
-}
-.container-portfolio-card .card .box .content p {
-  margin-top: 0;
-  color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-  transition: 0.5s;
-}
-.container-portfolio-card .card .box .content a {
-  position: relative;
-  display: inline-block;
-  padding: 8px 20px;
-  background: black;
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  margin-top: 30px;
-  transition: 0.5s;
-  background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  background: linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
-  text-shadow: 1px 1px 18px black;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fad4c5",endColorstr="#5957ee",GradientType=1);
-}
-.container-portfolio-card .card .box .content a:hover {
-  background: none;
-  background: linear-gradient(30deg, #c5eafa 0%, #5957ee 100%);
-  background-clip: border-box;
+.container-portfolio-card .portfolio-card:hover .portfolio-card-number {
+  background: linear-gradient(135deg, #5957ee 0%, #b794f6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-icon {
+  width: 64px;
+  height: 64px;
+  background: rgba(89, 87, 238, 0.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-icon svg {
+  width: 32px;
+  height: 32px;
+  stroke: #b794f6;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-number {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  font-size: 3rem;
   font-weight: 700;
+  color: rgba(255, 255, 255, 0.05);
+  line-height: 1;
+}
+.container-portfolio-card .portfolio-card h3 {
+  font-size: 1.5rem;
+  color: rgb(236, 236, 236);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.container-portfolio-card .portfolio-card p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #5957ee 0%, #b794f6 100%);
+  border-radius: 8px;
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-link svg {
+  width: 16px;
+  height: 16px;
+  stroke: rgb(236, 236, 236);
+  transition: transform 0.3s ease;
+}
+.container-portfolio-card .portfolio-card .portfolio-card-link:hover {
+  background: linear-gradient(135deg, #6e6bff 0%, #c5a5ff 100%);
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(89, 87, 238, 0.3);
+}
+.container-portfolio-card .portfolio-card .portfolio-card-link:hover svg {
+  transform: translate(2px, -2px);
 }
 
 /* EOF PORTFOLIO */

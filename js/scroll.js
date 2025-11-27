@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     
     sections.forEach(function(section) {
       if (isElementInViewport(section)) {
-        section.style.opacity = '1';
-        section.style.transform = 'translateY(0)';
+        section.classList.add('visible');
       }
     });
   }
