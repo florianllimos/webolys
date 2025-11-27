@@ -149,14 +149,16 @@
       <p id="title-developpement">Développement</p>
     </div>
     <div class="slide" role="listitem">
-      <div class="slide-icon">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="12" cy="12" r="10"></circle>
-          <circle cx="12" cy="12" r="6"></circle>
-          <circle cx="12" cy="12" r="2"></circle>
-        </svg>
-      </div>
-      <p id="title-wordpress">WordPress</p>
+      <a href="wordpress.php">
+        <div class="slide-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <circle cx="12" cy="12" r="6"></circle>
+            <circle cx="12" cy="12" r="2"></circle>
+          </svg>
+        </div>
+        <p id="title-wordpress">WordPress</p>
+      </a>
     </div>
     <div class="slide" role="listitem">
       <div class="slide-icon">
