@@ -358,6 +358,7 @@ html, body {
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
           text-transform: 700;
           font-weight: 300;
+          position: relative;
           
           a {
             text-decoration: none;
@@ -408,6 +409,142 @@ html, body {
                 opacity: 1;
               }
             }
+            
+            &.dropdown-link {
+              display: inline-block;
+            }
+          }
+          
+          .dropdown-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            
+            a.dropdown-link {
+              padding: 10px 18px;
+              border-radius: 12px;
+              transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+              position: relative;
+              flex: 1;
+              
+              &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(135deg, rgba(89, 87, 238, 0.1), rgba(250, 212, 197, 0.1));
+                opacity: 0;
+                border-radius: 12px;
+                transition: opacity 0.3s ease;
+              }
+              
+              &:hover {
+                background: rgba(255, 255, 255, 0.05);
+                transform: translateY(-2px);
+                
+                &::before {
+                  opacity: 1;
+                }
+              }
+              
+              &.active {
+                color: #fff;
+                background: rgba(49, 49, 49, 0.6);
+                padding-left: 28px;
+                
+                &::before {
+                  content: '';
+                  position: absolute;
+                  left: 14px;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: linear-gradient(135deg, #5957ee, #b794f6);
+                  border-radius: 50%;
+                  box-shadow: 0 0 8px rgba(89, 87, 238, 0.6);
+                  opacity: 1;
+                }
+              }
+            }
+          }
+          
+          button.dropdown-arrow-btn {
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            color: rgba(255, 255, 255, 0.8);
+            
+            &:hover {
+              background: transparent;
+              color: #fff;
+            }
+            
+            .dropdown-arrow {
+              display: block;
+              transition: transform 0.3s ease;
+              stroke: currentColor;
+            }
+          }
+          
+          // Dropdown menu styles
+          &.dropdown {
+            position: relative;
+            
+            &.open button.dropdown-arrow-btn .dropdown-arrow {
+              transform: rotate(180deg);
+            }
+            
+            &.open .dropdown-menu {
+              opacity: 1;
+              visibility: visible;
+              transform: translateY(0);
+            }
+          }
+          
+          .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 220px;
+            background: rgba(20, 20, 20, 0.95);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            padding: 8px;
+            margin-top: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 100;
+            
+            a {
+              display: block;
+              padding: 10px 16px;
+              color: rgba(255, 255, 255, 0.8);
+              text-decoration: none;
+              border-radius: 10px;
+              transition: all 0.2s ease;
+              font-size: 14px;
+              
+              &:hover {
+                background: rgba(89, 87, 238, 0.15);
+                color: #fff;
+                transform: translateX(4px);
+                
+                &::before {
+                  opacity: 0;
+                }
+              }
+            }
           }
           
           &:last-child > a {
@@ -451,7 +588,7 @@ html, body {
         cursor: pointer;
       }
       #toggler:checked ~ .menu {
-        max-height: 400px;
+        max-height: 800px;
         transition: max-height 0.5s ease-in-out;
       }
       .menu {
@@ -475,6 +612,45 @@ html, body {
             a {
               width: 100%;
               padding: 12px 20px;
+              
+              &.dropdown-link {
+                display: inline-block;
+                padding: 0;
+              }
+            }
+            
+            .dropdown-wrapper {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 8px;
+              width: 100%;
+              padding: 12px 20px;
+            }
+            
+            button.dropdown-arrow-btn {
+              padding: 0;
+            }
+            
+            // Mobile dropdown styles
+            &.dropdown {
+              .dropdown-menu {
+                position: static;
+                opacity: 0;
+                visibility: hidden;
+                max-height: 0;
+                overflow: hidden;
+                transform: none;
+                margin-top: 0;
+                transition: all 0.3s ease;
+              }
+              
+              &.open .dropdown-menu {
+                opacity: 1;
+                visibility: visible;
+                max-height: 500px;
+                margin-top: 8px;
+              }
             }
             
             &:last-child > a {
