@@ -25,8 +25,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   }
   
-  window.addEventListener('scroll', showElementsOnScroll);
-  window.addEventListener('resize', showElementsOnScroll);
+  // Throttle pour meilleures performances
+  let scrollTimeout;
+  const throttledScroll = () => {
+    if (!scrollTimeout) {
+      scrollTimeout = setTimeout(() => {
+        showElementsOnScroll();
+        scrollTimeout = null;
+      }, 16);
+    }
+  };
+
+  window.addEventListener('scroll', throttledScroll, { passive: true });
+  window.addEventListener('resize', throttledScroll, { passive: true });
   
   showElementsOnScroll();
 });

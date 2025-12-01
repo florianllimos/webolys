@@ -1,19 +1,19 @@
 <footer role="contentinfo">
   <div class="footer-container">
     <div class="footer-brand">
-      <img src="media/webolys.png" alt="Logo Webolys" class="footer-logo" loading="lazy">
+      <img src="media/webolys.png" alt="Logo Webolys - Agence web en Ariège et Toulouse" class="footer-logo" loading="lazy">
       <p>
         <strong><span class="color">Webolys</span></strong> est un développeur web indépendant spécialisé dans la création de sites internet sur mesure. J'accompagne les entreprises et professionnels dans leur transformation numérique.
       </p>
       <div class="footer-social">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/company/webolys" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
             <rect x="2" y="9" width="4" height="12"></rect>
             <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/florianllimos" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
           </svg>
@@ -29,6 +29,16 @@
           <li><a href="index.php#mes-services">Services</a></li>
           <li><a href="contact.php">Contact</a></li>
           <li><a href="plan-du-site.php">Plan du site</a></li>
+          <li><a href="accessibilite.php">Accessibilité</a></li>
+          <li><a href="developpement.php">Développement</a></li>
+          <li><a href="e-commerce.php">E-commerce</a></li>
+          <li><a href="e-learning.php">E-learning</a></li>
+          <li><a href="joomla.php">Joomla</a></li>
+          <li><a href="maintenance.php">Maintenance</a></li>
+          <li><a href="referencement.php">Référencement</a></li>
+          <li><a href="site-vitrine.php">Site vitrine</a></li>
+          <li><a href="webmapping.php">Webmapping</a></li>
+          <li><a href="wordpress.php">WordPress</a></li>
         </ul>
       </nav>
     </div>

@@ -4,45 +4,155 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Création de sites WordPress sur mesure par Webolys - Agence web en Ariège et Toulouse. Sites vitrines, e-commerce WooCommerce, blogs professionnels avec design moderne et optimisation SEO.">
-  <meta name="robots" content="index, follow">
+  <meta name="author" content="Florian Llimos - Webolys">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="keywords" content="WordPress Ariège, création site WordPress, développeur WordPress Toulouse, site WordPress sur mesure, WooCommerce, blog WordPress, thème WordPress personnalisé, Webolys WordPress">
+  <meta name="geo.region" content="FR-09">
+  <meta name="geo.placename" content="Ariège, Occitanie">
+  <meta name="geo.position" content="43.0117;1.9109">
+  <meta name="ICBM" content="43.0117, 1.9109">
   <link rel="canonical" href="https://webolys.fr/wordpress.php">
+  
+  <!-- Open Graph -->
   <meta property="og:title" content="Création de sites WordPress sur mesure | Webolys">
   <meta property="og:description" content="Expert WordPress en Ariège et Toulouse. Création de sites vitrines, e-commerce WooCommerce et blogs professionnels avec design moderne et performance optimale.">
-  <meta property="og:image" content="https://webolys.fr/media/favicon.ico">
+  <meta property="og:image" content="https://webolys.fr/media/mockup_home.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Webolys - Expert WordPress en Ariège et Toulouse">
   <meta property="og:url" content="https://webolys.fr/wordpress.php">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Webolys">
+  
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Création de sites WordPress sur mesure | Webolys">
   <meta name="twitter:description" content="Expert WordPress en Ariège et Toulouse. Sites vitrines, e-commerce et blogs professionnels avec design moderne.">
-  <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
+  <meta name="twitter:image" content="https://webolys.fr/media/mockup_home.webp">
+  <meta name="twitter:image:alt" content="Webolys - Expert WordPress en Ariège et Toulouse">
+  
+  <!-- Resource Hints -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  
+  <!-- Favicon -->
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
+  
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
+  
   <title>Webolys - Création de sites WordPress sur mesure | Ariège & Toulouse</title>
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Création de sites WordPress sur mesure",
+    "description": "Développement de sites WordPress professionnels : sites vitrines, e-commerce WooCommerce, blogs et thèmes personnalisés en Ariège et Toulouse",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://webolys.fr/#organization",
+      "name": "Webolys",
+      "telephone": "+33622005584",
+      "email": "contact@webolys.fr",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Occitanie",
+        "addressLocality": "Ariège",
+        "addressCountry": "FR"
+      }
+    },
+    "areaServed": ["Ariège", "Toulouse", "Occitanie", "France"],
+    "serviceType": "Développement Web WordPress",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Site vitrine WordPress",
+        "description": "Création de sites WordPress élégants et professionnels"
+      },
+      {
+        "@type": "Offer",
+        "name": "E-commerce WooCommerce",
+        "description": "Boutiques en ligne complètes avec WooCommerce"
+      },
+      {
+        "@type": "Offer",
+        "name": "Blog WordPress",
+        "description": "Blogs professionnels optimisés pour le content marketing"
+      },
+      {
+        "@type": "Offer",
+        "name": "Thème WordPress personnalisé",
+        "description": "Développement de thèmes WordPress 100% sur mesure"
+      },
+      {
+        "@type": "Offer",
+        "name": "Maintenance WordPress",
+        "description": "Mises à jour, sauvegardes et support technique"
+      },
+      {
+        "@type": "Offer",
+        "name": "Optimisation WordPress SEO",
+        "description": "Configuration complète pour le référencement"
+      }
+    ]
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://webolys.fr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://webolys.fr/#services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "WordPress",
+        "item": "https://webolys.fr/wordpress.php"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Scripts with optimized loading -->
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
-  <script src="js/newsletter.js" defer></script>
-  <script src="js/header.js" defer></script>
-  <script src="js/active-nav.js" defer></script>
+  <script src="js/newsletter.js" async></script>
+  <script src="js/header.js" async></script>
+  <script src="js/active-nav.js" async></script>
   <script src="js/cursor.js" defer></script>
-  <script src="js/url.js" defer></script>
-  <script src="js/processus.js" defer></script>
+  <script src="js/url.js" async></script>
+  <script src="js/processus.js" async></script>
+  <script src="js/performance.js" async></script>
 </head>
 <body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+  
   <?php 
     require_once("component/header.php");
   ?>
-  <main class="container-service-page">
+  <main id="main-content" class="container-service-page">
     <?php 
       require_once("component/background.php");
     ?>
-    <div class="service-aura1"></div>
-    <div class="service-aura2"></div>
-    <div class="service-particles">
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
-      <div class="particle"></div>
+    <div class="service-aura1" aria-hidden="true"></div>
+    <div class="service-aura2" aria-hidden="true"></div>
+    <div class="service-particles" aria-hidden="true">
       <div class="particle"></div>
       <div class="particle"></div>
       <div class="particle"></div>
@@ -50,17 +160,17 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="service-hero">
+    <section class="service-hero" aria-labelledby="hero-heading">
       <div class="container">
         <div class="service-badge">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
             <path d="M2 17l10 5 10-5"></path>
             <path d="M2 12l10 5 10-5"></path>
           </svg>
           WORDPRESS
         </div>
-        <h1 class="service-title">Création de sites <span class="color">WordPress</span> sur mesure</h1>
+        <h1 id="hero-heading" class="service-title">Création de sites <span class="color">WordPress</span> sur mesure</h1>
         <p class="service-subtitle">
           Développez votre présence en ligne avec WordPress, le CMS le plus populaire au monde. 
           Sites vitrines, e-commerce, blogs : des solutions flexibles et performantes adaptées à vos besoins.
@@ -69,13 +179,10 @@
     </section>
 
     <!-- Intro Section -->
-    <section class="service-intro">
-      <div class="intro-aura1"></div>
-      <div class="intro-aura2"></div>
-      <div class="intro-particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
+    <section class="service-intro" aria-labelledby="intro-heading">
+      <div class="intro-aura1" aria-hidden="true"></div>
+      <div class="intro-aura2" aria-hidden="true"></div>
+      <div class="intro-particles" aria-hidden="true">
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
@@ -83,7 +190,7 @@
       <div class="container">
         <div class="intro-content">
           <div class="intro-text">
-            <h2>Pourquoi choisir <span class="color">WordPress</span> ?</h2>
+            <h2 id="intro-heading">Pourquoi choisir <span class="color">WordPress</span> ?</h2>
             <p>
               WordPress propulse plus de 40% des sites web dans le monde. Cette plateforme open-source offre une flexibilité 
               incomparable pour créer tout type de site web, du simple blog au site e-commerce complexe.
@@ -113,106 +220,102 @@
     </section>
 
     <!-- Features Section -->
-    <section class="service-features">
-      <div class="features-aura1"></div>
-      <div class="features-aura2"></div>
-      <div class="features-particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
+    <section class="service-features" aria-labelledby="features-heading">
+      <div class="features-aura1" aria-hidden="true"></div>
+      <div class="features-aura2" aria-hidden="true"></div>
+      <div class="features-particles" aria-hidden="true">
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
       </div>
       <div class="container">
-        <h2 class="section-title">
-          <span class="section-number">01</span>
+        <h2 id="features-heading" class="section-title">
+          <span class="section-number" aria-hidden="true">01</span>
           Mes prestations WordPress
         </h2>
         
         <div class="features-grid">
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-vitrine">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="2" y="3" width="20" height="14" rx="2"></rect>
                 <path d="M8 21h8"></path>
                 <path d="M12 17v4"></path>
               </svg>
             </div>
-            <h3>Sites vitrines</h3>
+            <h3 id="feature-vitrine">Sites vitrines</h3>
             <p>
               Création de sites WordPress élégants et professionnels pour présenter votre activité, vos services et 
               votre savoir-faire. Design sur mesure, responsive et optimisé SEO.
             </p>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-ecommerce">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="9" cy="21" r="1"></circle>
                 <circle cx="20" cy="21" r="1"></circle>
                 <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
               </svg>
             </div>
-            <h3>E-commerce WooCommerce</h3>
+            <h3 id="feature-ecommerce">E-commerce WooCommerce</h3>
             <p>
               Boutiques en ligne complètes avec WooCommerce. Gestion des produits, paiements sécurisés, livraison, 
               suivi des commandes et tableau de bord complet pour gérer votre activité.
             </p>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-blog">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
                 <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
               </svg>
             </div>
-            <h3>Blogs professionnels</h3>
+            <h3 id="feature-blog">Blogs professionnels</h3>
             <p>
               Blogs WordPress optimisés pour le content marketing. Interface intuitive pour publier vos articles, 
               gérer vos catégories, commenter et développer votre audience naturellement.
             </p>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-theme">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
                 <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
                 <line x1="12" y1="22.08" x2="12" y2="12"></line>
               </svg>
             </div>
-            <h3>Thèmes personnalisés</h3>
+            <h3 id="feature-theme">Thèmes personnalisés</h3>
             <p>
               Développement de thèmes WordPress 100% sur mesure, adaptés à votre identité visuelle. 
               Code propre, performant et conforme aux standards WordPress.
             </p>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-maintenance">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
               </svg>
             </div>
-            <h3>Maintenance & Support</h3>
+            <h3 id="feature-maintenance">Maintenance & Support</h3>
             <p>
               Mises à jour régulières, sauvegardes automatiques, monitoring de sécurité et support technique 
               pour garantir la pérennité et la sécurité de votre site WordPress.
             </p>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon">
+          <article class="feature-card" aria-labelledby="feature-seo">
+            <div class="feature-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
               </svg>
             </div>
-            <h3>Optimisation & SEO</h3>
+            <h3 id="feature-seo">Optimisation & SEO</h3>
             <p>
               Configuration complète pour le référencement : balises meta, sitemap XML, vitesse de chargement, 
               URLs optimisées et intégration des outils d'analyse (Google Analytics, Search Console).
@@ -223,26 +326,23 @@
     </section>
 
     <!-- Advantages Section -->
-    <section class="service-advantages">
-      <div class="advantages-aura1"></div>
-      <div class="advantages-aura2"></div>
-      <div class="advantages-particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
+    <section class="service-advantages" aria-labelledby="advantages-heading">
+      <div class="advantages-aura1" aria-hidden="true"></div>
+      <div class="advantages-aura2" aria-hidden="true"></div>
+      <div class="advantages-particles" aria-hidden="true">
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
       </div>
       <div class="container">
-        <h2 class="section-title">
-          <span class="section-number">02</span>
+        <h2 id="advantages-heading" class="section-title">
+          <span class="section-number" aria-hidden="true">02</span>
           Les avantages de WordPress
         </h2>
         
         <div class="advantages-grid">
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -251,10 +351,10 @@
               <h3>Facilité de gestion</h3>
               <p>Interface intuitive permettant de gérer votre contenu sans connaissances techniques</p>
             </div>
-          </div>
+          </article>
 
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -263,10 +363,10 @@
               <h3>Extensibilité</h3>
               <p>Des milliers de plugins pour ajouter des fonctionnalités à votre site</p>
             </div>
-          </div>
+          </article>
 
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -275,10 +375,10 @@
               <h3>SEO-friendly</h3>
               <p>Structure optimisée pour le référencement naturel dès la conception</p>
             </div>
-          </div>
+          </article>
 
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -287,10 +387,10 @@
               <h3>Évolutif</h3>
               <p>Votre site grandit avec votre activité, ajout de fonctionnalités sans refonte</p>
             </div>
-          </div>
+          </article>
 
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -299,10 +399,10 @@
               <h3>Communauté active</h3>
               <p>Support mondial, documentation complète et mises à jour régulières</p>
             </div>
-          </div>
+          </article>
 
-          <div class="advantage-item">
-            <div class="advantage-icon">
+          <article class="advantage-item">
+            <div class="advantage-icon" aria-hidden="true">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="20 6 9 17 4 12"></polyline>
               </svg>
@@ -311,7 +411,7 @@
               <h3>Responsive</h3>
               <p>Sites parfaitement adaptés à tous les appareils (mobile, tablette, desktop)</p>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
@@ -345,7 +445,7 @@
             <div class="step-number">1</div>
             <div class="step-content">
               <h3 data-step="1">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                   <circle cx="9" cy="7" r="4"></circle>
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -364,7 +464,7 @@
             <div class="step-number">2</div>
             <div class="step-content">
               <h3 data-step="2">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
                   <polyline points="2 17 12 22 22 17"></polyline>
                   <polyline points="2 12 12 17 22 12"></polyline>
@@ -382,7 +482,7 @@
             <div class="step-number">3</div>
             <div class="step-content">
               <h3 data-step="3">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <polyline points="16 18 22 12 16 6"></polyline>
                   <polyline points="8 6 2 12 8 18"></polyline>
                 </svg>
@@ -399,7 +499,7 @@
             <div class="step-number">4</div>
             <div class="step-content">
               <h3 data-step="4">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                 </svg>
                 Tests & optimisation
@@ -415,7 +515,7 @@
             <div class="step-number">5</div>
             <div class="step-content">
               <h3 data-step="5">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <circle cx="12" cy="12" r="10"></circle>
                   <polygon points="10 8 16 12 10 16 10 8"></polygon>
                 </svg>
@@ -432,14 +532,10 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="service-cta">
-      <div class="cta-aura1"></div>
-      <div class="cta-aura2"></div>
-      <div class="cta-particles">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
+    <section class="service-cta" aria-labelledby="cta-heading">
+      <div class="cta-aura1" aria-hidden="true"></div>
+      <div class="cta-aura2" aria-hidden="true"></div>
+      <div class="cta-particles" aria-hidden="true">
         <div class="particle"></div>
         <div class="particle"></div>
         <div class="particle"></div>
@@ -447,20 +543,20 @@
       </div>
       <div class="container">
         <div class="cta-content">
-          <h2>Prêt à créer votre site <span class="color">WordPress</span> ?</h2>
+          <h2 id="cta-heading">Prêt à créer votre site <span class="color">WordPress</span> ?</h2>
           <p>
             Discutons de votre projet et construisons ensemble la solution WordPress 
             qui correspond parfaitement à vos besoins et à vos ambitions.
           </p>
           <div class="cta-buttons">
-            <a href="contact.php" class="btn-primary">
+            <a href="contact.php" class="btn-primary" aria-label="Demander un devis pour votre site WordPress">
               Demander un devis
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
             </a>
-            <a href="contact.php" class="btn-secondary">
+            <a href="contact.php" class="btn-secondary" aria-label="Contacter Webolys pour discuter de votre projet WordPress">
               Discuter de mon projet
             </a>
           </div>

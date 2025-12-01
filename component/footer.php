@@ -6,7 +6,7 @@
 <footer role="contentinfo">
   <div class="footer-container">
     <div class="footer-container-web">
-      <img src="media/webolys.png" alt="Logo de l'agence webolys" loading="lazy">
+      <img src="media/webolys.png" alt="Logo de l'agence web Webolys - création de sites internet en Ariège et Toulouse" loading="lazy" width="200" height="50">
       <p>
         <strong><span class="color">Webolys</span></strong> est un développeur web indépendant spécialisé dans la création de sites internet sur mesure.
         J’accompagne les entreprises et professionnels de toutes tailles dans leur visibilité en ligne et leur transformation numérique.

@@ -4,31 +4,52 @@
   if (typeof window === 'undefined') return;
   if ('ontouchstart' in window || navigator.maxTouchPoints > 0) return;
 
-  const body = document.body;
-  body.classList.add('has-custom-cursor');
-
-  const dot = document.createElement('div');
-  dot.className = 'cursor-dot';
-  dot.setAttribute('aria-hidden','true');
-
-  const ring = document.createElement('div');
-  ring.className = 'cursor-ring';
-  ring.setAttribute('aria-hidden','true');
-
-  document.documentElement.appendChild(dot);
-  document.documentElement.appendChild(ring);
-
   let mouseX = 0, mouseY = 0;
   let ringX = 0, ringY = 0;
+  let dot, ring;
+  let animationFrameId;
   const lerp = (a,b,n) => (1 - n) * a + n * b;
 
-  // Center offsets are handled in CSS with translate(-50%,-50%)
+  function initCursor() {
+    // Remove existing cursors if any
+    const existingDots = document.querySelectorAll('.cursor-dot');
+    const existingRings = document.querySelectorAll('.cursor-ring');
+    existingDots.forEach(el => el.remove());
+    existingRings.forEach(el => el.remove());
+
+    const body = document.body;
+    body.classList.add('has-custom-cursor');
+
+    dot = document.createElement('div');
+    dot.className = 'cursor-dot';
+    dot.setAttribute('aria-hidden','true');
+
+    ring = document.createElement('div');
+    ring.className = 'cursor-ring';
+    ring.setAttribute('aria-hidden','true');
+
+    document.documentElement.appendChild(dot);
+    document.documentElement.appendChild(ring);
+
+    // Initialize positions at center
+    mouseX = window.innerWidth / 2;
+    mouseY = window.innerHeight / 2;
+    ringX = mouseX;
+    ringY = mouseY;
+    
+    dot.style.left = mouseX + 'px';
+    dot.style.top = mouseY + 'px';
+    ring.style.left = ringX + 'px';
+    ring.style.top = ringY + 'px';
+  }
+
   function onMove(e){
     mouseX = e.clientX;
     mouseY = e.clientY;
-    // Use left/top so the CSS translate(-50%,-50%) keeps the element centered
-    dot.style.left = mouseX + 'px';
-    dot.style.top = mouseY + 'px';
+    if (dot) {
+      dot.style.left = mouseX + 'px';
+      dot.style.top = mouseY + 'px';
+    }
   }
 
   document.addEventListener('mousemove', onMove, {passive:true});
@@ -51,14 +72,20 @@
 
   // Smooth ring following with RAF
   function animate(){
-  ringX = lerp(ringX, mouseX, 0.18);
-  ringY = lerp(ringY, mouseY, 0.18);
-  // keep ring centered by setting left/top and relying on CSS translate(-50%,-50%)
-  ring.style.left = ringX + 'px';
-  ring.style.top = ringY + 'px';
-    requestAnimationFrame(animate);
+    if (!ring) return;
+    ringX = lerp(ringX, mouseX, 0.18);
+    ringY = lerp(ringY, mouseY, 0.18);
+    ring.style.left = ringX + 'px';
+    ring.style.top = ringY + 'px';
+    animationFrameId = requestAnimationFrame(animate);
   }
-  requestAnimationFrame(animate);
+
+  function startAnimation() {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
+    animate();
+  }
 
   // Hover interactions: enlarge ring on interactive elements
   const interactiveSelector = 'a, button, input, textarea, label, .card, .slider, [role="button"]';
@@ -85,9 +112,29 @@
   document.addEventListener('mousedown', () => ring.classList.add('cursor-active'));
   document.addEventListener('mouseup', () => ring.classList.remove('cursor-active'));
 
-  // Clean up on unload
+  // Clean up on unload and re-initialize on page show (back button)
   window.addEventListener('beforeunload', () => {
     document.removeEventListener('mousemove', onMove);
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
   });
+
+  // Re-initialize everything when returning via back button
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted || performance.navigation.type === 2) {
+      // Page was loaded from cache (back button)
+      initCursor();
+      document.removeEventListener('mousemove', onMove);
+      document.addEventListener('mousemove', onMove, {passive:true});
+      addHoverListeners();
+      startAnimation();
+    }
+  });
+
+  // Initialize on first load
+  initCursor();
+  document.addEventListener('mousemove', onMove, {passive:true});
+  startAnimation();
 
 })();

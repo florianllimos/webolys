@@ -49,8 +49,19 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Update on scroll and resize
-  window.addEventListener('scroll', updateTimeline);
-  window.addEventListener('resize', updateTimeline);
+  // Throttle pour optimiser les performances
+  let scrollTimeout;
+  const throttledUpdate = () => {
+    if (!scrollTimeout) {
+      scrollTimeout = setTimeout(() => {
+        updateTimeline();
+        scrollTimeout = null;
+      }, 16);
+    }
+  };
+
+  window.addEventListener('scroll', throttledUpdate, { passive: true });
+  window.addEventListener('resize', throttledUpdate, { passive: true });
   
   // Initial update
   setTimeout(updateTimeline, 100);

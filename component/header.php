@@ -19,6 +19,8 @@
         alt="Icône du menu" 
         title="Ouvrir le menu de navigation" 
         loading="lazy"
+        width="32"
+        height="32"
       />
     </label>
     <div class="menu" id="menu" aria-hidden="true">

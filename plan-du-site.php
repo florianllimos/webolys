@@ -63,16 +63,26 @@
       <div class="container">
         <h3 class="legal-section-title"><span class="legal-section-number">01</span>Pages principales</h3>
         <ul>
-          <li><a href="index.php">Accueil</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a class="site-map-link" href="index.php"><span class="site-map-icon">🔗</span> Accueil</a></li>
+          <li><a class="site-map-link" href="contact.php"><span class="site-map-icon">🔗</span> Contact</a></li>
+          <li><a class="site-map-link" href="accessibilite.php"><span class="site-map-icon">🔗</span> Accessibilité</a></li>
+          <li><a class="site-map-link" href="developpement.php"><span class="site-map-icon">🔗</span> Développement</a></li>
+          <li><a class="site-map-link" href="e-commerce.php"><span class="site-map-icon">🔗</span> E-commerce</a></li>
+          <li><a class="site-map-link" href="e-learning.php"><span class="site-map-icon">🔗</span> E-learning</a></li>
+          <li><a class="site-map-link" href="joomla.php"><span class="site-map-icon">🔗</span> Joomla</a></li>
+          <li><a class="site-map-link" href="maintenance.php"><span class="site-map-icon">🔗</span> Maintenance</a></li>
+          <li><a class="site-map-link" href="referencement.php"><span class="site-map-icon">🔗</span> Référencement</a></li>
+          <li><a class="site-map-link" href="site-vitrine.php"><span class="site-map-icon">🔗</span> Site vitrine</a></li>
+          <li><a class="site-map-link" href="webmapping.php"><span class="site-map-icon">🔗</span> Webmapping</a></li>
+          <li><a class="site-map-link" href="wordpress.php"><span class="site-map-icon">🔗</span> WordPress</a></li>
         </ul>
         
         <h3 class="legal-section-title"><span class="legal-section-number">02</span>Pages légales</h3>
         <ul>
-          <li><a href="plan-du-site.php">Plan du site</a></li>
-          <li><a href="mentions-legales.php">Mentions légales</a></li>
-          <li><a href="politique-de-confidentialite.php">Politique de confidentialité</a></li>
-          <li><a href="credits.php">Crédits</a></li>
+          <li><a class="site-map-link" href="plan-du-site.php"><span class="site-map-icon">🔗</span> Plan du site</a></li>
+          <li><a class="site-map-link" href="mentions-legales.php"><span class="site-map-icon">🔗</span> Mentions légales</a></li>
+          <li><a class="site-map-link" href="politique-de-confidentialite.php"><span class="site-map-icon">🔗</span> Politique de confidentialité</a></li>
+          <li><a class="site-map-link" href="credits.php"><span class="site-map-icon">🔗</span> Crédits</a></li>
         </ul>
       </div>
     </section>

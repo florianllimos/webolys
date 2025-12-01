@@ -1,0 +1,17 @@
+# robots.txt pour Webolys
+User-agent: *
+Allow: /
+
+# Fichiers interdits
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /*.scss$
+Disallow: /package.json
+Disallow: /README.md
+Disallow: /old_footer_styles.txt
+
+# Sitemap
+Sitemap: https://webolys.fr/sitemap.xml
+
+# Délai entre les requêtes (en secondes)
+Crawl-delay: 1

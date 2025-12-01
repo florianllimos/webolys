@@ -1,5 +1,15 @@
-window.addEventListener('scroll', updateScrollIndicator);
-window.addEventListener('resize', updateScrollIndicator); 
+let scrollTimeout;
+const throttledUpdate = () => {
+  if (!scrollTimeout) {
+    scrollTimeout = setTimeout(() => {
+      updateScrollIndicator();
+      scrollTimeout = null;
+    }, 16); // 60fps
+  }
+};
+
+window.addEventListener('scroll', throttledUpdate, { passive: true });
+window.addEventListener('resize', throttledUpdate, { passive: true });
 
 function updateScrollIndicator() {
     const scrollIndicator = document.getElementById('scrollIndicator');

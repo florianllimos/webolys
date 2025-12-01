@@ -5,8 +5,6 @@
     <span class="particle"></span>
     <span class="particle"></span>
     <span class="particle"></span>
-    <span class="particle"></span>
-    <span class="particle"></span>
   </div>
   <div class="hero-banner-container-text">
     <div class="hero-badge">
@@ -60,11 +58,27 @@
     </div>
   </div>
   <div class="hero-banner-container-image">
-    <img src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" alt="Illustration d'un site web développé par Webolys">
+    <picture>
+      <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" type="image/png">
+      <img 
+        src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" 
+        alt="Illustration d'un site web développé par Webolys"
+        width="600"
+        height="400"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async">
+    </picture>
   </div>
   <div class="hero-banner-container-bottom">
     <a href="#qui-sommes-nous" title="Aller à la section À propos">
-      <img src="media/arrow-down-sign-to-navigate.png" alt="Flèche vers la section suivante">
+      <img 
+        src="media/arrow-down-sign-to-navigate.png" 
+        alt="Flèche vers la section suivante"
+        width="32"
+        height="32"
+        loading="lazy"
+        decoding="async">
     </a>
   </div>
   <div class="hero-banner-container-link">
@@ -74,7 +88,7 @@
           aria-label="Mon profil Instagram"
           title="Profil Instagram"
           target="_blank" rel="noopener noreferrer">
-          <img src="media/instagram.png" id="instagram" alt="Icône Instagram">
+          <img src="media/instagram.png" id="instagram" alt="Icône Instagram" width="24" height="24" loading="lazy">
         </a>
       </li>
       <li>
@@ -82,21 +96,21 @@
           aria-label="Mon profil LinkedIn"
           title="Profil LinkedIn"
           target="_blank" rel="noopener noreferrer">
-          <img src="media/linkedin.png" id="linkedin" alt="Icône LinkedIn">
+          <img src="media/linkedin.png" id="linkedin" alt="Icône LinkedIn" width="24" height="24" loading="lazy">
         </a>
       </li>
       <li>
         <a href="tel:+33622005584"
           aria-label="Appeler le 06 22 00 55 84"
           title="Lien téléphonique">
-          <img src="media/telephone.png" id="telephone" alt="Icône téléphone">
+          <img src="media/telephone.png" id="telephone" alt="Icône téléphone" width="24" height="24" loading="lazy">
         </a>
       </li>
       <li>
         <a href="javascript:location='mailto:\u0063\u006f\u006e\u0074\u0061\u0063\u0074\u0040\u0077\u0065\u0062\u006f\u006c\u0079\u0073\u002e\u0066\u0072';void 0"
           aria-label="Envoyer un e-mail à contact@webolys.fr"
           title="Envoyer un e-mail">
-          <img src="media/mail.png" id="mail" alt="Icône e-mail">
+          <img src="media/mail.png" id="mail" alt="Icône e-mail" width="24" height="24" loading="lazy">
         </a>
       </li>
     </ul>
