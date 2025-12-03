@@ -142,6 +142,7 @@
   <script src="js/active-nav.js" async></script>
   <script src="js/cursor.js" async></script>
   <script src="js/url.js" async></script>
+  <script src="js/faq.js" async></script>
   <script src="js/processus.js" async></script>
   <script src="js/performance.js" async></script>
 </head>
@@ -567,6 +568,7 @@
 
   </main>
   <?php
+    require_once("component/faq.php");
     require_once("component/footer-modern.php");
   ?>
 </body>

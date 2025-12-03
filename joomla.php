@@ -138,6 +138,7 @@
   <script src="js/url.js" async></script>
   <script src="js/processus.js" async></script>
   <script src="js/performance.js" async></script>
+  <script src="js/faq.js" async></script>
 </head>
 <body>
   <!-- Skip to main content for accessibility -->
@@ -573,6 +574,7 @@
 
   </main>
   <?php
+    require_once("component/faq.php");
     require_once("component/footer-modern.php");
   ?>
 </body>
