@@ -52,7 +52,7 @@
           <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
       </a>
-      <a href="#qui-sommes-nous" class="btn-secondary" title="En savoir plus">
+      <a href="#qui-suis-je" class="btn-secondary" title="En savoir plus">
         <span>En savoir plus</span>
       </a>
     </div>
@@ -71,7 +71,7 @@
     </picture>
   </div>
   <div class="hero-banner-container-bottom">
-    <a href="#qui-sommes-nous" title="Aller à la section À propos">
+    <a href="#qui-suis-je" title="Aller à la section À propos">
       <img 
         src="media/arrow-down-sign-to-navigate.png" 
         alt="Flèche vers la section suivante"
