@@ -687,7 +687,7 @@ html, body {
   overflow: visible;
 }
 #hero-banner .container {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   position: relative;
   height: 40px;
@@ -846,10 +846,10 @@ html, body {
   color: rgb(236, 236, 236);
   text-transform: uppercase;
   letter-spacing: -1px;
-  line-height: 32px;
+  line-height: 30px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
 }
 #hero-banner .hero-banner-container-text h2 .gradient-text {
   background: linear-gradient(135deg, #fad4c5 0%, #5957ee 50%, #fad4c5 100%);
@@ -935,7 +935,6 @@ html, body {
   color: rgb(236, 236, 236);
   font-weight: 700;
   background: #c5eafa;
-  box-shadow: 0 0 10px black;
   position: absolute;
   background: -moz-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
   background: -webkit-linear-gradient(30deg, #fad4c5 0%, #5957ee 100%);
@@ -1181,7 +1180,7 @@ body.keyboard-navigation .cursor-ring {
   padding-top: 180px;
 }
 .container-about h2 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.4;
   margin: 0 0 30px 0;
 }
@@ -1618,7 +1617,7 @@ body.keyboard-navigation .cursor-ring {
 }
 @media screen and (min-width: 768px) {
   .about-founder-content h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 .about-founder-content p {
@@ -3251,7 +3250,7 @@ body.keyboard-navigation .cursor-ring {
 }
 .container-faq h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.4;
   margin-bottom: 20px;
 }
@@ -3812,7 +3811,7 @@ footer .footer-bottom #scroll-to-top:hover {
   stroke: #b794f6;
 }
 .main-contact .container-contact h1 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.3;
   margin-bottom: 24px;
   font-weight: 700;
