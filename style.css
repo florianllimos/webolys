@@ -690,7 +690,7 @@ html, body {
   font-size: 28px;
   font-weight: bold;
   position: relative;
-  height: 55px;
+  height: 40px;
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -790,6 +790,7 @@ html, body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   margin-bottom: 20px;
+  margin-top: 30px;
   animation: float 3s ease-in-out infinite;
 }
 #hero-banner .hero-banner-container-text .hero-badge .badge-dot {
@@ -983,9 +984,10 @@ html, body {
 #hero-banner .hero-banner-container-link {
   grid-row: c/d;
   grid-column: a/c;
+  margin-top: 30px;
   justify-self: center;
   align-self: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #hero-banner .hero-banner-container-link ul {
   display: flex;
