@@ -29,16 +29,6 @@
           <li><a href="index.php#mes-services">Services</a></li>
           <li><a href="contact.php">Contact</a></li>
           <li><a href="plan-du-site.php">Plan du site</a></li>
-          <li><a href="accessibilite.php">Accessibilité</a></li>
-          <li><a href="developpement.php">Développement</a></li>
-          <li><a href="e-commerce.php">E-commerce</a></li>
-          <li><a href="e-learning.php">E-learning</a></li>
-          <li><a href="joomla.php">Joomla</a></li>
-          <li><a href="maintenance.php">Maintenance</a></li>
-          <li><a href="referencement.php">Référencement</a></li>
-          <li><a href="site-vitrine.php">Site vitrine</a></li>
-          <li><a href="webmapping.php">Webmapping</a></li>
-          <li><a href="wordpress.php">WordPress</a></li>
         </ul>
       </nav>
     </div>
