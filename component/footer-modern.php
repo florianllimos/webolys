@@ -69,6 +69,22 @@
         </li>
       </ul>
     </div>
+
+    <div class="footer-container-other">
+      <nav>
+        <ul>
+          <li><a href="creation-site-internet-foix.php">Création de site internet à Foix</a></li>
+          <li><a href="creation-site-internet-mirepoix.php">Création de site internet à Mirepoix</a></li>
+          <li><a href="creation-site-internet-pamiers.php">Création de site internet à Pamiers</a></li>
+          <li><a href="creation-site-internet-saint-girons.php">Création de site internet à Saint-Girons</a></li>
+          <li><a href="creation-site-internet-ariege.php">Création de site internet en Ariège</a></li>
+          <li><a href="creation-site-internet-saverdun.php">Création de site internet à Saverdun</a></li>
+          <li><a href="creation-site-internet-tarascon-sur-ariege.php">Création de site internet à Tarascon-sur-Ariège</a></li>
+          <li><a href="creation-site-internet-toulouse.php">Création de site internet à Toulouse</a></li>
+        </ul>
+      </nav>
+    </div>
+
   </div>
   
   <div class="footer-newsletter">
