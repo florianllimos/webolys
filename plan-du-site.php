@@ -84,6 +84,18 @@
           <li><a class="site-map-link" href="politique-de-confidentialite.php"><span class="site-map-icon">🔗</span> Politique de confidentialité</a></li>
           <li><a class="site-map-link" href="credits.php"><span class="site-map-icon">🔗</span> Crédits</a></li>
         </ul>
+
+        <h3 class="legal-section-title"><span class="legal-section-number">03</span>Pages locales</h3>
+        <ul>
+          <li><a class="site-map-link" href="creation-site-internet-foix.php"><span class="site-map-icon">📍</span> Création de site internet à Foix</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-pamiers.php"><span class="site-map-icon">📍</span> Création de site internet à Pamiers</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-toulouse.php"><span class="site-map-icon">📍</span> Création de site internet à Toulouse</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-ariege.php"><span class="site-map-icon">📍</span> Création de site internet en Ariège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-saint-girons.php"><span class="site-map-icon">📍</span> Création de site internet à Saint-Girons</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-mirepoix.php"><span class="site-map-icon">📍</span> Création de site internet à Mirepoix</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-saverdun.php"><span class="site-map-icon">📍</span> Création de site internet à Saverdun</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-tarascon-sur-ariege.php"><span class="site-map-icon">📍</span> Création de site internet à Tarascon-sur-Ariège</a></li>
+        </ul>
       </div>
     </section>
   </main>
