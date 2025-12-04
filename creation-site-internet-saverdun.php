@@ -328,6 +328,7 @@
           gagner en visibilité et attirer de nouveaux clients. <span class="color">Webolys</span> accompagne les entrepreneurs saverdunois dans la création de 
           sites modernes, rapides et adaptés à leurs besoins.
         </p>
+        <p class="text city-template-value-conclusion-text-bottom">
           La commune compte un tissu économique varié : artisans, commerçants, entreprises industrielles, producteurs locaux, 
           indépendants et structures associatives. Un site clair et bien optimisé permet de présenter efficacement vos services, 
           de rassurer vos clients et de vous démarquer aussi bien auprès des habitants que des professionnels de la vallée de la 

@@ -327,6 +327,7 @@
           rassurer les clients et présenter clairement vos services. Avec <span class="color">Webolys</span>, vous disposez d’un partenaire local qui comprend 
           le marché ariégeois et crée des sites performants, élégants et orientés résultats.
         </p>
+        <p class="text city-template-value-conclusion-text-bottom">
           Artisans, PME, commerces, activités de pleine nature, gîtes, restaurants et services publics composent le tissu économique 
           tarasconnais. Un site bien conçu vous permettra d’attirer les habitants, les randonneurs, les familles de passage et les 
           touristes qui visitent les grottes préhistoriques, les montagnes environnantes ou les villages voisins.
