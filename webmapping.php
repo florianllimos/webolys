@@ -122,7 +122,7 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <title>Webolys - Création de solutions webmapping | Ariège & Toulouse</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
@@ -131,6 +131,7 @@
   <script src="js/active-nav.js" async></script>
   <script src="js/cursor.js" async></script>
   <script src="js/url.js" async></script>
+  <script src="js/scroll-indicator.js" async></script>
   <script src="js/processus.js" async></script>
   <script src="js/faq.js" async></script>
   <script src="js/performance.js" async></script>
@@ -162,7 +163,7 @@
             <path d="M3 9h18"></path>
             <path d="M9 21V9"></path>
           </svg>
-          WEBMAPPING
+          Webmapping
         </div>
         <h1 id="hero-heading" class="service-title">Solutions de <span class="color">webmapping</span> et cartographie interactive</h1>
         <p class="service-subtitle">
@@ -411,7 +412,6 @@
       </div>
     </section>
 
-    <!-- Process Section -->
     <section class="container-processus" role="region" aria-labelledby="processus-heading-webmapping">
       <svg width="0" height="0" style="position: absolute;">
         <defs>
@@ -526,7 +526,6 @@
       </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="service-cta" aria-labelledby="cta-heading">
       <div class="cta-aura1" aria-hidden="true"></div>
       <div class="cta-aura2" aria-hidden="true"></div>

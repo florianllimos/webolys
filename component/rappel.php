@@ -21,7 +21,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
       </svg>
-      PARLONS DE VOTRE PROJET
+      Parlons de votre projet
     </span>
     
     <h2 id="rappel-title" class="add-section">
@@ -40,7 +40,7 @@
     <div class="rappel-buttons add-section">
       <a 
         href="contact.php" 
-        class="rappel-btn-primary" 
+        class="btn-primary" 
         aria-label="Contactez-moi dès maintenant pour démarrer votre projet"
       >
         Contactez-moi dès maintenant
@@ -51,7 +51,7 @@
       </a>
       <a 
         href="#mes-realisations" 
-        class="rappel-btn-secondary" 
+        class="btn-secondary" 
         aria-label="Voir mes réalisations"
       >
         Voir mes réalisations

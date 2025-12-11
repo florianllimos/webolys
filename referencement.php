@@ -133,7 +133,7 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <title>Webolys - Services de référencement naturel SEO | Ariège & Toulouse</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
@@ -142,6 +142,7 @@
   <script src="js/active-nav.js" async></script>
   <script src="js/cursor.js" async></script>
   <script src="js/url.js" async></script>
+  <script src="js/scroll-indicator.js" async></script>
   <script src="js/faq.js" async></script>
   <script src="js/processus.js" async></script>
   <script src="js/performance.js" async></script>

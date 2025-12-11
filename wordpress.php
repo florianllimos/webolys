@@ -40,7 +40,7 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   
   <title>Webolys - Création de sites WordPress sur mesure | Ariège & Toulouse</title>
   
@@ -136,6 +136,7 @@
   <script src="js/active-nav.js" async></script>
   <script src="js/cursor.js" defer></script>
   <script src="js/url.js" async></script>
+  <script src="js/scroll-indicator.js" async></script>
   <script src="js/processus.js" async></script>
   <script src="js/faq.js" async></script>
   <script src="js/performance.js" async></script>

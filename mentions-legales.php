@@ -17,11 +17,12 @@
   <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
   <link rel="canonical" href="https://webolys.fr/mentions-legales.php">
   <link rel="icon" href="media/favicon.ico" type="image/ico" sizes="32x32">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <script type="text/javascript" src="js/email.min.js" defer></script>
   <script src="js/init.js" type="text/javascript" defer></script>
   <script src="js/newsletter.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/scroll-indicator.js" async></script>
   <script src="js/url.js" defer></script>
   <script src="js/cursor.js" defer></script>
   <title>Webolys - Agence Web Ariège & Toulouse | Mentions légales</title>

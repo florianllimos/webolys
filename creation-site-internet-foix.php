@@ -162,7 +162,7 @@
   <link rel="canonical" href="https://webolys.fr/creation-site-internet-foix.php">
   <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-foix.php">
   <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-foix.php">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <title>Création site internet à Foix - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
