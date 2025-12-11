@@ -2507,6 +2507,8 @@ body.keyboard-navigation .cursor-ring {
         align-items: center;
         justify-content: center;
         transition: all 0.3s ease;
+        margin-left: auto;
+        margin-right: auto;
         
         svg {
           color: #b794f6;

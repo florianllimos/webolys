@@ -2174,6 +2174,8 @@ body.keyboard-navigation .cursor-ring {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slider-container .slider .slide .slide-icon svg {
   color: #b794f6;
