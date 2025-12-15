@@ -5024,7 +5024,6 @@ footer .footer-bottom #scroll-to-top:hover {
 }
 .container-service-page .service-intro .intro-stats .stat-card {
   position: relative;
-  background: rgba(49, 49, 49, 0.4);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -5277,7 +5276,6 @@ footer .footer-bottom #scroll-to-top:hover {
 }
 .container-service-page .features-grid .feature-card {
   position: relative;
-  background: rgba(49, 49, 49, 0.4);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -5363,7 +5361,6 @@ footer .footer-bottom #scroll-to-top:hover {
   display: flex;
   gap: 16px;
   padding: 24px;
-  background: rgba(49, 49, 49, 0.4);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -5610,7 +5607,6 @@ footer .footer-bottom #scroll-to-top:hover {
   z-index: 2;
 }
 .container-service-page .service-cta .cta-content {
-  background: rgba(49, 49, 49, 0.4);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
