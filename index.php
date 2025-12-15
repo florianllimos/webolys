@@ -33,6 +33,7 @@
   <script src="js/services.js" defer></script>
   <script src="js/processus.js" defer></script>
   <script src="js/cursor.js" defer></script>
+  <script src="js/typing.js" defer></script>
 </head>
 <body>
   <?php

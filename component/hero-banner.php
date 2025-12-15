@@ -43,7 +43,12 @@
       Je transforme vos besoins en applications web performantes qui propulsent votre croissance et dépassent les attentes de vos utilisateurs.
     </p>
     <div class="container" aria-hidden="true">
-      <span id="word"></span>
+      <div class="hero-banner__terminal" aria-live="polite">
+        <span class="hero-banner__code hero-banner__code--method color">&lt;</span>
+        <span class="typed-text" aria-hidden="true"></span>
+        <span class="cursor" aria-hidden="true">&nbsp;</span>
+        <span class="hero-banner__code hero-banner__code--method color">/&gt;</span>
+      </div>
     </div>
     <div class="hero-cta-group">
       <a href="contact.php" class="btn-contact btn-primary" title="Contactez-nous dès maintenant">

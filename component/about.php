@@ -26,7 +26,7 @@
       À PROPOS
     </div>
     <h2 id="titre-about" class="add-section">
-      <span class="color"><strong>Webolys</strong></span>, c'est de l'expertise, de l'innovation et de la créativité mises au service de votre projet digital pour transformer vos idées en solutions web performantes et sur-mesure.
+      <span class="color">Webolys</span>, expertise et innovation web au service de vos projets digitaux.
     </h2>
   </div>
   
