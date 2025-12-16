@@ -153,8 +153,8 @@
   <meta name="region" content="Occitanie">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="canonical" href="https://webolys.fr/creation-site-internet-Montpellier.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-Montpellier.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-Montpellier.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-montpellier.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-montpellier.php">
   <link rel="stylesheet" href="style1.css">
   <title>Création site internet à Montpellier - Webolys</title>
   <script src="js/email.min.js" defer></script>
@@ -166,10 +166,10 @@
   <script src="js/slider.js" defer></script>
   <script src="js/faq.js" defer></script>
   <script src="js/newsletter.js" defer></script>
-  <script src="js/word.js" defer></script>
   <script src="js/services.js" defer></script>
   <script src="js/processus.js" defer></script>
   <script src="js/cursor.js" defer></script>
+  <script src="js/typing.js" defer></script>
 </head>
 <body>
   <?php

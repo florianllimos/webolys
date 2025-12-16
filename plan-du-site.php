@@ -55,7 +55,7 @@
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
               <polyline points="9 22 9 12 15 12 15 22"></polyline>
             </svg>
-            PLAN DU SITE
+            Plan du site
           </div>
         </div>
       </div>
@@ -94,8 +94,11 @@
           <li><a class="site-map-link" href="creation-site-internet-ariege.php"><span class="site-map-icon">📍</span> Création de site internet en Ariège</a></li>
           <li><a class="site-map-link" href="creation-site-internet-saint-girons.php"><span class="site-map-icon">📍</span> Création de site internet à Saint-Girons</a></li>
           <li><a class="site-map-link" href="creation-site-internet-mirepoix.php"><span class="site-map-icon">📍</span> Création de site internet à Mirepoix</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-carcassonne.php"><span class="site-map-icon">📍</span> Création de site internet à Carcassonne</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-lavelanet.php"><span class="site-map-icon">📍</span> Création de site internet à Lavelanet</a></li>
           <li><a class="site-map-link" href="creation-site-internet-saverdun.php"><span class="site-map-icon">📍</span> Création de site internet à Saverdun</a></li>
           <li><a class="site-map-link" href="creation-site-internet-tarascon-sur-ariege.php"><span class="site-map-icon">📍</span> Création de site internet à Tarascon-sur-Ariège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-montpellier.php"><span class="site-map-icon">📍</span> Création de site internet à Montpellier</a></li>
         </ul>
       </div>
     </section>

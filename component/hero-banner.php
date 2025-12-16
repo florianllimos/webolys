@@ -63,17 +63,54 @@
     </div>
   </div>
   <div class="hero-banner-container-image">
-    <picture>
-      <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" type="image/png">
-      <img 
-        src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" 
-        alt="Illustration d'un site web développé par Webolys"
-        width="600"
-        height="400"
-        loading="eager"
-        fetchpriority="high"
-        decoding="async">
-    </picture>
+    <div class="hero-visual">
+      <div class="hero-visual__halo" aria-hidden="true"></div>
+      <div class="hero-visual__ring hero-visual__ring--outer" aria-hidden="true"></div>
+      <div class="hero-visual__ring hero-visual__ring--inner" aria-hidden="true"></div>
+      <div class="hero-visual__track" aria-hidden="true">
+       
+        <span class="hero-visual__icon" style="--icon-angle: 0deg" aria-hidden="true">
+          <span class="hero-visual__icon-inner hero-visual__icon-inner--template">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </span>
+        </span>
+        
+        <span class="hero-visual__icon" style="--icon-angle: 120deg" aria-hidden="true">
+          <span class="hero-visual__icon-inner hero-visual__icon-inner--template">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+              <path d="M8 21h8"></path>
+              <path d="M12 17v4"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="hero-visual__icon" style="--icon-angle: 240deg" aria-hidden="true">
+          <span class="hero-visual__icon-inner hero-visual__icon-inner--template">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </span>
+        </span>
+
+     
+      </div>
+      <picture class="hero-visual__picture">
+        <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" type="image/png">
+        <img 
+          src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" 
+          alt="Illustration d'un site web développé par Webolys"
+          width="600"
+          height="400"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async">
+      </picture>
+    </div>
   </div>
   <div class="hero-banner-container-bottom">
     <a href="#qui-suis-je" title="Aller à la section À propos">
