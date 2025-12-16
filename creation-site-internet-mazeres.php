@@ -7,7 +7,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Création de site internet à Mirepoix",
+      "serviceType": "Création de site internet à mazeres",
       "provider": {
         "@type": "Organization",
         "name": "Webolys",
@@ -16,7 +16,7 @@
       },
       "areaServed": {
         "@type": "City",
-        "name": "Mirepoix"
+        "name": "Mazères"
       },
       "availableChannel": {
         "@type": "ServiceChannel",
@@ -24,29 +24,23 @@
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Mirepoix",
+            "addressLocality": "Mazères",
+            "postalCode": "09270",
             "addressRegion": "Occitanie",
             "addressCountry": "FR"
           }
         }
-      },
-      "serviceOutput": "Création de sites internet professionnels pour les entreprises, commerces et associations de Mirepoix.",
+      }
+
+      "serviceOutput": "Création de sites internet professionnels pour entreprises et commerces à Mazères et en Ariège.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Offres Webolys Mirepoix",
+        "name": "Offres Webolys Mazères",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Site vitrine Mirepoix" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Boutique en ligne Ariège" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "SEO local Mirepoix" }
-          }
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Site vitrine local"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Boutique en ligne Mazères"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Refonte site internet Mazères"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "SEO local Mazères"}}
         ]
       }
     }
@@ -55,25 +49,26 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-mirepoix",
-      "name": "Webolys - Création site internet Mirepoix",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
+      "@id": "https://webolys.fr/#local-business-mazeres",
+      "name": "Webolys - Création site internet Mazères",
+      "url": "https://webolys.fr/creation-site-internet-mazeres.php",
       "telephone": "+33622005584",
       "email": "contact@webolys.fr",
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mirepoix",
-        "postalCode": "09500",
+        "addressLocality": "Mazères",
+        "postalCode": "09270",
         "addressRegion": "Occitanie",
         "addressCountry": "FR"
       },
       "areaServed": [
-        { "@type": "City", "name": "Mirepoix" },
-        { "@type": "City", "name": "Foix" },
-        { "@type": "City", "name": "Lavelanet" },
-        { "@type": "AdministrativeArea", "name": "Ariège" }
-      ],
+        { "@type": "City", "name": "Mazères" },
+        { "@type": "City", "name": "Blagnac" },
+        { "@type": "City", "name": "Colomiers" },
+        { "@type": "AdministrativeArea", "name": "Ariège" },
+        { "@type": "AdministrativeArea", "name": "Haute-Garonne" }
+      ]
       "sameAs": [
         "https://www.linkedin.com/company/webolys",
         "https://www.instagram.com/webolys.fr/",
@@ -85,10 +80,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
-      "name": "Création de site internet à Mirepoix | Webolys",
-      "description": "Webolys conçoit des sites internet modernes et performants à Mirepoix : site vitrine, e-commerce, SEO local et accompagnement digital personnalisé.",
+      "@id": "https://webolys.fr/creation-site-internet-mazeres.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-mazeres.php",
+      "name": "Création de site internet à Mazères | Webolys",
+      "description": "Webolys crée des sites internet performants à Mazères et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -97,16 +92,16 @@
       },
       "about": {
         "@type": "Thing",
-        "name": "Création de site internet à Mirepoix",
-        "sameAs": "https://fr.wikipedia.org/wiki/Mirepoix_(Ari%C3%A8ge)"
+        "name": "Création de site internet à Mazères",
+        "sameAs": "https://fr.wikipedia.org/wiki/mazeres"
       },
       "breadcrumb": {
-        "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb"
+        "@id": "https://webolys.fr/creation-site-internet-mazeres.php#breadcrumb"
       },
       "potentialAction": {
         "@type": "ContactAction",
         "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web à Mirepoix"
+        "name": "Discuter d'un projet web à mazeres"
       }
     }
   </script>
@@ -114,7 +109,7 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb",
+      "@id": "https://webolys.fr/creation-site-internet-mazeres.php#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -125,41 +120,42 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Création site internet Mirepoix",
-          "item": "https://webolys.fr/creation-site-internet-mirepoix.php"
+          "name": "Création site internet Mazères",
+          "item": "https://webolys.fr/creation-site-internet-mazeres.php"
         }
       ]
     }
   </script>
-  <meta name="description" content="Webolys, agence web à Mirepoix : sites vitrines, e-commerce, SEO local Pays de Mirepoix et refontes sur mesure pour booster votre visibilité.">
+  <meta name="description" content="Webolys, agence web à Mazères : sites vitrines, e-commerce, SEO local et refontes sur mesure pour booster votre visibilité.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="Webolys - Agence web à Mirepoix">
+  <meta name="author" content="Webolys - Agence web à Mazères">
   <meta name="publisher" content="Webolys">
-  <meta property="og:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="keywords" content="agence web Mirepoix, création site internet Mirepoix, site vitrine Mirepoix, développeur web Mirepoix, SEO local Mirepoix, refonte site internet Pays de Mirepoix, Webolys">
-  <meta property="og:description" content="Studio web basé à Mirepoix pour artisans, commerçants, hébergeurs et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
+  <meta property="og:title" content="Création site internet à Mazères | Webolys">
+  <meta name="keywords" content="agence web Mazères, création site internet Mazères, site vitrine Mazères, développeur web Mazères, SEO local Mazères, refonte site internet Mazères, Webolys">
+  <meta property="og:description" content="Studio web basé à Mazères pour artisans, PME et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:locale:alternate" content="fr_FR">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://webolys.fr/creation-site-internet-mazeres.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Mirepoix et de l'Ariège, avec SEO local et accompagnement dédié.">
+  <meta name="twitter:title" content="Création site internet à Mazères | Webolys">
+  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Mazères, avec SEO local et accompagnement dédié.">
   <meta name="twitter:site" content="@webolys">
   <meta name="twitter:creator" content="@webolys">
-  <meta name="DC.title" content="Webolys - Création de site internet à Mirepoix">
-  <meta name="DC.description" content="Création de site internet sur mesure à Mirepoix : vitrine, e-commerce, SEO local et stratégies digitales pour artisans, PME et institutions.">
+  <meta name="DC.title" content="Webolys - Création de site internet à Mazères">
+  <meta name="DC.description" content="Création de site internet sur mesure à Mazères : site vitrine, e-commerce, SEO local et stratégies digitales pour entreprises et institutions.">
   <meta name="DC.language" content="fr-FR">
-  <meta name="city" content="Mirepoix">
-  <meta name="region" content="Ariège">
-  <link rel="preload" as="image" href="media/mockup_home.webp">
+  <meta name="city" content="mazeres">
+  <meta name="region" content="Occitanie">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-mazeres.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-mazeres.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-mazeres.php">
   <link rel="stylesheet" href="style1.css">
-  <title>Création site internet à Mirepoix - Webolys</title>
+  <title>Création site internet à Mazères - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
@@ -178,7 +174,7 @@
   <?php
     require_once("component/header.php");
   ?>
-  <h1 class="sr-only">Création site internet Mirepoix - Webolys</h1>
+  <h1 class="sr-only">Création site internet à Mazères - Webolys</h1>
   <main>
     <?php
       require_once("component/background.php");
@@ -194,7 +190,7 @@
       <div class="hero-banner-container-text">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">✨ Créons ensemble votre projet digital à Mirepoix</span>
+          <span class="badge-text">✨ Créons ensemble votre projet digital à Mazères</span>
         </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
@@ -350,26 +346,25 @@
             <path d="M12 16v-4"></path>
             <path d="M12 8h.01"></path>
           </svg>
-          Mirepoix digital
+          Mazères digital
         </div>
         <h2 id="city-template-value-title">
-          Pourquoi créer un <span class="color">site internet</span> à Mirepoix ?
+          Pourquoi créer un <span class="color">site internet</span> à Mazères ?
         </h2>
-        <p class="text city-template-value-conclusion-text-bottom">
-          Mirepoix est une ville médiévale dynamique, connue pour sa place des Couverts, ses marchés, ses artisans et ses nombreuses 
-          activités touristiques. Dans un territoire où le passage est important et où les visiteurs recherchent de plus en plus 
-          les entreprises en ligne, un site internet moderne est indispensable pour vous démarquer. Avec <span class="color">Webolys</span>, vous bénéficiez 
-          d’un accompagnement local pour créer un site performant, esthétique et pensé pour attirer aussi bien les habitants que les 
-          touristes.
+        <p>
+          Mazères est une commune dynamique de la plaine ariégeoise, bénéficiant d’une situation stratégique entre Pamiers, Saverdun 
+          et le sud toulousain. Avec ses zones d’activités, ses artisans, ses entreprises locales et ses commerces de proximité, 
+          disposer d’un site internet professionnel est aujourd’hui indispensable pour gagner en visibilité et attirer de nouveaux 
+          clients. Webolys accompagne les professionnels mazériens dans la création de sites modernes, rapides et optimisés pour Google.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          La cité mirapicienne regroupe une grande diversité de métiers : commerçants du centre, restaurants, gîtes, artisans, 
-          hébergements touristiques, producteurs locaux ou petites entreprises. Un site professionnel vous permet d’améliorer votre 
-          visibilité, de présenter clairement vos services et de toucher un public local, régional, mais aussi touristique.
+          La ville accueille un tissu économique varié : artisans, PME, entreprises industrielles, services, indépendants et structures 
+          associatives. Un site clair et performant vous permet de présenter vos prestations, de rassurer vos prospects et de vous 
+          démarquer dans un environnement local concurrentiel.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          En tant qu’agence web basée en Ariège, je crée des sites rapides, sécurisés et optimisés pour Google, adaptés aux 
-          besoins des professionnels mirapiciens et de leurs visiteurs.
+          Basé en Ariège, Webolys conçoit des sites internet adaptés aux réalités des entreprises de Mazères : performants, 
+          sécurisés, accessibles et pensés pour le référencement local.
         </p>
       </div>
       <div class="city-template-value-grid">
@@ -382,14 +377,15 @@
             </svg>
           </div>
           <div class="service-card-badge">Visibilité</div>
-          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les Mirapiciens</h3>
+          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les Mazériens</h3>
           <p class="service-card-description">
-            Les habitants et les visiteurs de Mirepoix recherchent fréquemment artisans, restaurants, gîtes ou 
-            activités sur Google. Un site optimisé SEO local vous permet d’apparaître dans les recherches ciblant Mirepoix et ses communes voisines.
+            Les habitants recherchent de plus en plus artisans, commerces et services sur Google avant de se déplacer. 
+            Un site bien optimisé vous permet d’apparaître dans les recherches ciblant Mazères, Saverdun, Gaudiès, Bézac, 
+            Auterive ou encore la vallée de l’Ariège, et de capter les clients locaux avant vos concurrents.
           </p>
           <ul class="service-card-features">
-            <li>SEO local Mirepoix + villages alentours</li>
-            <li>Balises & données structurées spécifiques</li>
+            <li>SEO local Mazères + communes voisines</li>
+            <li>Balises et données structurées Mazères</li>
             <li>Intégration Google Business Profile</li>
           </ul>
         </article>
@@ -404,16 +400,17 @@
             </svg>
           </div>
           <div class="service-card-badge">Tourisme & Culture</div>
-          <h3 id="city-template-card-tourisme" class="service-card-title">Séduire visiteurs et institutions</h3>
+          <h3 id="city-template-card-tourisme" class="service-card-title">Une vitrine professionnelle pour votre activité</h3>
           <p class="service-card-description">
-            Mirepoix attire des milliers de visiteurs chaque année grâce à ses marchés traditionnels, son patrimoine 
-            médiéval et ses nombreux événements. Un site clair, moderne et accessible met en valeur vos prestations, facilite 
-            les réservations et renforce votre crédibilité auprès des utilisateurs.
+            Un site internet professionnel renforce votre crédibilité auprès des particuliers comme des entreprises. 
+            Il permet de présenter vos services, vos valeurs et vos points forts, tout en facilitant la prise de contact 
+            ou les demandes de devis. Que vous soyez artisan, commerçant ou dirigeant de PME, votre site devient un 
+            véritable outil de développement.
           </p>
           <ul class="service-card-features">
-            <li>Pages dédiées aux prestations & activités touristiques</li>
-            <li>Module de réservation ou prise de contact simple</li>
-            <li>Contenus FR/EN optimisés pour mobile</li>
+            <li>Pages détaillées pour vos services</li>
+            <li>Formulaire de contact ou devis en ligne</li>
+            <li>Design moderne et site optimisé mobile</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-growth">
@@ -427,16 +424,16 @@
             </svg>
           </div>
           <div class="service-card-badge">Croissance</div>
-          <h3 id="city-template-card-growth" class="service-card-title">Dépasser les frontières du Pays de Mirepoix</h3>
+          <h3 id="city-template-card-growth" class="service-card-title">Développer votre visibilité dans la région</h3>
           <p class="service-card-description">
-            Un site performant vous permet de toucher non seulement Mirepoix, mais aussi tout le Pays d’Olmes, Foix, Pamiers 
-            ou même des visiteurs venant de l’Aude ou de Toulouse. Grâce aux outils marketing, CRM, newsletters et analytics, 
-            vous suivez vos performances.
+            Grâce à un site performant, vous pouvez toucher non seulement Mazères, mais aussi Pamiers, Saverdun, 
+            Auterive, Foix et la périphérie toulousaine. Des outils marketing et statistiques vous permettent de 
+            suivre vos performances et d’ajuster votre stratégie digitale pour développer durablement votre activité.
           </p>
           <ul class="service-card-features">
-            <li>Pages cibles par zone géographique</li>
+            <li>Pages optimisées par zone géographique</li>
             <li>Connexion CRM & outils marketing</li>
-            <li>Tableau de bord des performances</li>
+            <li>Suivi et analyse des performances</li>
           </ul>
         </article>
       </div>

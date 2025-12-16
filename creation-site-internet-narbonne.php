@@ -7,7 +7,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Création de site internet à Mirepoix",
+      "serviceType": "Création de site internet à Narbonne",
       "provider": {
         "@type": "Organization",
         "name": "Webolys",
@@ -16,7 +16,7 @@
       },
       "areaServed": {
         "@type": "City",
-        "name": "Mirepoix"
+        "name": "Narbonne"
       },
       "availableChannel": {
         "@type": "ServiceChannel",
@@ -24,29 +24,22 @@
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Mirepoix",
+            "addressLocality": "Narbonne",
+            "postalCode": "11100",
             "addressRegion": "Occitanie",
             "addressCountry": "FR"
           }
         }
       },
-      "serviceOutput": "Création de sites internet professionnels pour les entreprises, commerces et associations de Mirepoix.",
+      "serviceOutput": "Sites vitrines, e-commerce et plateformes sur mesure pour les entreprises de Narbonne, des Corbières et de la côte audoise.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Offres Webolys Mirepoix",
+        "name": "Offres Webolys Narbonne",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Site vitrine Mirepoix" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Boutique en ligne Ariège" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "SEO local Mirepoix" }
-          }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine Narbonne" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Boutique en ligne Occitanie" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO local Narbonne" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Réservation touristique littorale" } }
         ]
       }
     }
@@ -55,24 +48,24 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-mirepoix",
-      "name": "Webolys - Création site internet Mirepoix",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
+      "@id": "https://webolys.fr/#local-business-narbonne",
+      "name": "Webolys - Création site internet Narbonne",
+      "url": "https://webolys.fr/creation-site-internet-narbonne.php",
       "telephone": "+33622005584",
       "email": "contact@webolys.fr",
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mirepoix",
-        "postalCode": "09500",
+        "addressLocality": "Narbonne",
+        "postalCode": "11100",
         "addressRegion": "Occitanie",
         "addressCountry": "FR"
       },
       "areaServed": [
-        { "@type": "City", "name": "Mirepoix" },
-        { "@type": "City", "name": "Foix" },
-        { "@type": "City", "name": "Lavelanet" },
-        { "@type": "AdministrativeArea", "name": "Ariège" }
+        { "@type": "City", "name": "Narbonne" },
+        { "@type": "City", "name": "Gruissan" },
+        { "@type": "City", "name": "Lézignan-Corbières" },
+        { "@type": "AdministrativeArea", "name": "Aude" }
       ],
       "sameAs": [
         "https://www.linkedin.com/company/webolys",
@@ -85,10 +78,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
-      "name": "Création de site internet à Mirepoix | Webolys",
-      "description": "Webolys conçoit des sites internet modernes et performants à Mirepoix : site vitrine, e-commerce, SEO local et accompagnement digital personnalisé.",
+      "@id": "https://webolys.fr/creation-site-internet-narbonne.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-narbonne.php",
+      "name": "Création de site internet à Narbonne | Webolys",
+      "description": "Studio web indépendant pour Narbonne : site vitrine, e-commerce, réservation touristique et SEO local pour artisans, vignerons et PME.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -97,16 +90,22 @@
       },
       "about": {
         "@type": "Thing",
-        "name": "Création de site internet à Mirepoix",
-        "sameAs": "https://fr.wikipedia.org/wiki/Mirepoix_(Ari%C3%A8ge)"
+        "name": "Création de site internet à Narbonne",
+        "sameAs": "https://fr.wikipedia.org/wiki/Narbonne"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://webolys.fr/media/mockup_home.webp",
+        "width": 1200,
+        "height": 630
       },
       "breadcrumb": {
-        "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb"
+        "@id": "https://webolys.fr/creation-site-internet-narbonne.php#breadcrumb"
       },
       "potentialAction": {
         "@type": "ContactAction",
         "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web à Mirepoix"
+        "name": "Discuter d'un projet web à Narbonne"
       }
     }
   </script>
@@ -114,7 +113,7 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb",
+      "@id": "https://webolys.fr/creation-site-internet-narbonne.php#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -125,41 +124,38 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Création site internet Mirepoix",
-          "item": "https://webolys.fr/creation-site-internet-mirepoix.php"
+          "name": "Création site internet Narbonne",
+          "item": "https://webolys.fr/creation-site-internet-narbonne.php"
         }
       ]
     }
   </script>
-  <meta name="description" content="Webolys, agence web à Mirepoix : sites vitrines, e-commerce, SEO local Pays de Mirepoix et refontes sur mesure pour booster votre visibilité.">
+  <meta name="description" content="Webolys conçoit des sites internet performants pour Narbonne et la côte audoise : vitrine, e-commerce, réservation et SEO local.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="Webolys - Agence web à Mirepoix">
+  <meta name="author" content="Webolys - Agence web à Narbonne">
   <meta name="publisher" content="Webolys">
-  <meta property="og:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="keywords" content="agence web Mirepoix, création site internet Mirepoix, site vitrine Mirepoix, développeur web Mirepoix, SEO local Mirepoix, refonte site internet Pays de Mirepoix, Webolys">
-  <meta property="og:description" content="Studio web basé à Mirepoix pour artisans, commerçants, hébergeurs et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
+  <meta property="og:title" content="Création site internet à Narbonne | Webolys">
+  <meta name="keywords" content="agence web Narbonne, création site internet Narbonne, site vitrine Aude, développeur web Narbonne, SEO local Narbonne, refonte site internet Narbonne">
+  <meta property="og:description" content="Design sur mesure, performances optimisées et accompagnement de proximité pour artisans, domaines viticoles, commerces et acteurs touristiques narbonnais.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:locale:alternate" content="fr_FR">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-mirepoix.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Mirepoix et de l'Ariège, avec SEO local et accompagnement dédié.">
+  <meta name="twitter:title" content="Création site internet à Narbonne | Webolys">
+  <meta name="twitter:description" content="Solution web complète pour Narbonne, Gruissan et Lézignan-Corbières : sites rapides, SEO local et outils marketing.">
   <meta name="twitter:site" content="@webolys">
   <meta name="twitter:creator" content="@webolys">
-  <meta name="DC.title" content="Webolys - Création de site internet à Mirepoix">
-  <meta name="DC.description" content="Création de site internet sur mesure à Mirepoix : vitrine, e-commerce, SEO local et stratégies digitales pour artisans, PME et institutions.">
+  <meta name="DC.title" content="Webolys - Création de site internet à Narbonne">
+  <meta name="DC.description" content="Sites vitrines, boutiques, portails touristiques et accompagnement digital personnalisés pour Narbonne.">
   <meta name="DC.language" content="fr-FR">
-  <meta name="city" content="Mirepoix">
-  <meta name="region" content="Ariège">
-  <link rel="preload" as="image" href="media/mockup_home.webp">
+  <meta name="city" content="Narbonne">
+  <meta name="region" content="Aude">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-narbonne.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-narbonne.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-narbonne.php">
   <link rel="stylesheet" href="style1.css">
-  <title>Création site internet à Mirepoix - Webolys</title>
+  <title>Création site internet à Narbonne - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
@@ -175,14 +171,10 @@
   <script src="js/typing.js" defer></script>
 </head>
 <body>
-  <?php
-    require_once("component/header.php");
-  ?>
-  <h1 class="sr-only">Création site internet Mirepoix - Webolys</h1>
+  <?php require_once("component/header.php"); ?>
+  <h1 class="sr-only">Création site internet à Narbonne - Webolys</h1>
   <main>
-    <?php
-      require_once("component/background.php");
-    ?>
+    <?php require_once("component/background.php"); ?>
     <section id="hero-banner" aria-label="Bannière de présentation de Webolys">
       <div class="hero-banner-aura1 aura" aria-hidden="true"></div>
       <div class="hero-banner-aura2 aura" aria-hidden="true"></div>
@@ -194,7 +186,7 @@
       <div class="hero-banner-container-text">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">✨ Créons ensemble votre projet digital à Mirepoix</span>
+          <span class="badge-text">✨ Créons ensemble votre projet digital à Narbonne</span>
         </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
@@ -253,7 +245,6 @@
           <div class="hero-visual__ring hero-visual__ring--outer" aria-hidden="true"></div>
           <div class="hero-visual__ring hero-visual__ring--inner" aria-hidden="true"></div>
           <div class="hero-visual__track" aria-hidden="true">
-          
             <span class="hero-visual__icon" style="--icon-angle: 0deg" aria-hidden="true">
               <span class="hero-visual__icon-inner hero-visual__icon-inner--template">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
@@ -262,7 +253,6 @@
                 </svg>
               </span>
             </span>
-            
             <span class="hero-visual__icon" style="--icon-angle: 120deg" aria-hidden="true">
               <span class="hero-visual__icon-inner hero-visual__icon-inner--template">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
@@ -281,61 +271,39 @@
                 </svg>
               </span>
             </span>
-
-        
           </div>
           <picture class="hero-visual__picture">
             <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" type="image/png">
-            <img 
-              src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" 
-              alt="Illustration d'un site web développé par Webolys"
-              width="600"
-              height="400"
-              loading="eager"
-              fetchpriority="high"
-              decoding="async">
+            <img src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" alt="Illustration d'un site web développé par Webolys" width="600" height="400" loading="eager" fetchpriority="high" decoding="async">
           </picture>
         </div>
       </div>
       <div class="hero-banner-container-bottom">
         <a href="#qui-suis-je" title="Aller à la section À propos">
-          <img 
-            src="media/arrow-down-sign-to-navigate.png" 
-            alt="Flèche vers la section suivante"
-            width="32"
-            height="32"
-            loading="lazy"
-            decoding="async">
+          <img src="media/arrow-down-sign-to-navigate.png" alt="Flèche vers la section suivante" width="32" height="32" loading="lazy" decoding="async">
         </a>
       </div>
       <div class="hero-banner-container-link">
         <ul class="ul-social-link" aria-label="Liens vers nos réseaux sociaux et moyens de contact">
           <li>
-            <a href="https://www.linkedin.com/company/webolys"
-              aria-label="Mon profil LinkedIn"
-              title="Profil LinkedIn"
-              target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/webolys" aria-label="Mon profil LinkedIn" title="Profil LinkedIn" target="_blank" rel="noopener noreferrer">
               <img src="media/linkedin.png" id="linkedin" alt="Icône LinkedIn" width="24" height="24" loading="lazy">
             </a>
           </li>
           <li>
-            <a href="tel:+33622005584"
-              aria-label="Appeler le 06 22 00 55 84"
-              title="Lien téléphonique">
+            <a href="tel:+33622005584" aria-label="Appeler le 06 22 00 55 84" title="Lien téléphonique">
               <img src="media/telephone.png" id="telephone" alt="Icône téléphone" width="24" height="24" loading="lazy">
             </a>
           </li>
           <li>
-            <a href="javascript:location='mailto:\u0063\u006f\u006e\u0074\u0061\u0063\u0074\u0040\u0077\u0065\u0062\u006f\u006c\u0079\u0073\u002e\u0066\u0072';void 0"
-              aria-label="Envoyer un e-mail à contact@webolys.fr"
-              title="Envoyer un e-mail">
+            <a href="javascript:location='mailto:\u0063\u006f\u006e\u0074\u0061\u0063\u0074\u0040\u0077\u0065\u0062\u006f\u006c\u0079\u0073\u002e\u0066\u0072';void 0" aria-label="Envoyer un e-mail à contact@webolys.fr" title="Envoyer un e-mail">
               <img src="media/mail.png" id="mail" alt="Icône e-mail" width="24" height="24" loading="lazy">
             </a>
           </li>
         </ul>
       </div>
     </section>
-    <section class="city-template-value" id="pourquoi-site-internet-city-template" aria-labelledby="city-template-value-title">
+    <section class="city-template-value" id="narbonne" aria-labelledby="city-template-value-title">
       <div class="city-template-value-aura1" aria-hidden="true"></div>
       <div class="city-template-value-aura2" aria-hidden="true"></div>
       <div class="city-template-value-particles" aria-hidden="true">
@@ -350,30 +318,28 @@
             <path d="M12 16v-4"></path>
             <path d="M12 8h.01"></path>
           </svg>
-          Mirepoix digital
+          Narbonne digital
         </div>
         <h2 id="city-template-value-title">
-          Pourquoi créer un <span class="color">site internet</span> à Mirepoix ?
+          Pourquoi lancer un <span class="color">site internet</span> à Narbonne ?
         </h2>
-        <p class="text city-template-value-conclusion-text-bottom">
-          Mirepoix est une ville médiévale dynamique, connue pour sa place des Couverts, ses marchés, ses artisans et ses nombreuses 
-          activités touristiques. Dans un territoire où le passage est important et où les visiteurs recherchent de plus en plus 
-          les entreprises en ligne, un site internet moderne est indispensable pour vous démarquer. Avec <span class="color">Webolys</span>, vous bénéficiez 
-          d’un accompagnement local pour créer un site performant, esthétique et pensé pour attirer aussi bien les habitants que les 
-          touristes.
+        <p>
+          Au carrefour de l'autoroute A9, des plages méditerranéennes et des Corbières, Narbonne attire touristes, étudiants,
+          investisseurs et habitants en quête de services locaux. Un site rapide et clair devient votre meilleur commercial pour
+          capter ces flux et raconter votre différence.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          La cité mirapicienne regroupe une grande diversité de métiers : commerçants du centre, restaurants, gîtes, artisans, 
-          hébergements touristiques, producteurs locaux ou petites entreprises. Un site professionnel vous permet d’améliorer votre 
-          visibilité, de présenter clairement vos services et de toucher un public local, régional, mais aussi touristique.
+          Je construis des expériences digitales qui valorisent vos savoir-faire : domaines viticoles, commerces du centre,
+          entreprises industrielles, offres culturelles ou services municipaux. Chaque page est pensée pour convertir : CTA
+          visibles, modules de prise de contact, statistiques en temps réel.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          En tant qu’agence web basée en Ariège, je crée des sites rapides, sécurisés et optimisés pour Google, adaptés aux 
-          besoins des professionnels mirapiciens et de leurs visiteurs.
+          Basé en Occitanie, Webolys vous accompagne de la stratégie de contenu au suivi SEO pour rester visible sur Narbonne,
+          Béziers, Perpignan et le littoral.
         </p>
       </div>
       <div class="city-template-value-grid">
-        <article class="service-card local-card" aria-labelledby="city-template-card-visibilite">
+        <article class="service-card local-card" aria-labelledby="city-template-card-commerce">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"></circle>
@@ -381,16 +347,16 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <div class="service-card-badge">Visibilité</div>
-          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les Mirapiciens</h3>
+          <div class="service-card-badge">Commerce & artisanat</div>
+          <h3 id="city-template-card-commerce" class="service-card-title">Valoriser votre offre locale</h3>
           <p class="service-card-description">
-            Les habitants et les visiteurs de Mirepoix recherchent fréquemment artisans, restaurants, gîtes ou 
-            activités sur Google. Un site optimisé SEO local vous permet d’apparaître dans les recherches ciblant Mirepoix et ses communes voisines.
+            Fiches produits, click-and-collect, mise en avant d'ateliers : tout est pensé pour transformer les recherches "près de
+            moi" en visites en boutique ou en ventes en ligne.
           </p>
           <ul class="service-card-features">
-            <li>SEO local Mirepoix + villages alentours</li>
-            <li>Balises & données structurées spécifiques</li>
-            <li>Intégration Google Business Profile</li>
+            <li>Catalogues modulables + paiement sécurisé</li>
+            <li>Balises locales Narbonne & Corbières</li>
+            <li>Connexion aux réseaux sociaux & marketplaces</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-tourisme">
@@ -403,20 +369,19 @@
               <path d="M16 7V4a2 2 0 0 1 4 0v3"></path>
             </svg>
           </div>
-          <div class="service-card-badge">Tourisme & Culture</div>
-          <h3 id="city-template-card-tourisme" class="service-card-title">Séduire visiteurs et institutions</h3>
+          <div class="service-card-badge">Tourisme & littoral</div>
+          <h3 id="city-template-card-tourisme" class="service-card-title">Accompagner les voyageurs</h3>
           <p class="service-card-description">
-            Mirepoix attire des milliers de visiteurs chaque année grâce à ses marchés traditionnels, son patrimoine 
-            médiéval et ses nombreux événements. Un site clair, moderne et accessible met en valeur vos prestations, facilite 
-            les réservations et renforce votre crédibilité auprès des utilisateurs.
+            Narbonne Plage, Gruissan, canal de la Robine : proposez des itinéraires, disponibilités en temps réel et avis pour
+            rassurer avant la réservation.
           </p>
           <ul class="service-card-features">
-            <li>Pages dédiées aux prestations & activités touristiques</li>
-            <li>Module de réservation ou prise de contact simple</li>
-            <li>Contenus FR/EN optimisés pour mobile</li>
+            <li>Pages multilingues FR/EN/DE</li>
+            <li>Connexion réservation et channel manager</li>
+            <li>Progressive Web App pour usage mobile</li>
           </ul>
         </article>
-        <article class="service-card local-card" aria-labelledby="city-template-card-growth">
+        <article class="service-card local-card" aria-labelledby="city-template-card-rayonnement">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M3 17h18"></path>
@@ -426,17 +391,16 @@
               <path d="M7 9l5-4 5 4"></path>
             </svg>
           </div>
-          <div class="service-card-badge">Croissance</div>
-          <h3 id="city-template-card-growth" class="service-card-title">Dépasser les frontières du Pays de Mirepoix</h3>
+          <div class="service-card-badge">Rayonnement</div>
+          <h3 id="city-template-card-rayonnement" class="service-card-title">Étendre votre impact régional</h3>
           <p class="service-card-description">
-            Un site performant vous permet de toucher non seulement Mirepoix, mais aussi tout le Pays d’Olmes, Foix, Pamiers 
-            ou même des visiteurs venant de l’Aude ou de Toulouse. Grâce aux outils marketing, CRM, newsletters et analytics, 
-            vous suivez vos performances.
+            Grâce à des pages ciblées et un SEO structuré, vous touchez aussi Béziers, Montpellier, Perpignan ou Carcassonne tout
+            en gardant une identité narbonnaise forte.
           </p>
           <ul class="service-card-features">
-            <li>Pages cibles par zone géographique</li>
-            <li>Connexion CRM & outils marketing</li>
-            <li>Tableau de bord des performances</li>
+            <li>Landing pages par zone économique</li>
+            <li>CRM, automatisations et newsletters</li>
+            <li>Tableau de bord de performances partagées</li>
           </ul>
         </article>
       </div>
@@ -450,8 +414,6 @@
       require_once("component/faq.php");
     ?>
   </main>
-  <?php
-    require_once("component/footer-modern.php");
-  ?>
+  <?php require_once("component/footer-modern.php"); ?>
 </body>
 </html>

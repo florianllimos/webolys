@@ -7,7 +7,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Création de site internet à Mirepoix",
+      "serviceType": "Création de site internet à Auzat",
       "provider": {
         "@type": "Organization",
         "name": "Webolys",
@@ -16,7 +16,7 @@
       },
       "areaServed": {
         "@type": "City",
-        "name": "Mirepoix"
+        "name": "Auzat"
       },
       "availableChannel": {
         "@type": "ServiceChannel",
@@ -24,29 +24,21 @@
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Mirepoix",
+            "addressLocality": "Auzat",
+            "postalCode": "09220",
             "addressRegion": "Occitanie",
             "addressCountry": "FR"
           }
         }
       },
-      "serviceOutput": "Création de sites internet professionnels pour les entreprises, commerces et associations de Mirepoix.",
+      "serviceOutput": "Création de sites internet pour artisans, hébergeurs et acteurs touristiques d'Auzat, Vicdessos et la haute vallée du Montcalm.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Offres Webolys Mirepoix",
+        "name": "Offres Webolys Auzat",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Site vitrine Mirepoix" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Boutique en ligne Ariège" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "SEO local Mirepoix" }
-          }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine Auzat" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Boutique en ligne vallée du Vicdessos" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO local Montcalm" } }
         ]
       }
     }
@@ -55,23 +47,23 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-mirepoix",
-      "name": "Webolys - Création site internet Mirepoix",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
+      "@id": "https://webolys.fr/#local-business-auzat",
+      "name": "Webolys - Création site internet Auzat",
+      "url": "https://webolys.fr/creation-site-internet-auzat.php",
       "telephone": "+33622005584",
       "email": "contact@webolys.fr",
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mirepoix",
-        "postalCode": "09500",
+        "addressLocality": "Auzat",
+        "postalCode": "09220",
         "addressRegion": "Occitanie",
         "addressCountry": "FR"
       },
       "areaServed": [
-        { "@type": "City", "name": "Mirepoix" },
-        { "@type": "City", "name": "Foix" },
-        { "@type": "City", "name": "Lavelanet" },
+        { "@type": "City", "name": "Auzat" },
+        { "@type": "City", "name": "Vicdessos" },
+        { "@type": "City", "name": "Tarascon-sur-Ariège" },
         { "@type": "AdministrativeArea", "name": "Ariège" }
       ],
       "sameAs": [
@@ -85,10 +77,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
-      "name": "Création de site internet à Mirepoix | Webolys",
-      "description": "Webolys conçoit des sites internet modernes et performants à Mirepoix : site vitrine, e-commerce, SEO local et accompagnement digital personnalisé.",
+      "@id": "https://webolys.fr/creation-site-internet-auzat.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-auzat.php",
+      "name": "Création de site internet à Auzat | Webolys",
+      "description": "Sites vitrines, réservation touristique et SEO local pour Auzat, Vicdessos et la haute vallée de l'Ariège.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -97,16 +89,22 @@
       },
       "about": {
         "@type": "Thing",
-        "name": "Création de site internet à Mirepoix",
-        "sameAs": "https://fr.wikipedia.org/wiki/Mirepoix_(Ari%C3%A8ge)"
+        "name": "Création de site internet à Auzat",
+        "sameAs": "https://fr.wikipedia.org/wiki/Auzat"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://webolys.fr/media/mockup_home.webp",
+        "width": 1200,
+        "height": 630
       },
       "breadcrumb": {
-        "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb"
+        "@id": "https://webolys.fr/creation-site-internet-auzat.php#breadcrumb"
       },
       "potentialAction": {
         "@type": "ContactAction",
         "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web à Mirepoix"
+        "name": "Planifier un projet web à Auzat"
       }
     }
   </script>
@@ -114,7 +112,7 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb",
+      "@id": "https://webolys.fr/creation-site-internet-auzat.php#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -125,41 +123,38 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Création site internet Mirepoix",
-          "item": "https://webolys.fr/creation-site-internet-mirepoix.php"
+          "name": "Création site internet Auzat",
+          "item": "https://webolys.fr/creation-site-internet-auzat.php"
         }
       ]
     }
   </script>
-  <meta name="description" content="Webolys, agence web à Mirepoix : sites vitrines, e-commerce, SEO local Pays de Mirepoix et refontes sur mesure pour booster votre visibilité.">
+  <meta name="description" content="Webolys accompagne les entreprises d'Auzat : sites vitrines, réservations touristiques, e-commerce et SEO local adaptés à la haute vallée du Vicdessos.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="Webolys - Agence web à Mirepoix">
+  <meta name="author" content="Webolys - Agence web à Auzat">
   <meta name="publisher" content="Webolys">
-  <meta property="og:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="keywords" content="agence web Mirepoix, création site internet Mirepoix, site vitrine Mirepoix, développeur web Mirepoix, SEO local Mirepoix, refonte site internet Pays de Mirepoix, Webolys">
-  <meta property="og:description" content="Studio web basé à Mirepoix pour artisans, commerçants, hébergeurs et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
+  <meta property="og:title" content="Création site internet à Auzat | Webolys">
+  <meta name="keywords" content="agence web Auzat, création site internet Auzat, site vitrine Vicdessos, développeur web Ariège, SEO local Montcalm, refonte site internet Auzat">
+  <meta property="og:description" content="Sites performants pour artisans, hébergeurs, guides de montagne et acteurs industriels d'Auzat. Design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:locale:alternate" content="fr_FR">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-mirepoix.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Mirepoix et de l'Ariège, avec SEO local et accompagnement dédié.">
+  <meta name="twitter:title" content="Création site internet à Auzat | Webolys">
+  <meta name="twitter:description" content="Webolys crée des sites rapides et robustes pour les professionnels d'Auzat, du Vicdessos et des vallées pyrénéennes.">
   <meta name="twitter:site" content="@webolys">
   <meta name="twitter:creator" content="@webolys">
-  <meta name="DC.title" content="Webolys - Création de site internet à Mirepoix">
-  <meta name="DC.description" content="Création de site internet sur mesure à Mirepoix : vitrine, e-commerce, SEO local et stratégies digitales pour artisans, PME et institutions.">
+  <meta name="DC.title" content="Webolys - Création de site internet à Auzat">
+  <meta name="DC.description" content="Solutions web sur mesure à Auzat : site vitrine, e-commerce, réservations touristiques et SEO local.">
   <meta name="DC.language" content="fr-FR">
-  <meta name="city" content="Mirepoix">
+  <meta name="city" content="Auzat">
   <meta name="region" content="Ariège">
-  <link rel="preload" as="image" href="media/mockup_home.webp">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-auzat.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-auzat.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-auzat.php">
   <link rel="stylesheet" href="style1.css">
-  <title>Création site internet à Mirepoix - Webolys</title>
+  <title>Création site internet à Auzat - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
@@ -178,7 +173,7 @@
   <?php
     require_once("component/header.php");
   ?>
-  <h1 class="sr-only">Création site internet Mirepoix - Webolys</h1>
+  <h1 class="sr-only">Création site internet à Auzat - Webolys</h1>
   <main>
     <?php
       require_once("component/background.php");
@@ -194,7 +189,7 @@
       <div class="hero-banner-container-text">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">✨ Créons ensemble votre projet digital à Mirepoix</span>
+          <span class="badge-text">✨ Créons ensemble votre projet digital à Auzat</span>
         </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
@@ -335,7 +330,7 @@
         </ul>
       </div>
     </section>
-    <section class="city-template-value" id="pourquoi-site-internet-city-template" aria-labelledby="city-template-value-title">
+    <section class="city-template-value" id="auzat" aria-labelledby="city-template-value-title">
       <div class="city-template-value-aura1" aria-hidden="true"></div>
       <div class="city-template-value-aura2" aria-hidden="true"></div>
       <div class="city-template-value-particles" aria-hidden="true">
@@ -350,30 +345,28 @@
             <path d="M12 16v-4"></path>
             <path d="M12 8h.01"></path>
           </svg>
-          Mirepoix digital
+          Auzat digital
         </div>
         <h2 id="city-template-value-title">
-          Pourquoi créer un <span class="color">site internet</span> à Mirepoix ?
+          Pourquoi lancer un <span class="color">site internet</span> à Auzat ?
         </h2>
-        <p class="text city-template-value-conclusion-text-bottom">
-          Mirepoix est une ville médiévale dynamique, connue pour sa place des Couverts, ses marchés, ses artisans et ses nombreuses 
-          activités touristiques. Dans un territoire où le passage est important et où les visiteurs recherchent de plus en plus 
-          les entreprises en ligne, un site internet moderne est indispensable pour vous démarquer. Avec <span class="color">Webolys</span>, vous bénéficiez 
-          d’un accompagnement local pour créer un site performant, esthétique et pensé pour attirer aussi bien les habitants que les 
-          touristes.
+        <p>
+          Située aux portes du parc naturel, Auzat attire randonneurs, cyclistes et familles qui recherchent des services fiables
+          avant de monter vers le Montcalm. Un site structuré rassure, présente vos disponibilités et capte les demandes
+          venant de Toulouse, Foix ou d'Espagne.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          La cité mirapicienne regroupe une grande diversité de métiers : commerçants du centre, restaurants, gîtes, artisans, 
-          hébergements touristiques, producteurs locaux ou petites entreprises. Un site professionnel vous permet d’améliorer votre 
-          visibilité, de présenter clairement vos services et de toucher un public local, régional, mais aussi touristique.
+          <span class="color">Webolys</span> met en scène vos savoir-faire : hébergements, restauration, artisanat, entreprises
+          industrielles ou services publics. Je construis des interfaces claires, performantes et adaptées à des connexions parfois
+          limitées en montagne.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          En tant qu’agence web basée en Ariège, je crée des sites rapides, sécurisés et optimisés pour Google, adaptés aux 
-          besoins des professionnels mirapiciens et de leurs visiteurs.
+          Ensemble, nous combinons storytelling local, SEO de proximité et outils de conversion pour transformer chaque visite
+          en contact qualifié tout au long de l'année.
         </p>
       </div>
       <div class="city-template-value-grid">
-        <article class="service-card local-card" aria-labelledby="city-template-card-visibilite">
+        <article class="service-card local-card" aria-labelledby="city-template-card-activite">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"></circle>
@@ -381,16 +374,16 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <div class="service-card-badge">Visibilité</div>
-          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les Mirapiciens</h3>
+          <div class="service-card-badge">Tissu local</div>
+          <h3 id="city-template-card-activite" class="service-card-title">Valoriser vos activités</h3>
           <p class="service-card-description">
-            Les habitants et les visiteurs de Mirepoix recherchent fréquemment artisans, restaurants, gîtes ou 
-            activités sur Google. Un site optimisé SEO local vous permet d’apparaître dans les recherches ciblant Mirepoix et ses communes voisines.
+            Détaillez vos prestations (logement, réparation, artisanat, coaching outdoor) avec des pages dédiées, des
+            témoignages et des appels à l'action adaptés.
           </p>
           <ul class="service-card-features">
-            <li>SEO local Mirepoix + villages alentours</li>
-            <li>Balises & données structurées spécifiques</li>
-            <li>Intégration Google Business Profile</li>
+            <li>Fiches services modulables</li>
+            <li>Galeries immersives & storytelling</li>
+            <li>Formulaires de devis ou de réservation</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-tourisme">
@@ -403,20 +396,19 @@
               <path d="M16 7V4a2 2 0 0 1 4 0v3"></path>
             </svg>
           </div>
-          <div class="service-card-badge">Tourisme & Culture</div>
-          <h3 id="city-template-card-tourisme" class="service-card-title">Séduire visiteurs et institutions</h3>
+          <div class="service-card-badge">Tourisme & montagne</div>
+          <h3 id="city-template-card-tourisme" class="service-card-title">Accompagner les voyageurs</h3>
           <p class="service-card-description">
-            Mirepoix attire des milliers de visiteurs chaque année grâce à ses marchés traditionnels, son patrimoine 
-            médiéval et ses nombreux événements. Un site clair, moderne et accessible met en valeur vos prestations, facilite 
-            les réservations et renforce votre crédibilité auprès des utilisateurs.
+            Offrez cartes, suggestions d'itinéraires, météo et réservations en ligne pour préparer les séjours sportifs ou
+            familiaux.
           </p>
           <ul class="service-card-features">
-            <li>Pages dédiées aux prestations & activités touristiques</li>
-            <li>Module de réservation ou prise de contact simple</li>
-            <li>Contenus FR/EN optimisés pour mobile</li>
+            <li>Pages multilingues FR/EN/ES</li>
+            <li>Modules de réservation + paiement</li>
+            <li>Optimisation mobile et hors-ligne</li>
           </ul>
         </article>
-        <article class="service-card local-card" aria-labelledby="city-template-card-growth">
+        <article class="service-card local-card" aria-labelledby="city-template-card-rayonnement">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M3 17h18"></path>
@@ -426,16 +418,15 @@
               <path d="M7 9l5-4 5 4"></path>
             </svg>
           </div>
-          <div class="service-card-badge">Croissance</div>
-          <h3 id="city-template-card-growth" class="service-card-title">Dépasser les frontières du Pays de Mirepoix</h3>
+          <div class="service-card-badge">Rayonnement</div>
+          <h3 id="city-template-card-rayonnement" class="service-card-title">Toucher la vallée et au-delà</h3>
           <p class="service-card-description">
-            Un site performant vous permet de toucher non seulement Mirepoix, mais aussi tout le Pays d’Olmes, Foix, Pamiers 
-            ou même des visiteurs venant de l’Aude ou de Toulouse. Grâce aux outils marketing, CRM, newsletters et analytics, 
-            vous suivez vos performances.
+            Étendez votre visibilité vers Tarascon, Foix, Andorre et Barcelone grâce à des pages ciblées, un SEO régional et
+            des campagnes mesurées.
           </p>
           <ul class="service-card-features">
-            <li>Pages cibles par zone géographique</li>
-            <li>Connexion CRM & outils marketing</li>
+            <li>Pages géolocalisées par zone</li>
+            <li>Automation CRM & newsletters</li>
             <li>Tableau de bord des performances</li>
           </ul>
         </article>

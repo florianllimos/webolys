@@ -28,7 +28,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
         </svg>
-        <span>Ultra rapide</span>
+        <span>Performance maîtrisée</span>
       </li>
       <li class="hero-feature">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -125,14 +125,6 @@
   </div>
   <div class="hero-banner-container-link">
     <ul class="ul-social-link" aria-label="Liens vers nos réseaux sociaux et moyens de contact">
-      <li>
-        <a href="https://www.instagram.com/webolys.fr/"
-          aria-label="Mon profil Instagram"
-          title="Profil Instagram"
-          target="_blank" rel="noopener noreferrer">
-          <img src="media/instagram.png" id="instagram" alt="Icône Instagram" width="24" height="24" loading="lazy">
-        </a>
-      </li>
       <li>
         <a href="https://www.linkedin.com/company/webolys"
           aria-label="Mon profil LinkedIn"

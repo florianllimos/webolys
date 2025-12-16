@@ -25,7 +25,7 @@
     </label>
     <div class="menu" id="menu" aria-hidden="true">
       <ul role="list">
-        <li><a href="index.php#" title="Accueil" id="accueil-link">Accueil</a></li>
+        <li><a href="" title="Accueil" id="accueil-link">Accueil</a></li>
         <li><a href="#qui-suis-je" title="Qui suis-je" id="qui-suis-je-link">Qui suis-je</a></li>
         <li class="dropdown">
           <div class="dropdown-wrapper">

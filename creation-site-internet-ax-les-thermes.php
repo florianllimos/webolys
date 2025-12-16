@@ -7,45 +7,63 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Création de site internet à Mirepoix",
+      "serviceType": "Création de site internet à Ax-les-Thermes",
       "provider": {
         "@type": "Organization",
         "name": "Webolys",
         "url": "https://webolys.fr",
         "logo": "https://webolys.fr/media/logo.png"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Mirepoix"
-      },
+      "areaServed": [
+        { "@type": "City", "name": "Ax-les-Thermes" },
+        { "@type": "City", "name": "Tarascon-sur-Ariège" },
+        { "@type": "AdministrativeArea", "name": "Ariège" }
+      ],
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceLocation": {
           "@type": "Place",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Mirepoix",
+            "addressLocality": "Ax-les-Thermes",
+            "postalCode": "09110",
             "addressRegion": "Occitanie",
             "addressCountry": "FR"
           }
         }
       },
-      "serviceOutput": "Création de sites internet professionnels pour les entreprises, commerces et associations de Mirepoix.",
+      "serviceOutput": "Création de sites internet professionnels pour hébergements touristiques, commerces, artisans et entreprises à Ax-les-Thermes et en Ariège.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Offres Webolys Mirepoix",
+        "name": "Offres Webolys à Ax-les-Thermes",
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Site vitrine Mirepoix" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Création de site vitrine à Ax-les-Thermes"
+            }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Boutique en ligne Ariège" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Création de site pour hébergement touristique"
+            }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "SEO local Mirepoix" }
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Refonte de site internet à Ax-les-Thermes"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Référencement local (SEO) à Ax-les-Thermes"
+            }
           }
         ]
       }
@@ -55,24 +73,25 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-mirepoix",
-      "name": "Webolys - Création site internet Mirepoix",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
+      "@id": "https://webolys.fr/#local-business-ax-les-thermes",
+      "name": "Webolys - Création de site internet à Ax-les-Thermes",
+      "url": "https://webolys.fr/creation-site-internet-ax-les-thermes.php",
       "telephone": "+33622005584",
       "email": "contact@webolys.fr",
       "priceRange": "€€",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mirepoix",
-        "postalCode": "09500",
+        "addressLocality": "Ax-les-Thermes",
+        "postalCode": "09110",
         "addressRegion": "Occitanie",
         "addressCountry": "FR"
       },
       "areaServed": [
-        { "@type": "City", "name": "Mirepoix" },
+        { "@type": "City", "name": "Ax-les-Thermes" },
+        { "@type": "City", "name": "Tarascon-sur-Ariège" },
         { "@type": "City", "name": "Foix" },
-        { "@type": "City", "name": "Lavelanet" },
-        { "@type": "AdministrativeArea", "name": "Ariège" }
+        { "@type": "AdministrativeArea", "name": "Ariège" },
+        { "@type": "AdministrativeArea", "name": "Occitanie" }
       ],
       "sameAs": [
         "https://www.linkedin.com/company/webolys",
@@ -85,10 +104,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-mirepoix.php",
-      "name": "Création de site internet à Mirepoix | Webolys",
-      "description": "Webolys conçoit des sites internet modernes et performants à Mirepoix : site vitrine, e-commerce, SEO local et accompagnement digital personnalisé.",
+      "@id": "https://webolys.fr/creation-site-internet-ax-les-thermes.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-ax-les-thermes.php",
+      "name": "Création de site internet à Ax-les-Thermes | Webolys",
+      "description": "Webolys crée des sites internet performants à Ax-les-Thermes et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -97,16 +116,16 @@
       },
       "about": {
         "@type": "Thing",
-        "name": "Création de site internet à Mirepoix",
-        "sameAs": "https://fr.wikipedia.org/wiki/Mirepoix_(Ari%C3%A8ge)"
+        "name": "Création de site internet à Ax-les-Thermes",
+        "sameAs": "https://fr.wikipedia.org/wiki/ax-les-thermes"
       },
       "breadcrumb": {
-        "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb"
+        "@id": "https://webolys.fr/creation-site-internet-ax-les-thermes.php#breadcrumb"
       },
       "potentialAction": {
         "@type": "ContactAction",
         "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web à Mirepoix"
+        "name": "Discuter d'un projet web à Ax-les-Thermes"
       }
     }
   </script>
@@ -114,7 +133,7 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-mirepoix.php#breadcrumb",
+      "@id": "https://webolys.fr/creation-site-internet-ax-les-thermes.php#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -125,41 +144,42 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Création site internet Mirepoix",
-          "item": "https://webolys.fr/creation-site-internet-mirepoix.php"
+          "name": "Création site internet Ax-les-Thermes",
+          "item": "https://webolys.fr/creation-site-internet-ax-les-thermes.php"
         }
       ]
     }
   </script>
-  <meta name="description" content="Webolys, agence web à Mirepoix : sites vitrines, e-commerce, SEO local Pays de Mirepoix et refontes sur mesure pour booster votre visibilité.">
+  <meta name="description" content="Webolys, agence web à Ax-les-Thermes : sites vitrines, e-commerce, SEO local et refontes sur mesure pour booster votre visibilité.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="Webolys - Agence web à Mirepoix">
+  <meta name="author" content="Webolys - Agence web à Ax-les-Thermes">
   <meta name="publisher" content="Webolys">
-  <meta property="og:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="keywords" content="agence web Mirepoix, création site internet Mirepoix, site vitrine Mirepoix, développeur web Mirepoix, SEO local Mirepoix, refonte site internet Pays de Mirepoix, Webolys">
-  <meta property="og:description" content="Studio web basé à Mirepoix pour artisans, commerçants, hébergeurs et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
+  <meta property="og:title" content="Création site internet à Ax-les-Thermes | Webolys">
+  <meta name="keywords" content="agence web Ax-les-Thermes, création site internet Ax-les-Thermes, site vitrine Ax-les-Thermes, développeur web Ax-les-Thermes, SEO local Ax-les-Thermes, refonte site internet Ax-les-Thermes, Webolys">
+  <meta property="og:description" content="Studio web basé à Ax-les-Thermes pour artisans, PME et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:locale:alternate" content="fr_FR">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://webolys.fr/creation-site-internet-ax-les-thermes.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Création site internet à Mirepoix | Webolys">
-  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Mirepoix et de l'Ariège, avec SEO local et accompagnement dédié.">
+  <meta name="twitter:title" content="Création site internet à Ax-les-Thermes | Webolys">
+  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de Ax-les-Thermes, avec SEO local et accompagnement dédié.">
   <meta name="twitter:site" content="@webolys">
   <meta name="twitter:creator" content="@webolys">
-  <meta name="DC.title" content="Webolys - Création de site internet à Mirepoix">
-  <meta name="DC.description" content="Création de site internet sur mesure à Mirepoix : vitrine, e-commerce, SEO local et stratégies digitales pour artisans, PME et institutions.">
+  <meta name="DC.title" content="Webolys - Création de site internet à Ax-les-Thermes">
+  <meta name="DC.description" content="Création de site internet sur mesure à Ax-les-Thermes : site vitrine, e-commerce, SEO local et stratégies digitales pour entreprises et institutions.">
   <meta name="DC.language" content="fr-FR">
-  <meta name="city" content="Mirepoix">
-  <meta name="region" content="Ariège">
-  <link rel="preload" as="image" href="media/mockup_home.webp">
+  <meta name="city" content="Ax-les-Thermes">
+  <meta name="region" content="Occitanie">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-mirepoix.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-mirepoix.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-ax-les-thermes.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-ax-les-thermes.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-ax-les-thermes.php">
   <link rel="stylesheet" href="style1.css">
-  <title>Création site internet à Mirepoix - Webolys</title>
+  <title>Création site internet à Ax-les-Thermes - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
@@ -178,7 +198,7 @@
   <?php
     require_once("component/header.php");
   ?>
-  <h1 class="sr-only">Création site internet Mirepoix - Webolys</h1>
+  <h1 class="sr-only">Création site internet à Ax-les-Thermes - Webolys</h1>
   <main>
     <?php
       require_once("component/background.php");
@@ -194,7 +214,7 @@
       <div class="hero-banner-container-text">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">✨ Créons ensemble votre projet digital à Mirepoix</span>
+          <span class="badge-text">✨ Créons ensemble votre projet digital à Ax-les-Thermes</span>
         </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
@@ -224,8 +244,8 @@
           </li>
         </ul>
         <p class="text mask-and-show">
-          Code propre, architectures scalables et interfaces intuitives. Je transforme vos besoins en applications web performantes qui propulsent votre 
-          croissance et dépassent les attentes de vos utilisateurs. 
+          Code propre, architectures scalables et interfaces intuitives. 
+          Je transforme vos besoins en applications web performantes qui propulsent votre croissance et dépassent les attentes de vos utilisateurs.
         </p>
         <div class="container" aria-hidden="true">
           <div class="hero-banner__terminal" aria-live="polite">
@@ -350,26 +370,24 @@
             <path d="M12 16v-4"></path>
             <path d="M12 8h.01"></path>
           </svg>
-          Mirepoix digital
+          Varilhes digital
         </div>
         <h2 id="city-template-value-title">
-          Pourquoi créer un <span class="color">site internet</span> à Mirepoix ?
+          Pourquoi créer un <span class="color">site internet</span> à Ax-les-Thermes ?
         </h2>
-        <p class="text city-template-value-conclusion-text-bottom">
-          Mirepoix est une ville médiévale dynamique, connue pour sa place des Couverts, ses marchés, ses artisans et ses nombreuses 
-          activités touristiques. Dans un territoire où le passage est important et où les visiteurs recherchent de plus en plus 
-          les entreprises en ligne, un site internet moderne est indispensable pour vous démarquer. Avec <span class="color">Webolys</span>, vous bénéficiez 
-          d’un accompagnement local pour créer un site performant, esthétique et pensé pour attirer aussi bien les habitants que les 
-          touristes.
+        <p>
+          Ax-les-Thermes est une station thermale et touristique majeure de l’Ariège, connue pour ses thermes, ses stations de ski et son attractivité toute l’année.
+           Dans un territoire très concurrentiel, disposer d’un site internet professionnel est indispensable pour attirer touristes, curistes et clients locaux. 
+           Webolys accompagne les professionnels axéens dans la création de sites modernes, rapides et optimisés pour le référencement local.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          La cité mirapicienne regroupe une grande diversité de métiers : commerçants du centre, restaurants, gîtes, artisans, 
-          hébergements touristiques, producteurs locaux ou petites entreprises. Un site professionnel vous permet d’améliorer votre 
-          visibilité, de présenter clairement vos services et de toucher un public local, régional, mais aussi touristique.
+          La ville accueille de nombreux hébergements touristiques, restaurants, commerces, artisans et entreprises de services. Un site internet bien conçu 
+          permet de présenter vos prestations, vos disponibilités, vos offres et de faciliter les réservations ou prises de contact, tout en renforçant votre 
+          crédibilité auprès des visiteurs.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          En tant qu’agence web basée en Ariège, je crée des sites rapides, sécurisés et optimisés pour Google, adaptés aux 
-          besoins des professionnels mirapiciens et de leurs visiteurs.
+          Basé en Ariège, Webolys crée des sites internet adaptés aux enjeux des acteurs touristiques et économiques d’Ax-les-Thermes : 
+          performants, sécurisés, accessibles et pensés pour maximiser la visibilité sur Google.
         </p>
       </div>
       <div class="city-template-value-grid">
@@ -382,15 +400,15 @@
             </svg>
           </div>
           <div class="service-card-badge">Visibilité</div>
-          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les Mirapiciens</h3>
+          <h3 id="city-template-card-visibilite" class="service-card-title">Être trouvé par les visiteurs et habitants</h3>
           <p class="service-card-description">
-            Les habitants et les visiteurs de Mirepoix recherchent fréquemment artisans, restaurants, gîtes ou 
-            activités sur Google. Un site optimisé SEO local vous permet d’apparaître dans les recherches ciblant Mirepoix et ses communes voisines.
+            Les internautes recherchent hôtels, gîtes, restaurants, activités et services directement sur Google avant leur séjour à Ax-les-Thermes.
+             Un site optimisé SEO vous permet d’apparaître dans les recherches ciblant Ax-les-Thermes et ses communes voisines.
           </p>
           <ul class="service-card-features">
-            <li>SEO local Mirepoix + villages alentours</li>
-            <li>Balises & données structurées spécifiques</li>
-            <li>Intégration Google Business Profile</li>
+            <li>SEO local Ax-les-Thermes et zones touristiques</li>
+            <li>Optimisation pour recherches saisonnières</li>
+            <li>Configuration Google Business Profile</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-tourisme">
@@ -404,16 +422,15 @@
             </svg>
           </div>
           <div class="service-card-badge">Tourisme & Culture</div>
-          <h3 id="city-template-card-tourisme" class="service-card-title">Séduire visiteurs et institutions</h3>
+          <h3 id="city-template-card-tourisme" class="service-card-title">Valoriser votre activité touristique ou locale</h3>
           <p class="service-card-description">
-            Mirepoix attire des milliers de visiteurs chaque année grâce à ses marchés traditionnels, son patrimoine 
-            médiéval et ses nombreux événements. Un site clair, moderne et accessible met en valeur vos prestations, facilite 
-            les réservations et renforce votre crédibilité auprès des utilisateurs.
+            Un site internet professionnel est un outil essentiel pour inspirer confiance aux visiteurs. Il permet de mettre en avant vos services, 
+            vos hébergements, vos tarifs et vos atouts, tout en facilitant les réservations, les demandes d’informations ou de devis.
           </p>
           <ul class="service-card-features">
-            <li>Pages dédiées aux prestations & activités touristiques</li>
-            <li>Module de réservation ou prise de contact simple</li>
-            <li>Contenus FR/EN optimisés pour mobile</li>
+            <li>Présentation claire de vos services et offres</li>
+            <li>Formulaires de contact ou réservation</li>
+            <li>Site rapide et parfaitement adapté aux mobiles</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-growth">
@@ -427,16 +444,15 @@
             </svg>
           </div>
           <div class="service-card-badge">Croissance</div>
-          <h3 id="city-template-card-growth" class="service-card-title">Dépasser les frontières du Pays de Mirepoix</h3>
+          <h3 id="city-template-card-growth" class="service-card-title">Développer votre visibilité en Ariège et au-delà</h3>
           <p class="service-card-description">
-            Un site performant vous permet de toucher non seulement Mirepoix, mais aussi tout le Pays d’Olmes, Foix, Pamiers 
-            ou même des visiteurs venant de l’Aude ou de Toulouse. Grâce aux outils marketing, CRM, newsletters et analytics, 
-            vous suivez vos performances.
+            Grâce à un site bien référencé, vous pouvez toucher non seulement Ax-les-Thermes, mais aussi Tarascon-sur-Ariège, Foix, Toulouse et une clientèle 
+            nationale à la recherche de séjours thermaux ou touristiques.
           </p>
           <ul class="service-card-features">
             <li>Pages cibles par zone géographique</li>
-            <li>Connexion CRM & outils marketing</li>
-            <li>Tableau de bord des performances</li>
+            <li>Outils marketing et statistiques intégrés</li>
+            <li>Suivi des performances et conversions</li>
           </ul>
         </article>
       </div>

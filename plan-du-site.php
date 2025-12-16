@@ -95,9 +95,17 @@
           <li><a class="site-map-link" href="creation-site-internet-saint-girons.php"><span class="site-map-icon">📍</span> Création de site internet à Saint-Girons</a></li>
           <li><a class="site-map-link" href="creation-site-internet-mirepoix.php"><span class="site-map-icon">📍</span> Création de site internet à Mirepoix</a></li>
           <li><a class="site-map-link" href="creation-site-internet-carcassonne.php"><span class="site-map-icon">📍</span> Création de site internet à Carcassonne</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-castelnaudary.php"><span class="site-map-icon">📍</span> Création de site internet à Castelnaudary</a></li>
           <li><a class="site-map-link" href="creation-site-internet-lavelanet.php"><span class="site-map-icon">📍</span> Création de site internet à Lavelanet</a></li>
           <li><a class="site-map-link" href="creation-site-internet-saverdun.php"><span class="site-map-icon">📍</span> Création de site internet à Saverdun</a></li>
           <li><a class="site-map-link" href="creation-site-internet-tarascon-sur-ariege.php"><span class="site-map-icon">📍</span> Création de site internet à Tarascon-sur-Ariège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-auzat.php"><span class="site-map-icon">📍</span> Création de site internet à Auzat</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-le-mas-d-azil.php"><span class="site-map-icon">📍</span> Création de site internet au Mas-d'Azil</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-mazeres.php"><span class="site-map-icon">📍</span> Création de site internet à Mazères</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-balma.php"><span class="site-map-icon">📍</span> Création de site internet à Balma</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-labege.php"><span class="site-map-icon">📍</span> Création de site internet à Labège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-narbonne.php"><span class="site-map-icon">📍</span> Création de site internet à Narbonne</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-blagnac.php"><span class="site-map-icon">📍</span> Création de site internet à Blagnac</a></li>
           <li><a class="site-map-link" href="creation-site-internet-montpellier.php"><span class="site-map-icon">📍</span> Création de site internet à Montpellier</a></li>
         </ul>
       </div>
