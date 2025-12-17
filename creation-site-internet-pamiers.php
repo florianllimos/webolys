@@ -157,7 +157,7 @@
   <link rel="canonical" href="https://webolys.fr/creation-site-internet-pamiers.php">
   <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-pamiers.php">
   <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-pamiers.php">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style-new.css">
   <title>Création site internet à Pamiers - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>

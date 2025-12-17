@@ -18,7 +18,7 @@
   <link rel="preload" as="image" href="media/mockup_home.webp">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="canonical" href="https://webolys.fr">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style-new.css">
   <title>Webolys - Agence Web Ariège & Toulouse | Création de sites internet sur mesure</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>

@@ -40,7 +40,7 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style-new.css">
   
   <title>Webolys - Création de sites Joomla sur mesure | Ariège & Toulouse</title>
   

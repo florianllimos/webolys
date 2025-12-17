@@ -116,7 +116,7 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style-new.css">
   <title>Webolys - Création de sites vitrines professionnels | Ariège & Toulouse</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
