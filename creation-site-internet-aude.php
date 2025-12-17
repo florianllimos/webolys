@@ -4,157 +4,182 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Création de site internet au Mas-d'Azil",
-      "provider": {
-        "@type": "Organization",
-        "name": "Webolys",
-        "url": "https://webolys.fr",
-        "logo": "https://webolys.fr/media/logo.png"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Le Mas-d'Azil"
-      },
-      "availableChannel": {
-        "@type": "ServiceChannel",
-        "serviceLocation": {
-          "@type": "Place",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Le Mas-d'Azil",
-            "postalCode": "09290",
-            "addressRegion": "Occitanie",
-            "addressCountry": "FR"
-          }
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Création de site internet dans l'Aude",
+    "provider": {
+      "@type": "Organization",
+      "name": "Webolys",
+      "url": "https://webolys.fr",
+      "logo": "https://webolys.fr/media/logo.png"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Aude"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Carcassonne",
+          "addressRegion": "Occitanie",
+          "addressCountry": "FR"
         }
-      },
-      "serviceOutput": "Sites vitrines et e-commerce pour les entreprises et acteurs touristiques du Mas-d'Azil.",
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Offres Webolys Le Mas-d'Azil",
-        "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine Mas-d'Azil" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Boutique en ligne Ariège" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO local Mas-d'Azil" } }
-        ]
       }
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-le-mas-d-azil",
-      "name": "Webolys - Création site internet Le Mas-d'Azil",
-      "url": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php",
-      "telephone": "+33622005584",
-      "email": "contact@webolys.fr",
-      "priceRange": "€€",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Le Mas-d'Azil",
-        "postalCode": "09290",
-        "addressRegion": "Occitanie",
-        "addressCountry": "FR"
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Le Mas-d'Azil" },
-        { "@type": "City", "name": "Pamiers" },
-        { "@type": "City", "name": "Saint-Girons" },
-        { "@type": "AdministrativeArea", "name": "Ariège" }
-      ],
-      "sameAs": [
-        "https://www.linkedin.com/company/webolys",
-        "https://www.instagram.com/webolys.fr/",
-        "https://github.com/florianllimos"
-      ]
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php",
-      "name": "Création de site internet au Mas-d'Azil | Webolys",
-      "description": "Studio web local pour Le Mas-d'Azil : site vitrine, réservation touristique, boutique en ligne et stratégie SEO locale.",
-      "inLanguage": "fr-FR",
-      "isPartOf": {
-        "@type": "WebSite",
-        "url": "https://webolys.fr",
-        "name": "Webolys"
-      },
-      "about": {
-        "@type": "Thing",
-        "name": "Création de site internet au Mas-d'Azil",
-        "sameAs": "https://fr.wikipedia.org/wiki/Grotte_du_Mas-d'Azil"
-      },
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://webolys.fr/media/mockup_home.webp",
-        "width": 1200,
-        "height": 630
-      },
-      "breadcrumb": {
-        "@id": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php#breadcrumb"
-      },
-      "potentialAction": {
-        "@type": "ContactAction",
-        "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web au Mas-d'Azil"
-      }
-    }
-  </script>
-  <script type="application/ld+json" id="breadcrumb-jsonld">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php#breadcrumb",
+    },
+    "serviceOutput": "Création de site internet professionnel pour entreprises et indépendants dans l'Aude",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Offres Webolys",
       "itemListElement": [
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Webolys",
-          "item": "https://webolys.fr"
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Site vitrine Aude"
+          }
         },
         {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Création site internet Le Mas-d'Azil",
-          "item": "https://webolys.fr/creation-site-internet-le-mas-d-azil.php"
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Boutique en ligne Aude"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SEO local Aude"
+          }
         }
       ]
     }
+  }
   </script>
-  <meta name="description" content="Webolys accompagne les entreprises du Mas-d'Azil : sites vitrines, réservations touristiques, SEO local et expériences digitales sur mesure.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://webolys.fr/#local-business-aude",
+    "name": "Webolys - Création de site internet dans l'Aude",
+    "url": "https://webolys.fr/creation-site-internet-aude.php",
+    "telephone": "+33622005584",
+    "email": "contact@webolys.fr",
+    "priceRange": "€€",
+    "image": "https://webolys.fr/media/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Carcassonne",
+      "postalCode": "11000",
+      "addressRegion": "Occitanie",
+      "addressCountry": "FR"
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Carcassonne"},
+      {"@type": "City", "name": "Narbonne"},
+      {"@type": "City", "name": "Castelnaudary"},
+      {"@type": "City", "name": "Limoux"},
+      {"@type": "City", "name": "Lézignan-Corbières"},
+      {"@type": "City", "name": "Gruissan"},
+      {"@type": "AdministrativeArea", "name": "Aude"},
+      {"@type": "AdministrativeArea", "name": "Occitanie"}
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/webolys",
+      "https://www.instagram.com/webolys.fr/",
+      "https://github.com/florianllimos"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://webolys.fr/creation-site-internet-aude.php#webpage",
+    "url": "https://webolys.fr/creation-site-internet-aude.php",
+    "name": "Création de site internet dans l'Aude | Webolys",
+    "description": "Webolys crée des sites internet professionnels dans l'Aude : sites vitrines, boutiques en ligne, SEO local et accompagnement sur mesure.",
+    "inLanguage": "fr-FR",
+    "isPartOf": {
+      "@type": "WebSite",
+      "url": "https://webolys.fr",
+      "name": "Webolys"
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Création de site internet dans l'Aude",
+      "sameAs": "https://fr.wikipedia.org/wiki/Aude_(d%C3%A9partement)"
+    },
+    "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://webolys.fr/media/mockup_home.webp",
+      "width": 1200,
+      "height": 630
+    },
+    "breadcrumb": {
+      "@id": "https://webolys.fr/creation-site-internet-aude.php#breadcrumb"
+    },
+    "potentialAction": {
+      "@type": "ContactAction",
+      "target": "https://webolys.fr/contact.php",
+      "name": "Discuter d'un projet web dans l'Aude"
+    }
+  }
+  </script>
+  <script type="application/ld+json" id="breadcrumb-jsonld">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://webolys.fr/creation-site-internet-aude.php#breadcrumb",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Webolys",
+        "item": "https://webolys.fr"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Création site internet Aude",
+        "item": "https://webolys.fr/creation-site-internet-aude.php"
+      }
+    ]
+  }
+  </script>
+  <meta name="description" content="Webolys, agence web dans l'Aude : sites vitrines, e-commerce, SEO local et refontes sur mesure pour booster votre visibilité dans le département.">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <meta name="author" content="Webolys - Agence web au Mas-d'Azil">
+  <meta name="author" content="Webolys - Agence web dans l'Aude">
   <meta name="publisher" content="Webolys">
-  <meta property="og:title" content="Création site internet au Mas-d'Azil | Webolys">
-  <meta name="keywords" content="agence web Mas-d'Azil, création site internet Mas-d'Azil, site vitrine Mas-d'Azil, développeur web Mas-d'Azil, SEO local Mas-d'Azil, refonte site internet Mas-d'Azil">
-  <meta property="og:description" content="Sites performants pour artisans, caves touristiques, hébergeurs et commerces du Mas-d'Azil. Design sur-mesure, SEO local et accompagnement de proximité.">
+  <meta property="og:title" content="Création site internet dans l'Aude | Webolys">
+  <meta name="keywords" content="agence web Aude, création site internet Aude, site vitrine Aude, développeur web Aude, SEO local Aude, refonte site internet Aude, Webolys">
+  <meta property="og:description" content="Studio web basé dans l'Aude pour artisans, PME et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:url" content="https://webolys.fr/creation-site-internet-aude.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Création site internet au Mas-d'Azil | Webolys">
-  <meta name="twitter:description" content="Webolys conçoit des sites rapides et accessibles pour les professionnels du Mas-d'Azil et du Séronais.">
+  <meta name="twitter:title" content="Création site internet dans l'Aude | Webolys">
+  <meta name="twitter:description" content="Webolys conçoit des sites performants pour les entreprises de l'Aude, avec SEO local et accompagnement dédié.">
   <meta name="twitter:site" content="@webolys">
   <meta name="twitter:creator" content="@webolys">
-  <meta name="DC.title" content="Webolys - Création de site internet au Mas-d'Azil">
-  <meta name="DC.description" content="Solutions web sur mesure au Mas-d'Azil : site vitrine, e-commerce, réservation touristique et SEO local.">
+  <meta name="DC.title" content="Webolys - Création de site internet dans l'Aude">
+  <meta name="DC.description" content="Création de site internet sur mesure dans l'Aude : site vitrine, e-commerce, SEO local et stratégies digitales pour entreprises et institutions.">
   <meta name="DC.language" content="fr-FR">
-  <meta name="city" content="Le Mas-d'Azil">
-  <meta name="region" content="Ariège">
+  <meta name="city" content="Carcassonne">
+  <meta name="region" content="Aude">
+  <link rel="preload" as="image" href="media/mockup_home.webp">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-le-mas-d-azil.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-le-mas-d-azil.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-le-mas-d-azil.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-aude.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-aude.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-aude.php">
   <link rel="stylesheet" href="style1.css">
-  <title>Création site internet au Mas-d'Azil - Webolys</title>
+  <title>Création site internet dans l'Aude - Webolys</title>
   <script src="js/email.min.js" defer></script>
   <script src="js/init.js" defer></script>
   <script src="js/header.js" defer></script>
@@ -173,7 +198,7 @@
   <?php
     require_once("component/header.php");
   ?>
-  <h1 class="sr-only">Création site internet au Mas-d'Azil - Webolys</h1>
+  <h1 class="sr-only">Création site internet dans l'Aude - Webolys</h1>
   <main>
     <?php
       require_once("component/background.php");
@@ -189,7 +214,7 @@
       <div class="hero-banner-container-text">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">✨ Créons ensemble votre projet digital au Mas d'Azil</span>
+         <span class="badge-text">✨ Créons ensemble votre projet digital dans l'Aude</span>
         </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
@@ -330,7 +355,7 @@
         </ul>
       </div>
     </section>
-    <section class="city-template-value" id="le-mas-d-azil" aria-labelledby="city-template-value-title">
+    <section class="city-template-value" id="pourquoi-site-internet-city-template" aria-labelledby="city-template-value-title">
       <div class="city-template-value-aura1" aria-hidden="true"></div>
       <div class="city-template-value-aura2" aria-hidden="true"></div>
       <div class="city-template-value-particles" aria-hidden="true">
@@ -345,28 +370,29 @@
             <path d="M12 16v-4"></path>
             <path d="M12 8h.01"></path>
           </svg>
-          Le Mas-d'Azil digital
+          Aude digital
         </div>
         <h2 id="city-template-value-title">
-          Pourquoi créer un <span class="color">site internet</span> au Mas-d'Azil ?
+          Pourquoi créer un <span class="color">site internet</span> dans l'Aude ?
         </h2>
         <p>
-          La commune vit au rythme de sa grotte, des marchés artisanaux et d'un tissu économique où se croisent producteurs,
-          hébergeurs, restaurateurs et créateurs. Un site clair et optimisé permet de valoriser vos offres toute l'année,
-          de capter les voyageurs qui planifient leur visite et de fidéliser les habitants entre deux événements culturels.
+          Le département de l’Aude dispose d’un tissu économique varié, entre littoral méditerranéen, zones touristiques, territoires ruraux et pôles urbains comme 
+          Carcassonne ou Narbonne. Pour les entreprises, artisans et commerces audois, disposer d’un site internet professionnel est aujourd’hui indispensable 
+          pour gagner en visibilité, attirer de nouveaux clients et développer son activité. Webolys accompagne les professionnels de l’Aude dans la création 
+          de sites modernes, performants et optimisés pour le référencement local.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          <span class="color">Webolys</span> conçoit des interfaces sur-mesure qui mettent en avant votre authenticité : storytelling,
-          photos immersives, réservation simple et suivi des demandes. Vous disposez d'un outil qui s'adapte aux saisons touristiques,
-          à vos ventes en ligne et à vos actualités.
+          L’Aude rassemble de nombreux secteurs d’activité : tourisme, viticulture, restauration, artisanat, commerce, services, professions libérales et PME. 
+          Un site internet bien conçu permet de valoriser votre savoir-faire, de présenter vos services et de générer des contacts qualifiés, aussi bien auprès 
+          des habitants que des visiteurs.
         </p>
         <p class="text city-template-value-conclusion-text-bottom">
-          Basé en Ariège, je connais les enjeux de visibilité entre vallée de l'Arize et piémont. Nous travaillons main dans la main
-          pour créer un site rapide, sécurisé et prêt pour le référencement local.
+          Basé en Occitanie, Webolys conçoit des sites internet sur-mesure, sécurisés et performants, adaptés aux réalités des entreprises audoises et aux attentes 
+          des internautes locaux.
         </p>
       </div>
       <div class="city-template-value-grid">
-        <article class="service-card local-card" aria-labelledby="city-template-card-savoir-faire">
+        <article class="service-card local-card" aria-labelledby="city-template-card-visibilite">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"></circle>
@@ -374,16 +400,16 @@
               <circle cx="12" cy="12" r="3"></circle>
             </svg>
           </div>
-          <div class="service-card-badge">Savoir-faire locaux</div>
-          <h3 id="city-template-card-savoir-faire" class="service-card-title">Mettre en lumière vos offres</h3>
+          <div class="service-card-badge">Visibilité</div>
+          <h3 id="city-template-card-visibilite" class="service-card-title">Être visible partout dans l’Aude</h3>
           <p class="service-card-description">
-            Valorisez vos ateliers céramique, vos produits fermiers ou vos services artisanaux avec des pages dédiées,
-            des visuels soignés et des formulaires de commande simples.
+            Les internautes recherchent quotidiennement des services de proximité sur Google. Un site optimisé pour le SEO local vous permet d’apparaître dans les 
+            recherches ciblant Carcassonne, Narbonne, Castelnaudary, Limoux, Lézignan-Corbières, Port-la-Nouvelle et l’ensemble du département de l’Aude.
           </p>
           <ul class="service-card-features">
-            <li>Fiches services adaptées aux saisons</li>
-            <li>Galeries immersives & storytelling</li>
-            <li>Intégration paiement ou demande de devis</li>
+            <li>SEO local à l’échelle départementale</li>
+            <li>Pages ciblées par ville et zone géographique</li>
+            <li>Données structurées et optimisation Google</li>
           </ul>
         </article>
         <article class="service-card local-card" aria-labelledby="city-template-card-tourisme">
@@ -397,18 +423,17 @@
             </svg>
           </div>
           <div class="service-card-badge">Tourisme & culture</div>
-          <h3 id="city-template-card-tourisme" class="service-card-title">Accompagner les visiteurs de la grotte</h3>
+          <h3 id="city-template-card-tourisme" class="service-card-title">Valoriser votre activité dans l’Aude</h3>
           <p class="service-card-description">
-            Offrez un parcours fluide avant, pendant et après la visite : informations pratiques, cartes interactives,
-            réservation d'activités et témoignages des voyageurs.
+            Un site internet professionnel renforce votre crédibilité et votre image de marque. Il permet de présenter vos services, vos réalisations et vos valeurs, tout en facilitant la prise de contact ou la demande de devis. Que vous soyez artisan, commerçant, vigneron, restaurateur, hébergeur touristique ou dirigeant de PME, votre site devient un outil central de développement.
           </p>
           <ul class="service-card-features">
-            <li>Pages FR/EN/ES pour les visiteurs</li>
-            <li>Modules de réservation ou prise de rendez-vous</li>
-            <li>Optimisation mobile pour les voyageurs en route</li>
+            <li>Présentation claire de vos services</li>
+            <li>Formulaire de contact ou devis en ligne</li>
+            <li>Site rapide, sécurisé et mobile-friendly</li>
           </ul>
         </article>
-        <article class="service-card local-card" aria-labelledby="city-template-card-developpement">
+        <article class="service-card local-card" aria-labelledby="city-template-card-growth">
           <div class="service-card-icon" aria-hidden="true">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M3 17h18"></path>
@@ -418,15 +443,16 @@
               <path d="M7 9l5-4 5 4"></path>
             </svg>
           </div>
-          <div class="service-card-badge">Développement</div>
-          <h3 id="city-template-card-developpement" class="service-card-title">Rayonner jusqu'à Pamiers et Saint-Girons</h3>
+          <div class="service-card-badge">Croissance</div>
+          <h3 id="city-template-card-growth" class="service-card-title">Développer votre activité en Occitanie</h3>
           <p class="service-card-description">
-            Un site optimisé vous permet de toucher l'Arize-Lèze, la vallée de l'Hers et le Couserans en quelques clics,
-            avec des pages géolocalisées et des campagnes mesurées.
+            Grâce à un site bien référencé, vous pouvez toucher l’ensemble de l’Aude mais aussi les départements voisins : Ariège, Haute-Garonne, Hérault et 
+            Pyrénées-Orientales. Des outils d’analyse et de suivi vous permettent de mesurer vos performances 
+            et d’optimiser votre stratégie digitale sur le long terme.
           </p>
           <ul class="service-card-features">
-            <li>Pages cibles par bassin de vie</li>
-            <li>Connexion CRM & newsletters locales</li>
+            <li>Pages optimisées par territoire</li>
+            <li>Outils marketing et statistiques intégrés</li>
             <li>Tableau de bord des performances</li>
           </ul>
         </article>

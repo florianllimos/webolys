@@ -80,7 +80,7 @@
       "@id": "https://webolys.fr/creation-site-internet-carcassonne.php#webpage",
       "url": "https://webolys.fr/creation-site-internet-carcassonne.php",
       "name": "Création de site internet à Carcassonne | Webolys",
-      "description": "Webolys crée des sites internet performants à Carcassonne et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Carcassonne et dans l'Aude : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",

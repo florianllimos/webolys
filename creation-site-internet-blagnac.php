@@ -135,7 +135,7 @@
   <meta name="author" content="Webolys - Agence web à Blagnac">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Blagnac | Webolys">
-  <meta name="keywords" content="agence web Blagnac, création site internet Blagnac, site vitrine Toulouse, développeur web aéronautique, SEO local Blagnac, refonte site internet Toulouse">
+  <meta name="keywords" content="agence web Blagnac, création site internet Blagnac, site vitrine Blagnac, développeur web Blagnac, SEO local Blagnac, refonte site internet Blagnac">
   <meta property="og:description" content="Solutions digitales premium pour Airbus, sous-traitants, startups et commerces de Blagnac. Design sur-mesure, performance, sécurité et support local.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

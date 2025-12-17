@@ -134,7 +134,7 @@
   <meta name="author" content="Webolys - Agence web à Auzat">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Auzat | Webolys">
-  <meta name="keywords" content="agence web Auzat, création site internet Auzat, site vitrine Vicdessos, développeur web Ariège, SEO local Montcalm, refonte site internet Auzat">
+  <meta name="keywords" content="agence web Auzat, création site internet Auzat, site vitrine Auzat, développeur web Auzat, SEO local Auzat, refonte site internet Auzat">
   <meta property="og:description" content="Sites performants pour artisans, hébergeurs, guides de montagne et acteurs industriels d'Auzat. Design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

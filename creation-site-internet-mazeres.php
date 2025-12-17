@@ -7,7 +7,7 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Création de site internet à mazeres",
+      "serviceType": "Création de site internet à Mazères",
       "provider": {
         "@type": "Organization",
         "name": "Webolys",
@@ -83,7 +83,7 @@
       "@id": "https://webolys.fr/creation-site-internet-mazeres.php#webpage",
       "url": "https://webolys.fr/creation-site-internet-mazeres.php",
       "name": "Création de site internet à Mazères | Webolys",
-      "description": "Webolys crée des sites internet performants à Mazères et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Mazères et en Ariège : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -93,7 +93,7 @@
       "about": {
         "@type": "Thing",
         "name": "Création de site internet à Mazères",
-        "sameAs": "https://fr.wikipedia.org/wiki/mazeres"
+        "sameAs": "https://fr.wikipedia.org/wiki/Maz%C3%A8res_(Ari%C3%A8ge)"
       },
       "breadcrumb": {
         "@id": "https://webolys.fr/creation-site-internet-mazeres.php#breadcrumb"
@@ -101,7 +101,7 @@
       "potentialAction": {
         "@type": "ContactAction",
         "target": "https://webolys.fr/contact.php",
-        "name": "Discuter d'un projet web à mazeres"
+        "name": "Discuter d'un projet web à Mazères"
       }
     }
   </script>

@@ -107,7 +107,7 @@
       "@id": "https://webolys.fr/creation-site-internet-ax-les-thermes.php#webpage",
       "url": "https://webolys.fr/creation-site-internet-ax-les-thermes.php",
       "name": "Création de site internet à Ax-les-Thermes | Webolys",
-      "description": "Webolys crée des sites internet performants à Ax-les-Thermes et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Ax-les-Thermes et en Ariège : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -117,7 +117,7 @@
       "about": {
         "@type": "Thing",
         "name": "Création de site internet à Ax-les-Thermes",
-        "sameAs": "https://fr.wikipedia.org/wiki/ax-les-thermes"
+        "sameAs": "https://fr.wikipedia.org/wiki/Ax-les-Thermes"
       },
       "breadcrumb": {
         "@id": "https://webolys.fr/creation-site-internet-ax-les-thermes.php#breadcrumb"

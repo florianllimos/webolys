@@ -92,6 +92,9 @@
           <li><a class="site-map-link" href="creation-site-internet-pamiers.php"><span class="site-map-icon">📍</span> Création de site internet à Pamiers</a></li>
           <li><a class="site-map-link" href="creation-site-internet-toulouse.php"><span class="site-map-icon">📍</span> Création de site internet à Toulouse</a></li>
           <li><a class="site-map-link" href="creation-site-internet-ariege.php"><span class="site-map-icon">📍</span> Création de site internet en Ariège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-haute-garonne.php"><span class="site-map-icon">📍</span> Création de site internet en Haute-Garonne</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-occitanie.php"><span class="site-map-icon">📍</span> Création de site internet en Occitanie</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-aude.php"><span class="site-map-icon">📍</span> Création de site internet dans l'Aude</a></li>
           <li><a class="site-map-link" href="creation-site-internet-saint-girons.php"><span class="site-map-icon">📍</span> Création de site internet à Saint-Girons</a></li>
           <li><a class="site-map-link" href="creation-site-internet-mirepoix.php"><span class="site-map-icon">📍</span> Création de site internet à Mirepoix</a></li>
           <li><a class="site-map-link" href="creation-site-internet-carcassonne.php"><span class="site-map-icon">📍</span> Création de site internet à Carcassonne</a></li>
@@ -99,6 +102,8 @@
           <li><a class="site-map-link" href="creation-site-internet-lavelanet.php"><span class="site-map-icon">📍</span> Création de site internet à Lavelanet</a></li>
           <li><a class="site-map-link" href="creation-site-internet-saverdun.php"><span class="site-map-icon">📍</span> Création de site internet à Saverdun</a></li>
           <li><a class="site-map-link" href="creation-site-internet-tarascon-sur-ariege.php"><span class="site-map-icon">📍</span> Création de site internet à Tarascon-sur-Ariège</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-ax-les-thermes.php"><span class="site-map-icon">📍</span> Création de site internet à Ax-les-Thermes</a></li>
+          <li><a class="site-map-link" href="creation-site-internet-varilhes.php"><span class="site-map-icon">📍</span> Création de site internet à Varilhes</a></li>
           <li><a class="site-map-link" href="creation-site-internet-auzat.php"><span class="site-map-icon">📍</span> Création de site internet à Auzat</a></li>
           <li><a class="site-map-link" href="creation-site-internet-le-mas-d-azil.php"><span class="site-map-icon">📍</span> Création de site internet au Mas-d'Azil</a></li>
           <li><a class="site-map-link" href="creation-site-internet-mazeres.php"><span class="site-map-icon">📍</span> Création de site internet à Mazères</a></li>

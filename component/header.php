@@ -1,3 +1,4 @@
+<a href="#main-content" class="skip-link">Passer au contenu principal</a>
 <header id="header" role="banner">
   <nav class="navbar" role="navigation" aria-label="Navigation principale">
     <a href="index.php" aria-label="Page d'accueil">

@@ -109,7 +109,7 @@
       "@id": "https://webolys.fr/creation-site-internet-varilhes.php#webpage",
       "url": "https://webolys.fr/creation-site-internet-varilhes.php",
       "name": "Création de site internet à Varilhes | Webolys",
-      "description": "Webolys crée des sites internet performants à Varilhes et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Varilhes et en Ariège : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",

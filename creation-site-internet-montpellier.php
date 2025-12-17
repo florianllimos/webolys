@@ -32,7 +32,7 @@
 
         }
       },
-      "serviceOutput": "Création de sites internet professionnels pour entreprises et commerces à Montpellier et dans l'Aude.",
+      "serviceOutput": "Création de sites internet professionnels pour entreprises et commerces à Montpellier et dans l'Hérault.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Offres Webolys Montpellier",
@@ -81,10 +81,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-Montpellier.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-Montpellier.php",
+      "@id": "https://webolys.fr/creation-site-internet-montpellier.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-montpellier.php",
       "name": "Création de site internet à Montpellier | Webolys",
-      "description": "Webolys crée des sites internet performants à Montpellier et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Montpellier et dans l'Hérault : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -122,7 +122,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Création site internet Montpellier",
-          "item": "https://webolys.fr/creation-site-internet-Montpellier.php"
+      "item": "https://webolys.fr/creation-site-internet-montpellier.php"
         }
       ]
     }
@@ -139,7 +139,7 @@
   <meta property="og:locale:alternate" content="fr_FR">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-Montpellier.php">
+  <meta property="og:url" content="https://webolys.fr/creation-site-internet-montpellier.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Création site internet à Montpellier | Webolys">
@@ -152,7 +152,7 @@
   <meta name="city" content="Montpellier">
   <meta name="region" content="Occitanie">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-Montpellier.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-montpellier.php">
   <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-montpellier.php">
   <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-montpellier.php">
   <link rel="stylesheet" href="style1.css">

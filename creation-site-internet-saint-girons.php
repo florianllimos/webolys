@@ -136,7 +136,7 @@
   <meta name="author" content="Webolys - Agence web à Saint-Girons">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Saint-Girons | Webolys">
-  <meta name="keywords" content="agence web Saint-Girons, création site internet Saint-Girons, site vitrine Couserans, développeur web Ariège, SEO local Saint-Girons, refonte site internet Couserans, Webolys">
+  <meta name="keywords" content="agence web Saint-Girons, création site internet Saint-Girons, site vitrine Saint-Girons, développeur web Saint-Girons, SEO local Saint-Girons, refonte site internet Saint-Girons, Webolys">
   <meta property="og:description" content="Studio web basé à Saint-Girons pour artisans, PME et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

@@ -136,7 +136,7 @@
   <meta name="author" content="Webolys - Agence web à Tarascon-sur-Ariège">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Tarascon-sur-Ariège | Webolys">
-  <meta name="keywords" content="agence web Tarascon-sur-Ariège, création site internet Tarascon, site vitrine Haute Ariège, développeur web Tarascon, SEO local Tarascon-sur-Ariège, refonte site internet Ariège, Webolys">
+  <meta name="keywords" content="agence web Tarascon-sur-Ariège, création site internet Tarascon-sur-Ariège, site vitrine Tarascon-sur-Ariège, développeur web Tarascon-sur-Ariège, SEO local Tarascon-sur-Ariège, refonte site internet Tarascon-sur-Ariège, Webolys">
   <meta property="og:description" content="Studio web basé à Tarascon-sur-Ariège pour artisans, PME et acteurs touristiques : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">
@@ -191,10 +191,10 @@
         <span class="particle"></span>
       </div>
       <div class="hero-banner-container-text">
-        <div class="hero-badge">
-          <span class="badge-dot"></span>
-         <span class="badge-text">✨ Créons ensemble votre projet digital à Mirepoix</span>
-        </div>
+      <div class="hero-badge">
+      <span class="badge-dot"></span>
+     <span class="badge-text">✨ Créons ensemble votre projet digital à Tarascon-sur-Ariège</span>
+      </div>
         <h2>
           Transformez vos <span class="color gradient-text">idées</span> en 
           <span class="color gradient-text">expériences digitales</span> exceptionnelles

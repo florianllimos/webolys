@@ -156,7 +156,7 @@
   <meta name="author" content="Webolys - Agence web en Ariège">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet en Ariège | Webolys">
-  <meta name="keywords" content="agence web Ariège, création site internet Ariège, site vitrine Ariège, développeur web Foix, SEO local Ariège, refonte site internet Ariège, Webolys">
+  <meta name="keywords" content="agence web Ariège, création site internet Ariège, site vitrine Ariège, développeur web Ariège, SEO local Ariège, refonte site internet Ariège, Webolys">
   <meta property="og:description" content="Studio web basé en Ariège pour artisans, PME et collectivités : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

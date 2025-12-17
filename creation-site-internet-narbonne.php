@@ -135,7 +135,7 @@
   <meta name="author" content="Webolys - Agence web à Narbonne">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Narbonne | Webolys">
-  <meta name="keywords" content="agence web Narbonne, création site internet Narbonne, site vitrine Aude, développeur web Narbonne, SEO local Narbonne, refonte site internet Narbonne">
+  <meta name="keywords" content="agence web Narbonne, création site internet Narbonne, site vitrine Narbonne, développeur web Narbonne, SEO local Narbonne, refonte site internet Narbonne">
   <meta property="og:description" content="Design sur mesure, performances optimisées et accompagnement de proximité pour artisans, domaines viticoles, commerces et acteurs touristiques narbonnais.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

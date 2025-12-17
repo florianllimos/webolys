@@ -136,7 +136,7 @@
   <meta name="author" content="Webolys - Agence web à Saverdun">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Saverdun | Webolys">
-  <meta name="keywords" content="agence web Saverdun, création site internet Saverdun, site vitrine Ariège, développeur web Saverdun, SEO local Saverdun, refonte site internet Saverdun, Webolys">
+  <meta name="keywords" content="agence web Saverdun, création site internet Saverdun, site vitrine Saverdun, développeur web Saverdun, SEO local Saverdun, refonte site internet Saverdun, Webolys">
   <meta property="og:description" content="Studio web basé à Saverdun pour artisans, PME, commerçants et industriels : design sur-mesure, SEO local et accompagnement de proximité.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

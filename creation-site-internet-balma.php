@@ -135,7 +135,7 @@
   <meta name="author" content="Webolys - Agence web à Balma">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Balma | Webolys">
-  <meta name="keywords" content="agence web Balma, création site internet Balma, site vitrine Toulouse, développeur web Balma, SEO local Balma, refonte site internet Balma">
+  <meta name="keywords" content="agence web Balma, création site internet Balma, site vitrine Balma, développeur web Balma, SEO local Balma, refonte site internet Balma">
   <meta property="og:description" content="Design sur-mesure, performances maîtrisées et accompagnement de proximité pour commerces, PME et collectivités balmanaises.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

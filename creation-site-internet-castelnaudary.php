@@ -135,7 +135,7 @@
   <meta name="author" content="Webolys - Agence web à Castelnaudary">
   <meta name="publisher" content="Webolys">
   <meta property="og:title" content="Création site internet à Castelnaudary | Webolys">
-  <meta name="keywords" content="agence web Castelnaudary, création site internet Castelnaudary, site vitrine Lauragais, développeur web Castelnaudary, SEO Castelnaudary, refonte site internet Castelnaudary">
+  <meta name="keywords" content="agence web Castelnaudary, création site internet Castelnaudary, site vitrine Castelnaudary, développeur web Castelnaudary, SEO Castelnaudary, refonte site internet Castelnaudary">
   <meta property="og:description" content="Sites rapides, sécurisés et adaptés aux acteurs agricoles, touristiques et industriels de Castelnaudary.">
   <meta property="og:site_name" content="Webolys">
   <meta property="og:locale" content="fr_FR">

@@ -94,6 +94,9 @@
           <li><a href="creation-site-internet-labege.php">Création de site internet à Labège</a></li>
           <li><a href="creation-site-internet-narbonne.php">Création de site internet à Narbonne</a></li>
           <li><a href="creation-site-internet-montpellier.php">Création de site internet à Montpellier</a></li>
+          <li><a href="creation-site-internet-aude.php">Création de site internet dans l'Aude</a></li>
+          <li><a href="creation-site-internet-haute-garonne.php">Création de site internet en Haute-Garonne</a></li>
+          <li><a href="creation-site-internet-occitanie.php">Création de site internet en Occitanie</a></li>
         </ul>
       </nav>
     </div>

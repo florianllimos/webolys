@@ -31,7 +31,7 @@
           }
         }
       },
-      "serviceOutput": "Création de sites internet professionnels pour entreprises et commerces à Lavelanet et dans l'Aude.",
+      "serviceOutput": "Création de sites internet professionnels pour entreprises et commerces à Lavelanet et en Ariège.",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Offres Webolys Lavelanet",
@@ -48,9 +48,9 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://webolys.fr/#local-business-Lavelanet",
+      "@id": "https://webolys.fr/#local-business-lavelanet",
       "name": "Webolys - Création site internet Lavelanet",
-      "url": "https://webolys.fr/creation-site-internet-Lavelanet.php",
+      "url": "https://webolys.fr/creation-site-internet-lavelanet.php",
       "telephone": "+33622005584",
       "email": "contact@webolys.fr",
       "priceRange": "€€",
@@ -78,10 +78,10 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://webolys.fr/creation-site-internet-Lavelanet.php#webpage",
-      "url": "https://webolys.fr/creation-site-internet-Lavelanet.php",
+      "@id": "https://webolys.fr/creation-site-internet-lavelanet.php#webpage",
+      "url": "https://webolys.fr/creation-site-internet-lavelanet.php",
       "name": "Création de site internet à Lavelanet | Webolys",
-      "description": "Webolys crée des sites internet performants à Lavelanet et en Haute-Garonne : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
+      "description": "Webolys crée des sites internet performants à Lavelanet et en Ariège : site vitrine, e-commerce, SEO local et accompagnement digital sur mesure.",
       "inLanguage": "fr-FR",
       "isPartOf": {
         "@type": "WebSite",
@@ -107,7 +107,7 @@
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://webolys.fr/creation-site-internet-Lavelanet.php#breadcrumb",
+      "@id": "https://webolys.fr/creation-site-internet-lavelanet.php#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -119,7 +119,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Création site internet Lavelanet",
-          "item": "https://webolys.fr/creation-site-internet-Lavelanet.php"
+          "item": "https://webolys.fr/creation-site-internet-lavelanet.php"
         }
       ]
     }
@@ -136,7 +136,7 @@
   <meta property="og:locale:alternate" content="fr_FR">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://webolys.fr/creation-site-internet-Lavelanet.php">
+  <meta property="og:url" content="https://webolys.fr/creation-site-internet-lavelanet.php">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Création site internet à Lavelanet | Webolys">
@@ -149,9 +149,9 @@
   <meta name="city" content="Lavelanet">
   <meta name="region" content="Occitanie">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
-  <link rel="canonical" href="https://webolys.fr/creation-site-internet-Lavelanet.php">
-  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-Lavelanet.php">
-  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-Lavelanet.php">
+  <link rel="canonical" href="https://webolys.fr/creation-site-internet-lavelanet.php">
+  <link rel="alternate" hreflang="fr-fr" href="https://webolys.fr/creation-site-internet-lavelanet.php">
+  <link rel="alternate" hreflang="x-default" href="https://webolys.fr/creation-site-internet-lavelanet.php">
   <link rel="stylesheet" href="style1.css">
   <title>Création site internet à Lavelanet - Webolys</title>
   <script src="js/email.min.js" defer></script>
