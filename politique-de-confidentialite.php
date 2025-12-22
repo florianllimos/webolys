@@ -17,7 +17,8 @@
   <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
   <link rel="canonical" href="https://webolys.fr/politique-de-confidentialité.php">
   <link rel="icon" href="media/favicon.ico" type="image/ico" sizes="32x32">
-  <link rel="stylesheet" href="style-new.css">
+  <link rel="preload" href="style-new.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style-new.css"></noscript>
   <script type="text/javascript" src="js/email.min.js" defer></script>
   <script src="js/init.js" type="text/javascript" defer></script>
   <script src="js/newsletter.js" defer></script>

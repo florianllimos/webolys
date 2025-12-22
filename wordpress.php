@@ -40,7 +40,8 @@
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style-new.css">
+  <link rel="preload" href="style-new.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style-new.css"></noscript>
   
   <title>Webolys - Création de sites WordPress sur mesure | Ariège & Toulouse</title>
   
