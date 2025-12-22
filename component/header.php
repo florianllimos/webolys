@@ -24,7 +24,7 @@
         height="32"
       />
     </label>
-    <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu" id="menu">
       <ul role="list">
         <li><a href="" title="Accueil" id="accueil-link">Accueil</a></li>
         <li><a href="#qui-suis-je" title="Qui suis-je" id="qui-suis-je-link">Qui suis-je</a></li>
@@ -60,5 +60,6 @@
     </div>
   </nav>
   <div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+  <script src="js/header.js" defer></script>
   <script src="js/dropdown.js" defer></script>
 </header>

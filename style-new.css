@@ -338,7 +338,7 @@ a:hover {
   top: -40px;
   left: 0;
   background: #5957ee;
-  color: rgba(255, 255, 255, 0.72);
+  color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
   z-index: 100;
@@ -350,6 +350,7 @@ a:hover {
   top: 0;
   outline: 3px solid #b794f6;
   outline-offset: 2px;
+  color: #ffffff;
 }
 
 strong {

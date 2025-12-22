@@ -416,7 +416,7 @@ a {
   top: -40px;
   left: 0;
   background: #5957ee;
-  color: $white;
+  color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
   z-index: 100;
@@ -427,6 +427,7 @@ a {
     top: 0;
     outline: 3px solid #b794f6;
     outline-offset: 2px;
+    color: #ffffff;
   }
 }
 
