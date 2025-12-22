@@ -272,8 +272,8 @@
             </span>
           </div>
           <picture class="hero-visual__picture">
-            <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" type="image/png">
-            <img src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumineuse.png" alt="Illustration d'un site web conçu pour Labège" width="600" height="400" loading="eager" fetchpriority="high" decoding="async">
+            <source srcset="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumine.webp" type="image/png">
+            <img src="media/specialiste-informatique-identifie-utilisateur-mobile-ordinateur-portable-tablette-suivi-capacite-multi-appareils-cross-device-utilisant-concept-fond-blanc-illustration-isolee-violette-vibrante-lumine.webp" alt="Illustration d'un site web conçu pour Labège" width="600" height="400" loading="eager" fetchpriority="high" decoding="async">
           </picture>
         </div>
       </div>
