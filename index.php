@@ -15,9 +15,10 @@
   <meta name="twitter:title" content="Webolys - Agence Web Ariège & Toulouse | Création de sites internet sur mesure">
   <meta name="twitter:description" content="Webolys, agence web en Ariège et Toulouse : sites vitrines, e-commerce, SEO, refonte, accompagnement digital. Visibilité locale et nationale garantie.">
   <meta name="twitter:image" content="https://webolys.fr/media/favicon.ico">
-  <link rel="preload" as="image" href="media/mockup_home.webp">
   <link rel="icon" href="media/favicon.ico" type="image/x-icon" sizes="32x32">
   <link rel="canonical" href="https://webolys.fr">
+  <link rel="preload" href="fonts/poppins/Poppins-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style-new.css">
   <title>Webolys - Agence Web Ariège & Toulouse | Création de sites internet sur mesure</title>
   <script src="js/email.min.js" defer></script>

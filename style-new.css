@@ -276,7 +276,7 @@ a:hover {
 .skip-link,
 .skip-to-content {
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 0;
   background: #5957ee;
   color: #ffffff;
@@ -507,7 +507,7 @@ html, body {
 .navbar .menu ul li button.dropdown-arrow-btn {
   background: transparent;
   border: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   cursor: pointer;
   display: inline-flex;
